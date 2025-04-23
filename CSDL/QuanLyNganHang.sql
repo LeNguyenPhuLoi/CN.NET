@@ -1,4 +1,5 @@
-﻿---------------------------Tao Database Quan Ly Ngan Hang
+﻿USE master
+---------------------------Tao Database Quan Ly Ngan Hang
 CREATE DATABASE QLNH
 GO
 --Su dung database
@@ -93,6 +94,7 @@ CREATE TABLE VIPHAM(MAVP CHAR(10) NOT NULL,
 					MANQ CHAR(10),
 					NGAYVIPHAM DATE,
 					TIENPHAT FLOAT,
+					SOLANVIPHAM INT,
 					GHICHU NVARCHAR(225))
 GO
 ------------------------------------CAC RBTV

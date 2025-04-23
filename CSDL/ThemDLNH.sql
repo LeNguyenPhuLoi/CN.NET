@@ -35,7 +35,7 @@ GO
 --THEM DU LIEN CHO NHAN VIEN
 INSERT INTO NHANVIEN(MANV,TENNV,GIOITINH,NGAYSINH,CHUC,LUONG,DIACHI,SDT,MAPB,MACN)
 VALUES('NV0001',N'ĐINH VĂN TRỌNG',N'NAM','13/01/1987',N'THÔNG DỊCH VIÊN',35000000,N'47 NGUYỄN HUỆ,Q.1,TP.HCM',0972415636,4,'CN01'),
-		('NV0002',N'NGUYỄN THỊ THANH THỦY',N'NỮ','26/04/1985',N'LỄ TÂN',8700000,N'145 ĐỒNG KHỞI,Q.1,TP.HCM',NULL,1,'CN02'),
+		('NV0002',N'NGUYỄN THỊ THANH THỦY',N'NỮ','26/04/1985',N'LỄ TÂN',8700000,N'145 ĐỒNG KHỞI,Q.1,TP.HCM',0967255284,1,'CN02'),
 		('NV0003',N'NGUYỄN NGỌC THỦY',N'NỮ','05/12/1988',N'IT',30000000,N'45 HAI BÀ TRƯNG,Q.2,TP.HCM',0975621261,2,'CN03'),
 		('NV0004',N'TRẦN THANH TÙNG',N'NAM','15/06/1990',N'ĐẦU TƯ',15500000,N'36 NGUYỄN THỊ MINH KHAI,Q.BÌNH THẠNH,TP.HCM',0334221261,3,'CN02'),
 		('NV0005',N'LÂM THANH TÂM',N'NỮ','25/06/1990',N'LỄ TÂN',8700000,N'99 ĐỒNG KHỞI,Q.BÌNH THẠNH,TP.HCM',0334222261,1,'CN03'),
@@ -134,10 +134,15 @@ GO
 --THEM DU LIEU CHO NOIQUY
 INSERT INTO NOIQUY (MANQ, MOTA, MUCPHAT, GHICHU) 
 VALUES 
-('NQ001', 'Vi phạm giờ giấc làm việc', 500000, 'Phạt nếu đi làm muộn quá 30 phút'),
-('NQ002', 'Vi phạm quy định trang phục', 300000, 'Phạt nếu không mặc đúng đồng phục công ty'),
-('NQ003', 'Không tuân thủ quy định về báo cáo công việc', 700000, 'Phạt nếu không hoàn thành báo cáo đúng hạn'),
-('NQ004', 'Không tuân thủ quy định về an toàn lao động', 1000000, 'Phạt nếu không mang đầy đủ thiết bị bảo vệ'),
-('NQ005', 'Vi phạm quy định sử dụng thiết bị công ty', 400000, 'Phạt nếu làm hư hỏng thiết bị công ty vì sử dụng sai cách')
+('NQ001', N'Đi trễ', 500000, N'Phạt nếu đi làm muộn quá 30 phút'),
+('NQ002', N'Sai đồng phục', 300000, N'Phạt nếu không mặc đúng đồng phục công ty'),
+('NQ003', N'Trễ hạn nộp báo cáo', 700000, N'Phạt nếu không hoàn thành báo cáo đúng hạn'),
+('NQ004', N'Vi phạm an toàn lao động', 1000000, N'Phạt nếu không mang đầy đủ thiết bị bảo vệ'),
+('NQ005', N'Sử dụng thiết bị sai mục đích', 400000, N'Phạt nếu làm hư hỏng thiết bị công ty vì sử dụng sai cách')
 GO
---SELECT * FROM BIENLAI
+--THEM DU LIEU CHO VIPHAM
+GO
+INSERT INTO VIPHAM (MAVP, MANV, MANQ, NGAYVIPHAM, TIENPHAT, SOLANVIPHAM, GHICHU)
+VALUES ('VP001', 'NV0002', 'NQ001', '22/7/2023', 1000000, 2, N'Trễ giờ làm trong tháng'),
+		('VP002', 'NV0006', 'NQ002', '21/3/2024', 900000, 3, N'Sai đồng phục'),
+		('VP003', 'NV0005', 'NQ005', '7/7/2024', 400000, 1, N'Sử dụng thiết bị sai mục đích')

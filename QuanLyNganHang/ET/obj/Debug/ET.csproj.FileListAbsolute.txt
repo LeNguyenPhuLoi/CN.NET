@@ -1,0 +1,14 @@
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET\QuanLyNganHang\ET\bin\Debug\ET.exe.config
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET\QuanLyNganHang\ET\bin\Debug\ET.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET\QuanLyNganHang\ET\bin\Debug\ET.pdb
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.csproj.AssemblyReference.cache
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.csproj.CoreCompileInputs.cache
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.pdb
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\ET\bin\Debug\ET.exe.config
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\ET\bin\Debug\ET.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\ET\bin\Debug\ET.pdb
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\ET\obj\Debug\ET.csproj.AssemblyReference.cache
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\ET\obj\Debug\ET.csproj.CoreCompileInputs.cache
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\ET\obj\Debug\ET.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\ET\obj\Debug\ET.pdb

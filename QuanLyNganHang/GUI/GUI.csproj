@@ -52,8 +52,53 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_ChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ChiNhanh.Designer.cs">
+      <DependentUpon>Frm_ChiNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_NhanVien.Designer.cs">
+      <DependentUpon>Frm_NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_NoiQuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_NoiQuy.Designer.cs">
+      <DependentUpon>Frm_NoiQuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PhongBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PhongBan.Designer.cs">
+      <DependentUpon>Frm_PhongBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ViPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ViPham.Designer.cs">
+      <DependentUpon>Frm_ViPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_ChiNhanh.resx">
+      <DependentUpon>Frm_ChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NhanVien.resx">
+      <DependentUpon>Frm_NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NoiQuy.resx">
+      <DependentUpon>Frm_NoiQuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PhongBan.resx">
+      <DependentUpon>Frm_PhongBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ViPham.resx">
+      <DependentUpon>Frm_ViPham.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

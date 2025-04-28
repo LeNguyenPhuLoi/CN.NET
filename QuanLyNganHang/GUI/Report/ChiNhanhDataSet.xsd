@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ChiNhanhDataSet" targetNamespace="http://tempuri.org/ChiNhanhDataSet.xsd" xmlns:mstns="http://tempuri.org/ChiNhanhDataSet.xsd" xmlns="http://tempuri.org/ChiNhanhDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ChiNhanhDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ChiNhanhDataSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ChiNhanhDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ChiNhanh" msprop:Generator_RowEvHandlerName="ChiNhanhRowChangeEventHandler" msprop:Generator_RowDeletedName="ChiNhanhRowDeleted" msprop:Generator_RowDeletingName="ChiNhanhRowDeleting" msprop:Generator_RowEvArgName="ChiNhanhRowChangeEvent" msprop:Generator_TablePropName="ChiNhanh" msprop:Generator_RowChangedName="ChiNhanhRowChanged" msprop:Generator_UserTableName="ChiNhanh" msprop:Generator_RowChangingName="ChiNhanhRowChanging" msprop:Generator_RowClassName="ChiNhanhRow" msprop:Generator_TableClassName="ChiNhanhDataTable" msprop:Generator_TableVarName="tableChiNhanh">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MACN" msprop:Generator_ColumnPropNameInTable="MACNColumn" msprop:Generator_ColumnPropNameInRow="MACN" msprop:Generator_UserColumnName="MACN" msprop:Generator_ColumnVarNameInTable="columnMACN" type="xs:string" minOccurs="0" />
+              <xs:element name="TENCN" msprop:Generator_ColumnPropNameInTable="TENCNColumn" msprop:Generator_ColumnPropNameInRow="TENCN" msprop:Generator_UserColumnName="TENCN" msprop:Generator_ColumnVarNameInTable="columnTENCN" type="xs:string" minOccurs="0" />
+              <xs:element name="DIACHI" msprop:Generator_ColumnPropNameInTable="DIACHIColumn" msprop:Generator_ColumnPropNameInRow="DIACHI" msprop:Generator_UserColumnName="DIACHI" msprop:Generator_ColumnVarNameInTable="columnDIACHI" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

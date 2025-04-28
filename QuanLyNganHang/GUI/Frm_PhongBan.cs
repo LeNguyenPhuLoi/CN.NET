@@ -27,6 +27,7 @@ namespace GUI
             dgv_PhongBan.DataSource = BUS_PhongBan.LoadPB();
             dgv_PhongBan.Columns["NHANVIEN"].Visible = false;
             AddToCBO(BUS_PhongBan.LoadNV(), cbo_TrPhong);
+            cbo_PhuongThucTim.SelectedIndex = 0;
         }
 
         public void AddToCBO(IQueryable list, ComboBox cbo)
@@ -42,6 +43,9 @@ namespace GUI
             txt_MaPB.Clear();
             txt_TenPB.Clear();
             cbo_TrPhong.Text = null;
+            cbo_PhuongThucTim.SelectedIndex = 0;
+            txt_TuKhoa.Clear();
+            dgv_PhongBan.DataSource = BUS_PhongBan.LoadPB();
         }
 
         private void btn_LamMoi_Click(object sender, EventArgs e)
@@ -69,16 +73,23 @@ namespace GUI
 
         private void btn_Them_Click(object sender, EventArgs e)
         {
-            ET_PhongBan pb = new ET_PhongBan(Convert.ToInt32(txt_MaPB.Text), txt_TenPB.Text, BUS_PhongBan.LayMaNVTheoTen(cbo_TrPhong.Text));
+            try
+            {
+                ET_PhongBan pb = new ET_PhongBan(Convert.ToInt32(txt_MaPB.Text), txt_TenPB.Text, BUS_PhongBan.LayMaNVTheoTen(cbo_TrPhong.Text));
 
-            if (BUS_PhongBan.ThemPB(pb) == true)
-            {
-                MessageBox.Show("Thêm thành công!");
-                Clear();
+                if (BUS_PhongBan.ThemPB(pb) == true)
+                {
+                    MessageBox.Show("Thêm thành công!");
+                    Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Thêm không thành công!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Thêm không thành công!");
+                MessageBox.Show("Lỗi " + ex.Message);
             }
             dgv_PhongBan.DataSource = BUS_PhongBan.LoadPB();
         }
@@ -100,38 +111,75 @@ namespace GUI
 
         private void btn_Sua_Click(object sender, EventArgs e)
         {
-            ET_PhongBan pb = new ET_PhongBan(Convert.ToInt32(txt_MaPB.Text), txt_TenPB.Text, BUS_PhongBan.LayMaNVTheoTen(cbo_TrPhong.Text));
+            try
+            {
+                ET_PhongBan pb = new ET_PhongBan(Convert.ToInt32(txt_MaPB.Text), txt_TenPB.Text, BUS_PhongBan.LayMaNVTheoTen(cbo_TrPhong.Text));
 
-            if (BUS_PhongBan.SuaPB(pb) == true)
-            {
-                MessageBox.Show("Sửa thành công!");
-                Clear();
+                if (BUS_PhongBan.SuaPB(pb) == true)
+                {
+                    MessageBox.Show("Sửa thành công!");
+                    Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Sửa không thành công!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Sửa không thành công!");
+                MessageBox.Show("Lỗi " + ex.Message);
             }
+
             dgv_PhongBan.DataSource = BUS_PhongBan.LoadPB();
         }
 
         private void btn_Xoa_Click(object sender, EventArgs e)
         {
-            DialogResult = MessageBox.Show("Bạn có muốn xóa?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (DialogResult == DialogResult.Yes)
+            try
             {
-                ET_PhongBan pb = new ET_PhongBan(Convert.ToInt32(txt_MaPB.Text), txt_TenPB.Text, BUS_PhongBan.LayMaNVTheoTen(cbo_TrPhong.Text));
+                DialogResult = MessageBox.Show("Bạn có muốn xóa?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (DialogResult == DialogResult.Yes)
+                {
+                    ET_PhongBan pb = new ET_PhongBan(Convert.ToInt32(txt_MaPB.Text), txt_TenPB.Text, BUS_PhongBan.LayMaNVTheoTen(cbo_TrPhong.Text));
 
-                if (BUS_PhongBan.XoaPB(pb) == true)
-                {
-                    MessageBox.Show("Xóa thành công!");
-                    Clear();
-                }
-                else
-                {
-                    MessageBox.Show("Xóa không thành công!");
+                    if (BUS_PhongBan.XoaPB(pb) == true)
+                    {
+                        MessageBox.Show("Xóa thành công!");
+                        Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa không thành công!");
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
+
             dgv_PhongBan.DataSource = BUS_PhongBan.LoadPB();
+        }
+
+        private void btn_Tim_Click(object sender, EventArgs e)
+        {
+            try 
+            {
+                switch (cbo_PhuongThucTim.Text) 
+                {
+                    case "Mã Phòng Ban":
+                        dgv_PhongBan.DataSource = BUS_PhongBan.TimPBTheoMa(Convert.ToInt32(txt_TuKhoa.Text));
+                        break;
+
+                    case "Tên Phòng Ban":
+                        dgv_PhongBan.DataSource = BUS_PhongBan.TimPBTheoTen(txt_TuKhoa.Text);
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
         }
     }
 }

@@ -44,8 +44,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.dtp_NgaySinh = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.rdb_Nam = new System.Windows.Forms.RadioButton();
             this.rdb_Nu = new System.Windows.Forms.RadioButton();
+            this.rdb_Nam = new System.Windows.Forms.RadioButton();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txt_Lương = new System.Windows.Forms.TextBox();
@@ -57,6 +57,11 @@
             this.cbo_PhongBan = new System.Windows.Forms.ComboBox();
             this.cbo_ChiNhanh = new System.Windows.Forms.ComboBox();
             this.dgv_NhanVien = new System.Windows.Forms.DataGridView();
+            this.btn_Tim = new System.Windows.Forms.Button();
+            this.txt_TuKhoa = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.cbo_PhuongThucTim = new System.Windows.Forms.ComboBox();
+            this.cbo_TimCN = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_NhanVien)).BeginInit();
             this.SuspendLayout();
@@ -196,7 +201,7 @@
             // 
             // dtp_NgaySinh
             // 
-            this.dtp_NgaySinh.CustomFormat = "MM/dd/yyyy";
+            this.dtp_NgaySinh.CustomFormat = "dd/MM/yyyy";
             this.dtp_NgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_NgaySinh.Location = new System.Drawing.Point(139, 210);
             this.dtp_NgaySinh.MaxDate = new System.DateTime(2007, 12, 31, 0, 0, 0, 0);
@@ -215,17 +220,6 @@
             this.panel1.Size = new System.Drawing.Size(282, 30);
             this.panel1.TabIndex = 41;
             // 
-            // rdb_Nam
-            // 
-            this.rdb_Nam.AutoSize = true;
-            this.rdb_Nam.Location = new System.Drawing.Point(42, 2);
-            this.rdb_Nam.Name = "rdb_Nam";
-            this.rdb_Nam.Size = new System.Drawing.Size(63, 25);
-            this.rdb_Nam.TabIndex = 42;
-            this.rdb_Nam.TabStop = true;
-            this.rdb_Nam.Text = "Nam";
-            this.rdb_Nam.UseVisualStyleBackColor = true;
-            // 
             // rdb_Nu
             // 
             this.rdb_Nu.AutoSize = true;
@@ -236,6 +230,17 @@
             this.rdb_Nu.TabStop = true;
             this.rdb_Nu.Text = "Nữ";
             this.rdb_Nu.UseVisualStyleBackColor = true;
+            // 
+            // rdb_Nam
+            // 
+            this.rdb_Nam.AutoSize = true;
+            this.rdb_Nam.Location = new System.Drawing.Point(42, 2);
+            this.rdb_Nam.Name = "rdb_Nam";
+            this.rdb_Nam.Size = new System.Drawing.Size(63, 25);
+            this.rdb_Nam.TabIndex = 42;
+            this.rdb_Nam.TabStop = true;
+            this.rdb_Nam.Text = "Nam";
+            this.rdb_Nam.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -331,20 +336,76 @@
             this.dgv_NhanVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_NhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_NhanVien.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgv_NhanVien.Location = new System.Drawing.Point(0, 268);
+            this.dgv_NhanVien.Location = new System.Drawing.Point(0, 308);
             this.dgv_NhanVien.MultiSelect = false;
             this.dgv_NhanVien.Name = "dgv_NhanVien";
             this.dgv_NhanVien.ReadOnly = true;
             this.dgv_NhanVien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_NhanVien.Size = new System.Drawing.Size(1233, 339);
+            this.dgv_NhanVien.Size = new System.Drawing.Size(1233, 299);
             this.dgv_NhanVien.TabIndex = 52;
             this.dgv_NhanVien.Click += new System.EventHandler(this.dgv_NhanVien_Click);
+            // 
+            // btn_Tim
+            // 
+            this.btn_Tim.Location = new System.Drawing.Point(954, 262);
+            this.btn_Tim.Name = "btn_Tim";
+            this.btn_Tim.Size = new System.Drawing.Size(75, 29);
+            this.btn_Tim.TabIndex = 56;
+            this.btn_Tim.Text = "Tìm";
+            this.btn_Tim.UseVisualStyleBackColor = true;
+            this.btn_Tim.Click += new System.EventHandler(this.btn_Tim_Click);
+            // 
+            // txt_TuKhoa
+            // 
+            this.txt_TuKhoa.Location = new System.Drawing.Point(651, 262);
+            this.txt_TuKhoa.Name = "txt_TuKhoa";
+            this.txt_TuKhoa.Size = new System.Drawing.Size(282, 29);
+            this.txt_TuKhoa.TabIndex = 55;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(202, 265);
+            this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(150, 21);
+            this.label12.TabIndex = 54;
+            this.label12.Text = "Phương Thức Tìm";
+            // 
+            // cbo_PhuongThucTim
+            // 
+            this.cbo_PhuongThucTim.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_PhuongThucTim.FormattingEnabled = true;
+            this.cbo_PhuongThucTim.Items.AddRange(new object[] {
+            "Mã Nhân Viên",
+            "Tên Nhân Viên",
+            "SĐT",
+            "Chi Nhánh"});
+            this.cbo_PhuongThucTim.Location = new System.Drawing.Point(363, 262);
+            this.cbo_PhuongThucTim.Name = "cbo_PhuongThucTim";
+            this.cbo_PhuongThucTim.Size = new System.Drawing.Size(282, 29);
+            this.cbo_PhuongThucTim.TabIndex = 53;
+            this.cbo_PhuongThucTim.TextChanged += new System.EventHandler(this.cbo_PhuongThucTim_TextChanged);
+            // 
+            // cbo_TimCN
+            // 
+            this.cbo_TimCN.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_TimCN.FormattingEnabled = true;
+            this.cbo_TimCN.Location = new System.Drawing.Point(651, 262);
+            this.cbo_TimCN.Name = "cbo_TimCN";
+            this.cbo_TimCN.Size = new System.Drawing.Size(282, 29);
+            this.cbo_TimCN.TabIndex = 57;
             // 
             // Frm_NhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1233, 607);
+            this.Controls.Add(this.cbo_TimCN);
+            this.Controls.Add(this.btn_Tim);
+            this.Controls.Add(this.txt_TuKhoa);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.cbo_PhuongThucTim);
             this.Controls.Add(this.dgv_NhanVien);
             this.Controls.Add(this.cbo_ChiNhanh);
             this.Controls.Add(this.cbo_PhongBan);
@@ -373,7 +434,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Frm_NhanVien";
             this.Text = "Frm_NhanVien";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_NhanVien_FormClosing);
@@ -417,5 +478,10 @@
         private System.Windows.Forms.ComboBox cbo_PhongBan;
         private System.Windows.Forms.ComboBox cbo_ChiNhanh;
         private System.Windows.Forms.DataGridView dgv_NhanVien;
+        private System.Windows.Forms.Button btn_Tim;
+        private System.Windows.Forms.TextBox txt_TuKhoa;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox cbo_PhuongThucTim;
+        private System.Windows.Forms.ComboBox cbo_TimCN;
     }
 }

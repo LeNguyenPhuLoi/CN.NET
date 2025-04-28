@@ -33,6 +33,31 @@ namespace BUS
             return pb.LayTenNVTheoMa(ma);
         }
 
+        public IQueryable TimPBTheoMa(int ma)
+        {
+            return pb.TimPBTheoMa(ma);
+        }
+
+        public IQueryable TimPBTheoTen(string ten)
+        {
+            return pb.TimPBTheoTen(ten);
+        }
+
+        public List<ET_PhongBanReport> LayPBChoReport()
+        {
+            return pb.LayPBChoReport();
+        }
+
+        public List<ET_PhongBanReport> LayPBChoReportTheoMa(int ma)
+        {
+            return pb.LayPBChoReportTheoMa(ma);
+        }
+
+        public List<ET_PhongBanReport> LayPBChoReportTheoTen(string ten)
+        {
+            return pb.LayPBChoReportTheoTen(ten);
+        }
+
         public bool ThemPB(ET_PhongBan et)
         {
             return pb.ThemPB(et);

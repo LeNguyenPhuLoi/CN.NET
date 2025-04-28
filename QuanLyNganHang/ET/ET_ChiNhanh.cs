@@ -23,4 +23,11 @@ namespace ET
         public string TenCN { get => _TenCN; set => _TenCN = value; }
         public string DiaChi { get => _DiaChi; set => _DiaChi = value; }
     }
+
+    public class ET_ChiNhanhReport
+    {
+        public string MaCN { get; set; }
+        public string TenCN { get; set; }
+        public string DiaChi { get; set; }
+    }
 }

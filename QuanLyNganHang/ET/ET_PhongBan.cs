@@ -23,4 +23,11 @@ namespace ET
         public string TenPB { get => _TenPB; set => _TenPB = value; }
         public string TRPhong { get => _TRPhong; set => _TRPhong = value; }
     }
+
+    public class ET_PhongBanReport
+    {
+        public int MaPB { get; set; }
+        public string TenPB { get; set; }
+        public string TRPhong { get; set; }
+    }
 }

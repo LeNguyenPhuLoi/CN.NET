@@ -43,6 +43,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.rtxt_GhiChu = new System.Windows.Forms.RichTextBox();
             this.dgv_NoiQuy = new System.Windows.Forms.DataGridView();
+            this.btn_Tim = new System.Windows.Forms.Button();
+            this.txt_TuKhoa = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.cbo_PhuongThucTim = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_NoiQuy)).BeginInit();
             this.SuspendLayout();
             // 
@@ -182,20 +186,63 @@
             this.dgv_NoiQuy.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_NoiQuy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_NoiQuy.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgv_NoiQuy.Location = new System.Drawing.Point(0, 215);
+            this.dgv_NoiQuy.Location = new System.Drawing.Point(0, 260);
             this.dgv_NoiQuy.MultiSelect = false;
             this.dgv_NoiQuy.Name = "dgv_NoiQuy";
             this.dgv_NoiQuy.ReadOnly = true;
             this.dgv_NoiQuy.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_NoiQuy.Size = new System.Drawing.Size(1227, 411);
+            this.dgv_NoiQuy.Size = new System.Drawing.Size(1227, 366);
             this.dgv_NoiQuy.TabIndex = 73;
             this.dgv_NoiQuy.Click += new System.EventHandler(this.dgv_NoiQuy_Click);
+            // 
+            // btn_Tim
+            // 
+            this.btn_Tim.Location = new System.Drawing.Point(952, 213);
+            this.btn_Tim.Name = "btn_Tim";
+            this.btn_Tim.Size = new System.Drawing.Size(75, 29);
+            this.btn_Tim.TabIndex = 77;
+            this.btn_Tim.Text = "Tìm";
+            this.btn_Tim.UseVisualStyleBackColor = true;
+            this.btn_Tim.Click += new System.EventHandler(this.btn_Tim_Click);
+            // 
+            // txt_TuKhoa
+            // 
+            this.txt_TuKhoa.Location = new System.Drawing.Point(649, 213);
+            this.txt_TuKhoa.Name = "txt_TuKhoa";
+            this.txt_TuKhoa.Size = new System.Drawing.Size(282, 29);
+            this.txt_TuKhoa.TabIndex = 76;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(200, 216);
+            this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(150, 21);
+            this.label12.TabIndex = 75;
+            this.label12.Text = "Phương Thức Tìm";
+            // 
+            // cbo_PhuongThucTim
+            // 
+            this.cbo_PhuongThucTim.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_PhuongThucTim.FormattingEnabled = true;
+            this.cbo_PhuongThucTim.Items.AddRange(new object[] {
+            "Mã Nội Quy",
+            "Mô Tả"});
+            this.cbo_PhuongThucTim.Location = new System.Drawing.Point(361, 213);
+            this.cbo_PhuongThucTim.Name = "cbo_PhuongThucTim";
+            this.cbo_PhuongThucTim.Size = new System.Drawing.Size(282, 29);
+            this.cbo_PhuongThucTim.TabIndex = 74;
             // 
             // Frm_NoiQuy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1227, 626);
+            this.Controls.Add(this.btn_Tim);
+            this.Controls.Add(this.txt_TuKhoa);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.cbo_PhuongThucTim);
             this.Controls.Add(this.dgv_NoiQuy);
             this.Controls.Add(this.rtxt_GhiChu);
             this.Controls.Add(this.txt_MucPhat);
@@ -239,5 +286,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox rtxt_GhiChu;
         private System.Windows.Forms.DataGridView dgv_NoiQuy;
+        private System.Windows.Forms.Button btn_Tim;
+        private System.Windows.Forms.TextBox txt_TuKhoa;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox cbo_PhuongThucTim;
     }
 }

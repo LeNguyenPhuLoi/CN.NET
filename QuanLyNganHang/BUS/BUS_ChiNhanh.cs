@@ -18,6 +18,36 @@ namespace BUS
             return cn.LoadCN();
         }
 
+        public IQueryable TimCNTheoMa(string ma)
+        {
+            return cn.TimCNTheoMa(ma);
+        }
+
+        public IQueryable TimCNTheoTen(string ten)
+        {
+            return cn.TimCNTheoTen(ten);
+        }
+
+        public IQueryable TimCNTheoDiaChi(string diachi)
+        {
+            return cn.TimCNTheoDiaChi(diachi);
+        }
+
+        public List<ET_ChiNhanhReport> LayCNChoReport()
+        {
+            return cn.LayCNChoReport();
+        }
+
+        public List<ET_ChiNhanhReport> LayCNChoReportTheoMaCN(string ma)
+        {
+            return cn.LayCNChoReportTheoMaCN(ma);
+        }
+
+        public List<ET_ChiNhanhReport> LayCNChoReportTheoTenCN(string ten)
+        {
+            return cn.LayCNChoReportTheoTenCN(ten);
+        }
+
         public bool ThemCN(ET_ChiNhanh et)
         {
             return cn.ThemCN(et);

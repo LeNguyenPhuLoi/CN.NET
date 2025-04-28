@@ -24,12 +24,17 @@ namespace GUI
 
         private void Frm_NhanVien_Load(object sender, EventArgs e)
         {
+            dtp_NgaySinh.MaxDate = DateTime.Now.AddYears(-18);
             dgv_NhanVien.DataSource = BUS_NhanVien.LoadNV();
+            cbo_TimCN.Visible = false;
+            txt_TuKhoa.Visible = true;
             rdb_Nam.Checked = true;
             dgv_NhanVien.Columns["CHINHANH"].Visible = false;
             dgv_NhanVien.Columns["PHONGBAN"].Visible = false;
-            AddToCBO(BUS_NhanVien.LoadTenPB(),cbo_PhongBan);
-            AddToCBO(BUS_NhanVien.LoadTenCN(),cbo_ChiNhanh);
+            AddToCBO(BUS_NhanVien.LoadTenPB(), cbo_PhongBan);
+            AddToCBO(BUS_NhanVien.LoadTenCN(), cbo_ChiNhanh);
+            AddToCBO(BUS_NhanVien.LoadTenCN(), cbo_TimCN);
+            cbo_PhuongThucTim.SelectedIndex = 0;
         }
 
         public void AddToCBO(IQueryable list, ComboBox cbo)
@@ -52,6 +57,10 @@ namespace GUI
             txt_SDT.Clear();
             cbo_PhongBan.Text = null;
             cbo_ChiNhanh.Text = null;
+            cbo_PhuongThucTim.SelectedIndex = 0;
+            txt_TuKhoa.Clear();
+            cbo_TimCN.Text = null;
+            dgv_NhanVien.DataSource = BUS_NhanVien.LoadNV();
         }
 
         private void btn_LamMoi_Click(object sender, EventArgs e)
@@ -96,7 +105,7 @@ namespace GUI
                 cbo_PhongBan.Text = BUS_NhanVien.LayTenPBTheoMa(Convert.ToInt32(dgv_NhanVien.Rows[dong].Cells[8].Value.ToString()));
                 cbo_ChiNhanh.Text = BUS_NhanVien.LayTenCNTheoMa(dgv_NhanVien.Rows[dong].Cells[9].Value.ToString());
             }
-            catch(Exception ex) 
+            catch (Exception ex)
             {
                 MessageBox.Show("Lỗi " + ex.Message);
             }
@@ -104,7 +113,7 @@ namespace GUI
 
         public string LayGioiTinh()
         {
-            if (rdb_Nam.Checked == true) 
+            if (rdb_Nam.Checked == true)
             {
                 return "NAM";
             }
@@ -116,78 +125,152 @@ namespace GUI
 
         private void btn_Them_Click(object sender, EventArgs e)
         {
-            ET_NhanVien nv = new ET_NhanVien(txt_MaNV.Text,
-                                            txt_TenNV.Text,
-                                            LayGioiTinh(),
-                                            Convert.ToDateTime(dtp_NgaySinh.Text),
-                                            txt_Chuc.Text,
-                                            float.Parse(txt_Lương.Text),
-                                            txt_DiaChi.Text,
-                                            Convert.ToInt32(txt_SDT.Text),
-                                            BUS_NhanVien.LayMaPBTheoTen(cbo_PhongBan.Text),
-                                            BUS_NhanVien.LayMaCNTheoTen(cbo_ChiNhanh.Text));
-            if(BUS_NhanVien.ThemNV(nv) == true)
+            try
             {
-                MessageBox.Show("Thêm thành công!");
-                Clear();
+                ET_NhanVien nv = new ET_NhanVien(txt_MaNV.Text,
+                                                            txt_TenNV.Text,
+                                                            LayGioiTinh(),
+                                                            dtp_NgaySinh.Value,
+                                                            txt_Chuc.Text,
+                                                            float.Parse(txt_Lương.Text),
+                                                            txt_DiaChi.Text,
+                                                            Convert.ToInt32(txt_SDT.Text),
+                                                            BUS_NhanVien.LayMaPBTheoTen(cbo_PhongBan.Text),
+                                                            BUS_NhanVien.LayMaCNTheoTen(cbo_ChiNhanh.Text));
+                if (BUS_NhanVien.ThemNV(nv) == true)
+                {
+                    MessageBox.Show("Thêm thành công!");
+                    Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Thêm không thành công!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Thêm không thành công!");
+                MessageBox.Show("Lỗi " + ex.Message);
             }
+
             dgv_NhanVien.DataSource = BUS_NhanVien.LoadNV();
         }
 
         private void btn_Sua_Click(object sender, EventArgs e)
         {
-            ET_NhanVien nv = new ET_NhanVien(txt_MaNV.Text,
-                                            txt_TenNV.Text,
-                                            LayGioiTinh(),
-                                            Convert.ToDateTime(dtp_NgaySinh.Text),
-                                            txt_Chuc.Text,
-                                            float.Parse(txt_Lương.Text),
-                                            txt_DiaChi.Text,
-                                            Convert.ToInt32(txt_SDT.Text),
-                                            BUS_NhanVien.LayMaPBTheoTen(cbo_PhongBan.Text),
-                                            BUS_NhanVien.LayMaCNTheoTen(cbo_ChiNhanh.Text));
-            if (BUS_NhanVien.SuaNV(nv) == true)
+            try
             {
-                MessageBox.Show("Sửa thành công!");
-                Clear();
+                ET_NhanVien nv = new ET_NhanVien(txt_MaNV.Text,
+                                                            txt_TenNV.Text,
+                                                            LayGioiTinh(),
+                                                            dtp_NgaySinh.Value,
+                                                            txt_Chuc.Text,
+                                                            float.Parse(txt_Lương.Text),
+                                                            txt_DiaChi.Text,
+                                                            Convert.ToInt32(txt_SDT.Text),
+                                                            BUS_NhanVien.LayMaPBTheoTen(cbo_PhongBan.Text),
+                                                            BUS_NhanVien.LayMaCNTheoTen(cbo_ChiNhanh.Text));
+                if (BUS_NhanVien.SuaNV(nv) == true)
+                {
+                    MessageBox.Show("Sửa thành công!");
+                    Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Sửa không thành công!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Sửa không thành công!");
+                MessageBox.Show("Lỗi " + ex.Message);
             }
+
             dgv_NhanVien.DataSource = BUS_NhanVien.LoadNV();
         }
 
         private void btn_Xoa_Click(object sender, EventArgs e)
         {
-            DialogResult = MessageBox.Show("Bạn có muốn xóa?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (DialogResult == DialogResult.Yes)
+            try
             {
-                ET_NhanVien nv = new ET_NhanVien(txt_MaNV.Text,
-                                            txt_TenNV.Text,
-                                            LayGioiTinh(),
-                                            Convert.ToDateTime(dtp_NgaySinh.Text),
-                                            txt_Chuc.Text,
-                                            float.Parse(txt_Lương.Text),
-                                            txt_DiaChi.Text,
-                                            Convert.ToInt32(txt_SDT.Text),
-                                            BUS_NhanVien.LayMaPBTheoTen(cbo_PhongBan.Text),
-                                            BUS_NhanVien.LayMaCNTheoTen(cbo_ChiNhanh.Text));
-                if (BUS_NhanVien.XoaNV(nv) == true)
+                DialogResult = MessageBox.Show("Bạn có muốn xóa?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (DialogResult == DialogResult.Yes)
                 {
-                    MessageBox.Show("Xóa thành công!");
-                    Clear();
+                    ET_NhanVien nv = new ET_NhanVien(txt_MaNV.Text,
+                                                txt_TenNV.Text,
+                                                LayGioiTinh(),
+                                                dtp_NgaySinh.Value,
+                                                txt_Chuc.Text,
+                                                float.Parse(txt_Lương.Text),
+                                                txt_DiaChi.Text,
+                                                Convert.ToInt32(txt_SDT.Text),
+                                                BUS_NhanVien.LayMaPBTheoTen(cbo_PhongBan.Text),
+                                                BUS_NhanVien.LayMaCNTheoTen(cbo_ChiNhanh.Text));
+                    if (BUS_NhanVien.XoaNV(nv) == true)
+                    {
+                        MessageBox.Show("Xóa thành công!");
+                        Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa không thành công!");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
+
+            dgv_NhanVien.DataSource = BUS_NhanVien.LoadNV();
+        }
+
+        private void btn_Tim_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                switch (cbo_PhuongThucTim.Text)
+                {
+                    case "Mã Nhân Viên":
+                        dgv_NhanVien.DataSource = BUS_NhanVien.TimNVTheoMa(txt_TuKhoa.Text);
+                        break;
+
+                    case "Tên Nhân Viên":
+                        dgv_NhanVien.DataSource = BUS_NhanVien.TimNVTheoTen(txt_TuKhoa.Text);
+                        break;
+
+                    case "SĐT":
+                        dgv_NhanVien.DataSource = BUS_NhanVien.TimNVTheoSDT(Convert.ToInt32(txt_TuKhoa.Text));
+                        break;
+
+                    case "Chi Nhánh":
+                        dgv_NhanVien.DataSource = BUS_NhanVien.TimNVTheoCN(cbo_TimCN.Text);
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
+        }
+
+        private void cbo_PhuongThucTim_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if(cbo_PhuongThucTim.Text == "Chi Nhánh")
+                {
+                    cbo_TimCN.Visible = true;
+                    txt_TuKhoa.Visible = false;
                 }
                 else
                 {
-                    MessageBox.Show("Xóa không thành công!");
+                    cbo_TimCN.Visible = false;
+                    txt_TuKhoa.Visible = true;
                 }
             }
-            dgv_NhanVien.DataSource = BUS_NhanVien.LoadNV();
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
         }
     }
 }

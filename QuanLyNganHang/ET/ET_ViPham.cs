@@ -35,4 +35,15 @@ namespace ET
         public int SoLanViPham { get => _SoLanViPham; set => _SoLanViPham = value; }
         public string GhiChu { get => _GhiChu; set => _GhiChu = value; }
     }
+
+    public class ET_ViPhamReport
+    {
+        public string MaVP { get; set; }
+        public string TenNV {  get; set; }
+        public string MoTa {  get; set; }
+        public DateTime NgayViPham { get; set; }
+        public float TienPhat { get; set; }
+        public int SoLanViPham { get; set; }
+        public string GhiChu { get; set; }
+    }
 }

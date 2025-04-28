@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PhongBanDataSet" targetNamespace="http://tempuri.org/PhongBanDataSet.xsd" xmlns:mstns="http://tempuri.org/PhongBanDataSet.xsd" xmlns="http://tempuri.org/PhongBanDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PhongBanDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="PhongBanDataSet" msprop:Generator_DataSetName="PhongBanDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PhongBan" msprop:Generator_RowEvHandlerName="PhongBanRowChangeEventHandler" msprop:Generator_RowDeletedName="PhongBanRowDeleted" msprop:Generator_RowDeletingName="PhongBanRowDeleting" msprop:Generator_RowEvArgName="PhongBanRowChangeEvent" msprop:Generator_TablePropName="PhongBan" msprop:Generator_RowChangedName="PhongBanRowChanged" msprop:Generator_RowChangingName="PhongBanRowChanging" msprop:Generator_TableClassName="PhongBanDataTable" msprop:Generator_RowClassName="PhongBanRow" msprop:Generator_TableVarName="tablePhongBan" msprop:Generator_UserTableName="PhongBan">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAPB" msprop:Generator_ColumnPropNameInRow="MAPB" msprop:Generator_ColumnPropNameInTable="MAPBColumn" msprop:Generator_ColumnVarNameInTable="columnMAPB" msprop:Generator_UserColumnName="MAPB" type="xs:string" minOccurs="0" />
+              <xs:element name="TENPB" msprop:Generator_ColumnPropNameInRow="TENPB" msprop:Generator_ColumnPropNameInTable="TENPBColumn" msprop:Generator_ColumnVarNameInTable="columnTENPB" msprop:Generator_UserColumnName="TENPB" type="xs:string" minOccurs="0" />
+              <xs:element name="TRPHONG" msprop:Generator_ColumnPropNameInRow="TRPHONG" msprop:Generator_ColumnPropNameInTable="TRPHONGColumn" msprop:Generator_ColumnVarNameInTable="columnTRPHONG" msprop:Generator_UserColumnName="TRPHONG" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -26,3 +26,17 @@ D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\BUS\obj\Debug\BUS.exe
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\BUS\obj\Debug\BUS.pdb
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\bin\Debug\BUS.exe.config
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\bin\Debug\BUS.exe
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\bin\Debug\BUS.pdb
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\bin\Debug\DAL.exe
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\bin\Debug\ET.exe
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\bin\Debug\DAL.pdb
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\bin\Debug\DAL.exe.config
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\bin\Debug\ET.pdb
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\bin\Debug\ET.exe.config
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.exe
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.pdb

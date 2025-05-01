@@ -122,3 +122,16 @@ _content/
 ApplicationPackageRoot/
 PkgConfig/Release.xml
 PkgConfig/Debug.xml
+
+# Ignore VS settings and build outputs
+.vs/
+*.user
+*.suo
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+*.log
+bin/
+obj/
+

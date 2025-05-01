@@ -1,33 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\",
+  "WorkspaceRootPath": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net\\quanlynganhang\\gui\\frm_dsvipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dsvipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net\\quanlynganhang\\dal\\dal_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|solutionrelative:dal\\dal_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B199A329-D398-42C8-A8FA-E0018639608C}|BUS\\BUS.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net\\quanlynganhang\\bus\\bus_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B199A329-D398-42C8-A8FA-E0018639608C}|BUS\\BUS.csproj|solutionrelative:bus\\bus_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net\\quanlynganhang\\dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|solutionrelative:dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net\\quanlynganhang\\gui\\frm_dsvipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dsvipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net\\quanlynganhang\\gui\\frm_dsnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dsnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,102 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
+              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:55:58.271Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Frm_DSNhanVien.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\GUI\\Frm_DSNhanVien.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_DSNhanVien.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\GUI\\Frm_DSNhanVien.cs",
-              "RelativeToolTip": "GUI\\Frm_DSNhanVien.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowEAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:07:55.339Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DAL_NhanVien.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\DAL\\DAL_NhanVien.cs",
-              "RelativeDocumentMoniker": "DAL\\DAL_NhanVien.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\DAL\\DAL_NhanVien.cs",
-              "RelativeToolTip": "DAL\\DAL_NhanVien.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T04:34:53.674Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DAL_ViPham.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\DAL\\DAL_ViPham.cs",
-              "RelativeDocumentMoniker": "DAL\\DAL_ViPham.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\DAL\\DAL_ViPham.cs",
-              "RelativeToolTip": "DAL\\DAL_ViPham.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAIwHQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T04:32:30.502Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BUS_ViPham.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\BUS\\BUS_ViPham.cs",
-              "RelativeDocumentMoniker": "BUS\\BUS_ViPham.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\BUS\\BUS_ViPham.cs",
-              "RelativeToolTip": "BUS\\BUS_ViPham.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAswFIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T04:32:35.187Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Frm_DSViPham.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\GUI\\Frm_DSViPham.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_DSViPham.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\GUI\\Frm_DSViPham.cs*",
-              "RelativeToolTip": "GUI\\Frm_DSViPham.cs*",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAlwJoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:09:18.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Frm_DSViPham.cs [Design]",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\GUI\\Frm_DSViPham.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_DSViPham.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET\\QuanLyNganHang\\GUI\\Frm_DSViPham.cs [Design]*",
-              "RelativeToolTip": "GUI\\Frm_DSViPham.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:07:22.81Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

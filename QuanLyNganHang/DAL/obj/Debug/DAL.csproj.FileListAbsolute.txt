@@ -20,3 +20,14 @@ D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\DAL\obj\Debug\DAL.exe
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\CN.NET-ver1.1\QuanLyNganHang\DAL\obj\Debug\DAL.pdb
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.exe.config
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.exe
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.pdb
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.exe
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.pdb
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.exe.config
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.exe
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.pdb

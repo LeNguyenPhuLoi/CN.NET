@@ -119,6 +119,12 @@
     <Compile Include="Frm_ViPham.Designer.cs">
       <DependentUpon>Frm_ViPham.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Report\ChiNhanhDataSet.Designer.cs">
@@ -205,6 +211,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ViPham.resx">
       <DependentUpon>Frm_ViPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

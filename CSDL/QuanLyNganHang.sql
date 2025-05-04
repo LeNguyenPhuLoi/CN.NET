@@ -72,8 +72,7 @@ GO
 CREATE TABLE KHUYENMAI (MAKM CHAR(10) NOT NULL,           
 						TENKM NVARCHAR(50),               
 						NGAYBATDAU DATE,                 
-						NGAYKETTHUC DATE,                 
-						PHANTRAMGIAM FLOAT,               
+						NGAYKETTHUC DATE,                                
 						DIEUKIEN NVARCHAR(100))
 GO
 --BANG TAIKHOANDANGNHAP

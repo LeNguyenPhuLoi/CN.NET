@@ -11,15 +11,18 @@ namespace DAL
     {
         QLNHDataContext db = new QLNHDataContext();
 
-        public bool kqdangnhap(ET_Login et)
+        public ET_Login KiemTraDangNhap(string username, string password)
         {
-            var result = (from tk in db.TKDANGNHAPs
-                          where tk.TENDN == et.Username
-                                && tk.MATKHAU == et.Password
-                                && tk.QUYEN == et.Quyen
-                          select tk).FirstOrDefault();
+            var user = db.TKDANGNHAPs
+                .Where(nd => nd.TENDN == username && nd.MATKHAU == password)
+                .Select(nd => new ET_Login(
+                    nd.TENDN,
+                    nd.MATKHAU,
+                    nd.QUYEN,
+                    nd.MANV))
+                .FirstOrDefault();
 
-            return result != null;
+            return user; // Trả về null nếu không đúng
         }
     }
 }

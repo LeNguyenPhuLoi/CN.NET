@@ -12,9 +12,19 @@ namespace BUS
     {
         DAL_Login lg = new DAL_Login();
 
-        public bool KTraDN(ET_Login et)
+        public ET_Login DangNhap(string username, string password)
         {
-           return lg.kqdangnhap(et);
+            return lg.KiemTraDangNhap(username, password); // trả về null nếu sai
+        }
+
+        public bool IsAdmin(ET_Login user)
+        {
+            return user != null && user.Quyen == "ADMIN";
+        }
+
+        public bool IsNhanVien(ET_Login user)
+        {
+            return user != null && user.Quyen == "NV";
         }
     }
 }

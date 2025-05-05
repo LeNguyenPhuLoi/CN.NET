@@ -48,6 +48,7 @@
     <Compile Include="ET_NhanVien.cs" />
     <Compile Include="ET_NoiQuy.cs" />
     <Compile Include="ET_PhongBan.cs" />
+    <Compile Include="ET_TaiKhoan.cs" />
     <Compile Include="ET_ViPham.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

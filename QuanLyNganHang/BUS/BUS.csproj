@@ -48,6 +48,7 @@
     <Compile Include="BUS_NoiQuy.cs" />
     <Compile Include="BUS_PhongBan.cs" />
     <Compile Include="BUS_NhanVien.cs" />
+    <Compile Include="BUS_TaiKhoan.cs" />
     <Compile Include="BUS_ViPham.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

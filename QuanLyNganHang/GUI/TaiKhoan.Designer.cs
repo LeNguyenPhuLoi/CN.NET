@@ -61,6 +61,7 @@
             this.btnThoat.TabIndex = 39;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnLamMoi
             // 
@@ -71,6 +72,7 @@
             this.btnLamMoi.TabIndex = 38;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.UseVisualStyleBackColor = true;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // btnSua
             // 
@@ -81,6 +83,7 @@
             this.btnSua.TabIndex = 37;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
@@ -91,6 +94,7 @@
             this.btnXoa.TabIndex = 36;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
@@ -101,6 +105,7 @@
             this.btnThem.TabIndex = 35;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // dtpNgayLap
             // 
@@ -180,6 +185,7 @@
             this.dgvTaiKhoan.RowTemplate.Height = 24;
             this.dgvTaiKhoan.Size = new System.Drawing.Size(858, 242);
             this.dgvTaiKhoan.TabIndex = 27;
+            this.dgvTaiKhoan.Click += new System.EventHandler(this.dgvTaiKhoan_Click);
             // 
             // label7
             // 
@@ -279,6 +285,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTaiKhoan";
             this.Text = "Quản Lý Tài Khoản";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTaiKhoan_FormClosing);
+            this.Load += new System.EventHandler(this.frmTaiKhoan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTaiKhoan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

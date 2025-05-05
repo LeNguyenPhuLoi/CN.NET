@@ -22,18 +22,35 @@ namespace BUS
             return tk.LoadLoaiTK();
         }
 
+        public IQueryable<string> LayTheoMaLTK(string ma)
+        {
+            return tk.sp_LayTheoMaLoaiTK(ma);
+        }
+
         public IQueryable LoadKH()
         {
             return tk.LoadKhachHang();
+        }
+        public IQueryable<string> LayTheoMaKH(string ma)
+        {
+            return tk.sp_LayTheoMaKhachHang(ma);
         }
 
         public IQueryable LoadTT() 
         {
             return tk.LoadTienTe();
         }
+        public IQueryable<string> LayTheoMaTT(string ma)
+        {
+            return tk.sp_LayTheoMaTienTe(ma);
+        }
 
         public IQueryable LoadNV() { 
             return tk.LoadNhanVien();
+        }
+        public IQueryable<string> LayTheoMaNV(string ma)
+        {
+            return tk.sp_LayTheoMaNhanVien(ma);
         }
 
         public bool ThemTK(ET_TaiKhoan et)

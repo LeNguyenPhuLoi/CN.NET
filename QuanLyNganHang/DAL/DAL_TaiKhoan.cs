@@ -13,8 +13,11 @@ namespace DAL
 
         public IQueryable LoadTaiKhoan()
         {
-            IQueryable taikhoan= from tk in db.TAIKHOANs
-                                 select tk;
+            IQueryable taikhoan = from tk in db.TAIKHOANs
+                                  select new { tk.MATK, tk.SODU,
+                                      tk.NGAYLAP,tk.MAKH,
+                                      tk.LOAITK,tk.LOAITIEN,
+                                      tk.MANV} ;
             return taikhoan;
         }
 
@@ -25,11 +28,27 @@ namespace DAL
             return loaitk;
         }
 
+        public IQueryable<string> sp_LayTheoMaLoaiTK(string ma)
+        {
+            var ten = from ltk in db.LOAITAIKHOANs
+                      where ltk.MALOAI == ma
+                      select ltk.MALOAI + "-" + ltk.TENNH;
+            return ten;
+        }
+
         public IQueryable LoadTienTe()
         {
             IQueryable tiente = from tt in db.TIENTEs
                                 select tt.MATT + "-" + tt.TENTT;
             return tiente;
+        }
+
+        public IQueryable<string> sp_LayTheoMaTienTe(string ma)
+        {
+            var ten = from tt in db.TIENTEs
+                      where tt.MATT == ma
+                      select tt.MATT + "-" + tt.TENTT;
+            return ten;
         }
 
         public IQueryable LoadNhanVien()
@@ -39,12 +58,29 @@ namespace DAL
             return nhanvien;
         }
 
+        public IQueryable<string> sp_LayTheoMaNhanVien(string ma)
+        {
+            var ten = from nv in db.NHANVIENs
+                      where nv.MANV == ma
+                      select nv.MANV + "-" + nv.TENNV;
+            return ten;
+        }
+
         public IQueryable LoadKhachHang()
         {
             IQueryable khachhang = from kh in db.KHACHHANGs
                                   select kh.MAKH + "-" + kh.TENKH;
             return khachhang;
         }
+
+        public IQueryable<string> sp_LayTheoMaKhachHang(string ma)
+        {
+            var ten = from kh in db.KHACHHANGs
+                      where kh.MAKH == ma
+                      select kh.MAKH + "-" + kh.TENKH;
+            return ten;
+        }
+
         public bool ThemTK(ET_TaiKhoan et)
         {
             bool flage = false;

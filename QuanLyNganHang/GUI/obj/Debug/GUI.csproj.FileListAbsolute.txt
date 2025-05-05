@@ -114,3 +114,4 @@ C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\GUI\obj\Debug
 C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.exe
 C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.pdb
 C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmLogin.resources
+C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTaiKhoan.resources

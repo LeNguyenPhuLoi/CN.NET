@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\dal\\dal_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|solutionrelative:dal\\dal_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B199A329-D398-42C8-A8FA-E0018639608C}|BUS\\BUS.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\bus\\bus_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B199A329-D398-42C8-A8FA-E0018639608C}|BUS\\BUS.csproj|solutionrelative:bus\\bus_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\dal\\dal_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|solutionrelative:dal\\dal_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A2E878D-745D-41A5-B48B-4EFCAB300244}|ET\\ET.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\et\\et_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2E878D-745D-41A5-B48B-4EFCAB300244}|ET\\ET.csproj|solutionrelative:et\\et_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B199A329-D398-42C8-A8FA-E0018639608C}|BUS\\BUS.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\bus\\bus_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B199A329-D398-42C8-A8FA-E0018639608C}|BUS\\BUS.csproj|solutionrelative:bus\\bus_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2E878D-745D-41A5-B48B-4EFCAB300244}|ET\\ET.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\et\\et_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2E878D-745D-41A5-B48B-4EFCAB300244}|ET\\ET.csproj|solutionrelative:et\\et_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\dal\\qlnh.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|solutionrelative:dal\\qlnh.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeDocumentMoniker": "GUI\\Program.cs",
               "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:55:58.271Z",
               "IsPinned": true,
@@ -53,64 +57,78 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Login.cs",
-              "RelativeDocumentMoniker": "GUI\\Login.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Login.cs",
-              "RelativeToolTip": "GUI\\Login.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAHAAAAAAAAAA==",
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "GUI\\TaiKhoan.cs",
+              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TaiKhoan.cs",
+              "RelativeToolTip": "GUI\\TaiKhoan.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwJEAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:31:36.873Z",
+              "WhenOpened": "2025-05-05T11:35:19.371Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaiKhoan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "GUI\\TaiKhoan.cs",
+              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TaiKhoan.cs [Design]",
+              "RelativeToolTip": "GUI\\TaiKhoan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:58:45.756Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BUS_TaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\BUS\\BUS_TaiKhoan.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_TaiKhoan.cs",
+              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\BUS\\BUS_TaiKhoan.cs",
+              "RelativeToolTip": "BUS\\BUS_TaiKhoan.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwDQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:52:39.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Login.cs",
-              "RelativeDocumentMoniker": "GUI\\Login.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Login.cs [Design]",
-              "RelativeToolTip": "GUI\\Login.cs [Design]",
+              "Title": "DAL_TaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\DAL\\DAL_TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_TaiKhoan.cs",
+              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\DAL\\DAL_TaiKhoan.cs*",
+              "RelativeToolTip": "DAL\\DAL_TaiKhoan.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:28:15.657Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BUS_Login.cs",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\BUS\\BUS_Login.cs",
-              "RelativeDocumentMoniker": "BUS\\BUS_Login.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\BUS\\BUS_Login.cs",
-              "RelativeToolTip": "BUS\\BUS_Login.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:24:46.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DAL_Login.cs",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\DAL\\DAL_Login.cs",
-              "RelativeDocumentMoniker": "DAL\\DAL_Login.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\DAL\\DAL_Login.cs",
-              "RelativeToolTip": "DAL\\DAL_Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADgvw8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:09:05.615Z",
+              "WhenOpened": "2025-05-05T09:22:27.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ET_Login.cs",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\ET\\ET_Login.cs",
-              "RelativeDocumentMoniker": "ET\\ET_Login.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\ET\\ET_Login.cs",
-              "RelativeToolTip": "ET\\ET_Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABLAAAAAAAAAA==",
+              "Title": "ET_TaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\ET\\ET_TaiKhoan.cs",
+              "RelativeDocumentMoniker": "ET\\ET_TaiKhoan.cs",
+              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\ET\\ET_TaiKhoan.cs",
+              "RelativeToolTip": "ET\\ET_TaiKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:06:45.738Z"
+              "WhenOpened": "2025-05-05T09:18:45.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QLNH.dbml",
+              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\DAL\\QLNH.dbml",
+              "RelativeDocumentMoniker": "DAL\\QLNH.dbml",
+              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\DAL\\QLNH.dbml",
+              "RelativeToolTip": "DAL\\QLNH.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2025-05-05T09:13:41.575Z"
             }
           ]
         }

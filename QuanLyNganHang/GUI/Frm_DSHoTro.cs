@@ -90,7 +90,7 @@ namespace GUI
                         break;
 
                     case "DVHT":
-                        rpt.SetDataSource(BUS_HoTro.LayHTTheoDVHT(txt_tim.Text));
+                        rpt.SetDataSource(BUS_HoTro.LayHTTheoDVHT(cbo_dvht.Text));
                         crv_hotro.ReportSource = rpt;
                         crv_hotro.Refresh();
                         break;

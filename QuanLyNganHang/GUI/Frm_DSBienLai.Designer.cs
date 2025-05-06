@@ -35,9 +35,9 @@
             this.txt_tim = new System.Windows.Forms.TextBox();
             this.btn_lammoi = new System.Windows.Forms.Button();
             this.btn_tim = new System.Windows.Forms.Button();
+            this.cbo_loaibl = new System.Windows.Forms.ComboBox();
             this.crv_bienlai = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.Rpt_DSBienLai1 = new GUI.Report.Rpt_DSBienLai();
-            this.cbo_loaibl = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -52,6 +52,7 @@
             // 
             // cbo_kieuxem
             // 
+            this.cbo_kieuxem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_kieuxem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_kieuxem.FormattingEnabled = true;
             this.cbo_kieuxem.Items.AddRange(new object[] {
@@ -75,6 +76,7 @@
             // 
             // cbo_tim
             // 
+            this.cbo_tim.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_tim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_tim.FormattingEnabled = true;
             this.cbo_tim.Items.AddRange(new object[] {
@@ -118,20 +120,9 @@
             this.btn_tim.UseVisualStyleBackColor = true;
             this.btn_tim.Click += new System.EventHandler(this.btn_tim_Click);
             // 
-            // crv_bienlai
-            // 
-            this.crv_bienlai.ActiveViewIndex = 0;
-            this.crv_bienlai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.crv_bienlai.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crv_bienlai.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.crv_bienlai.Location = new System.Drawing.Point(0, 58);
-            this.crv_bienlai.Name = "crv_bienlai";
-            this.crv_bienlai.ReportSource = this.Rpt_DSBienLai1;
-            this.crv_bienlai.Size = new System.Drawing.Size(1224, 582);
-            this.crv_bienlai.TabIndex = 7;
-            // 
             // cbo_loaibl
             // 
+            this.cbo_loaibl.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_loaibl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_loaibl.FormattingEnabled = true;
             this.cbo_loaibl.Items.AddRange(new object[] {
@@ -145,13 +136,25 @@
             this.cbo_loaibl.Size = new System.Drawing.Size(186, 33);
             this.cbo_loaibl.TabIndex = 8;
             // 
+            // crv_bienlai
+            // 
+            this.crv_bienlai.ActiveViewIndex = 0;
+            this.crv_bienlai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crv_bienlai.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crv_bienlai.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.crv_bienlai.Location = new System.Drawing.Point(0, 57);
+            this.crv_bienlai.Name = "crv_bienlai";
+            this.crv_bienlai.ReportSource = this.Rpt_DSBienLai1;
+            this.crv_bienlai.Size = new System.Drawing.Size(1224, 583);
+            this.crv_bienlai.TabIndex = 9;
+            // 
             // Frm_DSBienLai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1224, 640);
-            this.Controls.Add(this.cbo_loaibl);
             this.Controls.Add(this.crv_bienlai);
+            this.Controls.Add(this.cbo_loaibl);
             this.Controls.Add(this.btn_tim);
             this.Controls.Add(this.btn_lammoi);
             this.Controls.Add(this.txt_tim);
@@ -177,8 +180,8 @@
         private System.Windows.Forms.TextBox txt_tim;
         private System.Windows.Forms.Button btn_lammoi;
         private System.Windows.Forms.Button btn_tim;
+        private System.Windows.Forms.ComboBox cbo_loaibl;
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crv_bienlai;
         private Report.Rpt_DSBienLai Rpt_DSBienLai1;
-        private System.Windows.Forms.ComboBox cbo_loaibl;
     }
 }

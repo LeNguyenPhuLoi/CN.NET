@@ -1,30 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\CN.NET\\QuanLyNganHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\cn.net\\cn.net-main\\cn.net-main\\quanlynganhang\\gui\\frm_dsbienlai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dsbienlai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\gui\\frm_dsbienlai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dsbienlai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\gui\\frm_dshotro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dshotro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\gui\\frm_dsbienlai.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dsbienlai.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\github\\cn.net\\quanlynganhang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\gui\\frm_dshotro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dshotro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,79 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:55:58.271Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Frm_DSBienLai.cs [Design]",
-              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSBienLai.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_DSBienLai.cs",
-              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSBienLai.cs [Design]",
-              "RelativeToolTip": "GUI\\Frm_DSBienLai.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T12:20:18.44Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Frm_DSBienLai.Designer.cs",
-              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSBienLai.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_DSBienLai.Designer.cs",
-              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSBienLai.Designer.cs",
-              "RelativeToolTip": "GUI\\Frm_DSBienLai.Designer.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAIwJIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T13:02:34.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Frm_DSHoTro.cs",
-              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSHoTro.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_DSHoTro.cs",
-              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSHoTro.cs",
-              "RelativeToolTip": "GUI\\Frm_DSHoTro.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAUwFwAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T12:23:41.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Frm_DSBienLai.cs",
-              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSBienLai.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_DSBienLai.cs",
-              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSBienLai.cs",
-              "RelativeToolTip": "GUI\\Frm_DSBienLai.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAcwJUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T12:43:57.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Frm_DSHoTro.cs [Design]",
-              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSHoTro.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_DSHoTro.cs",
-              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_DSHoTro.cs [Design]",
-              "RelativeToolTip": "GUI\\Frm_DSHoTro.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T13:01:07.812Z"
+              "IsPinned": true,
+              "EditorCaption": ""
             }
           ]
         }

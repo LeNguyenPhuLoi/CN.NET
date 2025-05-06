@@ -91,7 +91,7 @@ namespace GUI
                         break;
 
                     case "Loại Biên Lai":
-                        rpt.SetDataSource(BUS_BienLai.LayBLTheoLoai(txt_tim.Text));
+                        rpt.SetDataSource(BUS_BienLai.LayBLTheoLoai( cbo_loaibl.Text));
                         crv_bienlai.ReportSource = rpt;
                         crv_bienlai.Refresh();
                         break;

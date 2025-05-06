@@ -93,6 +93,8 @@ namespace DAL
                             MANV = bl.MANV,
                             MAKH = bl.MaKH
                         };
+            System.Diagnostics.Debug.WriteLine(" " +clone.First().MABL + " " + clone.First().LOAIBL + " " + clone.First().SOTIEN + " " + clone.First().NGAYLAP + " " + clone.First().MANV + " " + clone.First().MAKH);
+            
             return clone.ToList();
         }
 

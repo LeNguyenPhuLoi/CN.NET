@@ -51,6 +51,7 @@
             // 
             // cbo_kieuxem
             // 
+            this.cbo_kieuxem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_kieuxem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_kieuxem.FormattingEnabled = true;
             this.cbo_kieuxem.Items.AddRange(new object[] {
@@ -74,6 +75,7 @@
             // 
             // cbo_tim
             // 
+            this.cbo_tim.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_tim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_tim.FormattingEnabled = true;
             this.cbo_tim.Items.AddRange(new object[] {

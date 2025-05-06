@@ -77,6 +77,12 @@
     <Compile Include="Frm_DSChiNhanh.Designer.cs">
       <DependentUpon>Frm_DSChiNhanh.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_DSKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DSKhachHang.Designer.cs">
+      <DependentUpon>Frm_DSKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_DSNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +177,12 @@
       <DependentUpon>Rpt_DSChiNhanh.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Report\Rpt_DSKhachHang.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_DSKhachHang.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Report\Rpt_DSNhanVien.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -208,6 +220,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_DSChiNhanh.resx">
       <DependentUpon>Frm_DSChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DSKhachHang.resx">
+      <DependentUpon>Frm_DSKhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_DSNhanVien.resx">
       <DependentUpon>Frm_DSNhanVien.cs</DependentUpon>
@@ -254,6 +269,10 @@
     <EmbeddedResource Include="Report\Rpt_DSChiNhanh.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Rpt_DSChiNhanh.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Rpt_DSKhachHang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_DSKhachHang.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\Rpt_DSNhanVien.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

@@ -32,6 +32,26 @@ namespace BUS
             return kh.TimKHTheoSDT(sdt);
         }
 
+        public List<ET_KhachHangReport> LayKH()
+        {
+            return kh.LayKH();
+        }
+
+        public List<ET_KhachHangReport> LayKHTheoMa(string ma)
+        {
+            return kh.LayKHTheoMa(ma);
+        }
+
+        public List<ET_KhachHangReport> LayKHTheoTen(string ten)
+        {
+            return kh.LayKHTheoTen(ten);
+        }
+
+        public List<ET_KhachHangReport> LayKHTheoSDT(int sdt)
+        {
+            return kh.LayKHTheoSDT(sdt);
+        }
+
         public bool ThemKH(ET_KhachHang et)
         {
             return kh.ThemKH(et);

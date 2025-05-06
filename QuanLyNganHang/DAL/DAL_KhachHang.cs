@@ -42,6 +42,69 @@ namespace DAL
             return KH;
         }
 
+        public List<ET_KhachHangReport> LayKH()
+        {
+            var clone = from kh in db.KHACHHANGs
+                        select new ET_KhachHangReport
+                        {
+                            MaKH = kh.MAKH,
+                            TenKH = kh.TENKH,
+                            SDT = (int)kh.SDT,
+                            GioiTinh = kh.GIOITINH,
+                            DiaChi = kh.DCHI,
+                            NgaySinh = kh.NSINH.Value
+                        };
+            return clone.ToList();
+        }
+
+        public List<ET_KhachHangReport> LayKHTheoMa(string ma)
+        {
+            var clone = from kh in db.KHACHHANGs
+                        where kh.MAKH.Contains(ma)
+                        select new ET_KhachHangReport
+                        {
+                            MaKH = kh.MAKH,
+                            TenKH = kh.TENKH,
+                            SDT = (int)kh.SDT,
+                            GioiTinh = kh.GIOITINH,
+                            DiaChi = kh.DCHI,
+                            NgaySinh = kh.NSINH.Value
+                        };
+            return clone.ToList();
+        }
+
+        public List<ET_KhachHangReport> LayKHTheoTen(string ten)
+        {
+            var clone = from kh in db.KHACHHANGs
+                        where kh.TENKH.Contains(ten)
+                        select new ET_KhachHangReport
+                        {
+                            MaKH = kh.MAKH,
+                            TenKH = kh.TENKH,
+                            SDT = (int)kh.SDT,
+                            GioiTinh = kh.GIOITINH,
+                            DiaChi = kh.DCHI,
+                            NgaySinh = kh.NSINH.Value
+                        };
+            return clone.ToList();
+        }
+
+        public List<ET_KhachHangReport> LayKHTheoSDT(int sdt)
+        {
+            var clone = from kh in db.KHACHHANGs
+                        where kh.SDT == sdt
+                        select new ET_KhachHangReport
+                        {
+                            MaKH = kh.MAKH,
+                            TenKH = kh.TENKH,
+                            SDT = (int)kh.SDT,
+                            GioiTinh = kh.GIOITINH,
+                            DiaChi = kh.DCHI,
+                            NgaySinh = kh.NSINH.Value
+                        };
+            return clone.ToList();
+        }
+
         public bool ThemKH(ET_KhachHang et)
         {
             bool clone = false;

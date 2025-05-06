@@ -35,12 +35,12 @@ namespace ET
 
     public class ET_BienLaiReport
     {
-        public string MaBL { get; set; }
-        public string LoaiBL { get; set; }
-        public float SoTien { get; set; }
-        public DateTime NgayLap { get; set; }
-        public float MaNV { get; set; }
-        public string MaKH { get; set; }
+        public string MABL { get; set; }
+        public string LOAIBL { get; set; }
+        public float SOTIEN { get; set; }
+        public DateTime NGAYLAP { get; set; }
+        public string MANV { get; set; }
+        public string MAKH { get; set; }
     }
 
 }

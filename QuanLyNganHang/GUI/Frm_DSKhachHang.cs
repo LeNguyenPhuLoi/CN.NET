@@ -28,6 +28,10 @@ namespace GUI
         private void Frm_DSKhachHang_Load(object sender, EventArgs e)
         {
             cbo_kieuxem.SelectedIndex = 0;
+            GUI.Report.Rpt_DSKhachHang rpt = new GUI.Report.Rpt_DSKhachHang();
+            rpt.SetDataSource(BUS_KhachHang.LayKH());
+            crv_khachhang.ReportSource = rpt;
+            crv_khachhang.Refresh();
         }
 
         public void Clear()

@@ -21,7 +21,8 @@ namespace DAL
 
         public IQueryable TimKHTheoMa(string ma)
         {
-            IQueryable KH = from kh in db.KHACHHANGs                        
+            IQueryable KH = from kh in db.KHACHHANGs  
+                            where kh.MAKH.Contains(ma)
                             select kh;
             return KH;
         }
@@ -47,12 +48,12 @@ namespace DAL
             var clone = from kh in db.KHACHHANGs
                         select new ET_KhachHangReport
                         {
-                            MaKH = kh.MAKH,
-                            TenKH = kh.TENKH,
+                            MAKH = kh.MAKH,
+                            TENKH = kh.TENKH,
                             SDT = (int)kh.SDT,
-                            GioiTinh = kh.GIOITINH,
-                            DiaChi = kh.DCHI,
-                            NgaySinh = kh.NSINH.Value
+                            GIOITINH = kh.GIOITINH,
+                            DCHI = kh.DCHI,
+                            NSINH = kh.NSINH.Value
                         };
             return clone.ToList();
         }
@@ -63,12 +64,12 @@ namespace DAL
                         where kh.MAKH.Contains(ma)
                         select new ET_KhachHangReport
                         {
-                            MaKH = kh.MAKH,
-                            TenKH = kh.TENKH,
+                            MAKH = kh.MAKH,
+                            TENKH = kh.TENKH,
                             SDT = (int)kh.SDT,
-                            GioiTinh = kh.GIOITINH,
-                            DiaChi = kh.DCHI,
-                            NgaySinh = kh.NSINH.Value
+                            GIOITINH = kh.GIOITINH,
+                            DCHI = kh.DCHI,
+                            NSINH = kh.NSINH.Value
                         };
             return clone.ToList();
         }
@@ -79,12 +80,12 @@ namespace DAL
                         where kh.TENKH.Contains(ten)
                         select new ET_KhachHangReport
                         {
-                            MaKH = kh.MAKH,
-                            TenKH = kh.TENKH,
+                            MAKH = kh.MAKH,
+                            TENKH = kh.TENKH,
                             SDT = (int)kh.SDT,
-                            GioiTinh = kh.GIOITINH,
-                            DiaChi = kh.DCHI,
-                            NgaySinh = kh.NSINH.Value
+                            GIOITINH = kh.GIOITINH,
+                            DCHI = kh.DCHI,
+                            NSINH = kh.NSINH.Value
                         };
             return clone.ToList();
         }
@@ -95,12 +96,12 @@ namespace DAL
                         where kh.SDT == sdt
                         select new ET_KhachHangReport
                         {
-                            MaKH = kh.MAKH,
-                            TenKH = kh.TENKH,
+                            MAKH = kh.MAKH,
+                            TENKH = kh.TENKH,
                             SDT = (int)kh.SDT,
-                            GioiTinh = kh.GIOITINH,
-                            DiaChi = kh.DCHI,
-                            NgaySinh = kh.NSINH.Value
+                            GIOITINH = kh.GIOITINH,
+                            DCHI = kh.DCHI,
+                            NSINH = kh.NSINH.Value
                         };
             return clone.ToList();
         }

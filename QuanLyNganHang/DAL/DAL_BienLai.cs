@@ -49,6 +49,85 @@ namespace DAL
             return BL;
         }
 
+        public List<ET_BienLaiReport> LAYBL()
+        {
+            var clone = from bl in db.BIENLAIs
+                        select new ET_BienLaiReport
+                        {
+                            MABL = bl.MABL,
+                            LOAIBL = bl.LOAIBL,
+                            SOTIEN = (float)bl.SOTIEN,
+                            NGAYLAP = bl.NGAYLAP.Value,
+                            MANV = bl.MANV,
+                            MAKH = bl.MaKH
+                        };
+            return clone.ToList();
+        }
+
+        public List<ET_BienLaiReport> LAYBLTheoMa(string ma)
+        {
+            var clone = from bl in db.BIENLAIs
+                        where bl.MABL.Contains(ma)
+                        select new ET_BienLaiReport
+                        {
+                            MABL = bl.MABL,
+                            LOAIBL = bl.LOAIBL,
+                            SOTIEN = (float)bl.SOTIEN,
+                            NGAYLAP = bl.NGAYLAP.Value,
+                            MANV = bl.MANV,
+                            MAKH = bl.MaKH
+                        };
+            return clone.ToList();
+        }
+
+        public List<ET_BienLaiReport> LayBLTheoLoai(string loai)
+        {
+            var clone = from bl in db.BIENLAIs
+                        where bl.LOAIBL.Contains(loai)
+                        select new ET_BienLaiReport
+                        {
+                            MABL = bl.MABL,
+                            LOAIBL = bl.LOAIBL,
+                            SOTIEN = (float)bl.SOTIEN,
+                            NGAYLAP = bl.NGAYLAP.Value,
+                            MANV = bl.MANV,
+                            MAKH = bl.MaKH
+                        };
+            return clone.ToList();
+        }
+
+        public List<ET_BienLaiReport> LayBLTheoMaNV(string blmanv)
+        {
+            var clone = from bl in db.BIENLAIs
+                        where bl.MANV.Contains(blmanv)
+                        select new ET_BienLaiReport
+                        {
+                            MABL = bl.MABL,
+                            LOAIBL = bl.LOAIBL,
+                            SOTIEN = (float)bl.SOTIEN,
+                            NGAYLAP = bl.NGAYLAP.Value,
+                            MANV = bl.MANV,
+                            MAKH = bl.MaKH
+                        };
+            return clone.ToList();
+        }
+
+        public List<ET_BienLaiReport> LayBLTheoMaKH(string blmakh)
+        {
+            var clone = from bl in db.BIENLAIs
+                        where bl.MaKH.Contains(blmakh)
+                        select new ET_BienLaiReport
+                        {
+                            MABL = bl.MABL,
+                            LOAIBL = bl.LOAIBL,
+                            SOTIEN = (float)bl.SOTIEN,
+                            NGAYLAP = bl.NGAYLAP.Value,
+                            MANV = bl.MANV,
+                            MAKH = bl.MaKH
+                        };
+            return clone.ToList();
+        }
+
         public bool ThemBL(ET_BienLai et)
         {
             bool clone = false;

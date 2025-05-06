@@ -35,11 +35,11 @@ namespace ET
 
     public class ET_KhachHangReport
     {
-        public string MaKH { get; set; }
-        public string TenKH { get; set; }
+        public string MAKH { get; set; }
+        public string TENKH { get; set; }
         public int SDT { get; set; }
-        public string GioiTinh { set; get; }
-        public string DiaChi { get; set; }
-        public DateTime NgaySinh { set; get; }
+        public string GIOITINH { set; get; }
+        public string DCHI { get; set; }
+        public DateTime NSINH { set; get; }
     }
 }

@@ -140,6 +140,7 @@
             this.btn_tim.TabIndex = 56;
             this.btn_tim.Text = "Tìm";
             this.btn_tim.UseVisualStyleBackColor = true;
+            this.btn_tim.Click += new System.EventHandler(this.btn_tim_Click);
             // 
             // txt_kytu
             // 
@@ -155,9 +156,8 @@
             this.cbo_phuongthuctim.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_phuongthuctim.FormattingEnabled = true;
             this.cbo_phuongthuctim.Items.AddRange(new object[] {
-            "Mã Khách Hàng",
-            "Tên Khách Hàng",
-            "SĐT Khách Hàng"});
+            "Mã Khuyến Mãi",
+            "Tên Khuyến Mãi"});
             this.cbo_phuongthuctim.Location = new System.Drawing.Point(256, 255);
             this.cbo_phuongthuctim.Name = "cbo_phuongthuctim";
             this.cbo_phuongthuctim.Size = new System.Drawing.Size(223, 37);

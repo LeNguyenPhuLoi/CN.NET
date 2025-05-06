@@ -164,3 +164,5 @@ D:\Kì 4\CN.NET\CN.NET-main\CN.NET-main\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_Kha
 D:\Kì 4\CN.NET\CN.NET-main\CN.NET-main\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_BienLai.resources
 D:\Kì 4\CN.NET\CN.NET-main\CN.NET-main\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_KhuyenMai.resources
 D:\Kì 4\CN.NET\CN.NET-main\CN.NET-main\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSKhachHang.resources
+D:\Kì 4\CN.NET\CN.NET-main\CN.NET-main\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSBienLai.resources
+D:\Kì 4\CN.NET\CN.NET-main\CN.NET-main\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSHoTro.resources

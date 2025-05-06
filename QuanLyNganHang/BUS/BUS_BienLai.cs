@@ -37,6 +37,31 @@ namespace BUS
             return bl.TimBLTheoMaKH(mablkh);
         }
 
+        public List<ET_BienLaiReport> LAYBL()
+        {
+            return bl.LAYBL();
+        }
+
+        public List<ET_BienLaiReport> LAYBLTheoMa(string ma)
+        {
+            return bl.LAYBLTheoMa(ma);
+        }
+
+        public List<ET_BienLaiReport> LayBLTheoLoai(string loai)
+        {
+            return bl.LayBLTheoLoai(loai);
+        }
+
+        public List<ET_BienLaiReport> LayBLTheoMaNV(string blmanv)
+        {
+            return bl.LayBLTheoMaNV(blmanv);
+        }
+
+        public List<ET_BienLaiReport> LayBLTheoMaKH(string blmakh)
+        {
+            return bl.LayBLTheoMaKH(blmakh);
+        }
+
         public bool ThemBL(ET_BienLai et)
         {
             return bl.ThemBL(et);

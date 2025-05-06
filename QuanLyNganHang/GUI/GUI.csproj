@@ -71,11 +71,23 @@
     <Compile Include="Frm_ChiNhanh.Designer.cs">
       <DependentUpon>Frm_ChiNhanh.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_DSBienLai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DSBienLai.Designer.cs">
+      <DependentUpon>Frm_DSBienLai.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_DSChiNhanh.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_DSChiNhanh.Designer.cs">
       <DependentUpon>Frm_DSChiNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DSHoTro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DSHoTro.Designer.cs">
+      <DependentUpon>Frm_DSHoTro.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_DSKhachHang.cs">
       <SubType>Form</SubType>
@@ -151,10 +163,28 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\BienLaiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BienLaiDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Report\ChiNhanhDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ChiNhanhDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\HoTroDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HoTroDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\KhachHangDataSet.cs">
+      <DependentUpon>KhachHangDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\KhachHangDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KhachHangDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Report\NhanVienDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -171,10 +201,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PhongBanDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Report\Rpt_DSBienLai.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_DSBienLai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Report\Rpt_DSChiNhanh.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Rpt_DSChiNhanh.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Rpt_DSHoTro.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_DSHoTro.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Report\Rpt_DSKhachHang.cs">
@@ -218,8 +260,14 @@
     <EmbeddedResource Include="Frm_ChiNhanh.resx">
       <DependentUpon>Frm_ChiNhanh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DSBienLai.resx">
+      <DependentUpon>Frm_DSBienLai.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_DSChiNhanh.resx">
       <DependentUpon>Frm_DSChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DSHoTro.resx">
+      <DependentUpon>Frm_DSHoTro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_DSKhachHang.resx">
       <DependentUpon>Frm_DSKhachHang.cs</DependentUpon>
@@ -266,9 +314,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Report\Rpt_DSBienLai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_DSBienLai.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report\Rpt_DSChiNhanh.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Rpt_DSChiNhanh.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Rpt_DSHoTro.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_DSHoTro.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\Rpt_DSKhachHang.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -299,6 +355,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Report\BienLaiDataSet.xsc">
+      <DependentUpon>BienLaiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\BienLaiDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BienLaiDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\BienLaiDataSet.xss">
+      <DependentUpon>BienLaiDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Report\ChiNhanhDataSet.xsc">
       <DependentUpon>ChiNhanhDataSet.xsd</DependentUpon>
     </None>
@@ -309,6 +376,28 @@
     </None>
     <None Include="Report\ChiNhanhDataSet.xss">
       <DependentUpon>ChiNhanhDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\HoTroDataSet.xsc">
+      <DependentUpon>HoTroDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\HoTroDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HoTroDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\HoTroDataSet.xss">
+      <DependentUpon>HoTroDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\KhachHangDataSet.xsc">
+      <DependentUpon>KhachHangDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\KhachHangDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KhachHangDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\KhachHangDataSet.xss">
+      <DependentUpon>KhachHangDataSet.xsd</DependentUpon>
     </None>
     <None Include="Report\NhanVienDataSet.xsc">
       <DependentUpon>NhanVienDataSet.xsd</DependentUpon>

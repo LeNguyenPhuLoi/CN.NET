@@ -116,13 +116,6 @@
       <Association Name="TIENTE_TAIKHOAN" Member="TIENTE" ThisKey="LOAITIEN" OtherKey="MATT" Type="TIENTE" IsForeignKey="true" />
     </Type>
   </Table>
-  <Table Name="dbo.TIENTE" Member="TIENTEs">
-    <Type Name="TIENTE">
-      <Column Name="MATT" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="TENTT" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
-      <Association Name="TIENTE_TAIKHOAN" Member="TAIKHOANs" ThisKey="MATT" OtherKey="LOAITIEN" Type="TAIKHOAN" />
-    </Type>
-  </Table>
   <Table Name="dbo.TKDANGNHAP" Member="TKDANGNHAPs">
     <Type Name="TKDANGNHAP">
       <Column Name="TENDN" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -130,6 +123,13 @@
       <Column Name="QUYEN" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
       <Column Name="MANV" Type="System.String" DbType="Char(10)" CanBeNull="true" />
       <Association Name="NHANVIEN_TKDANGNHAP" Member="NHANVIEN" ThisKey="MANV" OtherKey="MANV" Type="NHANVIEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIENTE" Member="TIENTEs">
+    <Type Name="TIENTE">
+      <Column Name="MATT" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENTT" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Association Name="TIENTE_TAIKHOAN" Member="TAIKHOANs" ThisKey="MATT" OtherKey="LOAITIEN" Type="TAIKHOAN" />
     </Type>
   </Table>
   <Table Name="dbo.VIPHAM" Member="VIPHAMs">

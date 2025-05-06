@@ -32,10 +32,10 @@ namespace ET
 
     public class ET_HoTroReport
     {
-        public string MaKH { get; set; }
+        public string MAKH { get; set; }
         public string DVHT { get; set; }
-        public string MaNV { get; set; }
-        public string MaKM { get; set; }
+        public string MANV { get; set; }
+        public string MAKM { get; set; }
         
     }
 }

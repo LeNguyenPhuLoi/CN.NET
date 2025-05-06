@@ -60,12 +60,12 @@ namespace DAL
     partial void InsertTAIKHOAN(TAIKHOAN instance);
     partial void UpdateTAIKHOAN(TAIKHOAN instance);
     partial void DeleteTAIKHOAN(TAIKHOAN instance);
-    partial void InsertTIENTE(TIENTE instance);
-    partial void UpdateTIENTE(TIENTE instance);
-    partial void DeleteTIENTE(TIENTE instance);
     partial void InsertTKDANGNHAP(TKDANGNHAP instance);
     partial void UpdateTKDANGNHAP(TKDANGNHAP instance);
     partial void DeleteTKDANGNHAP(TKDANGNHAP instance);
+    partial void InsertTIENTE(TIENTE instance);
+    partial void UpdateTIENTE(TIENTE instance);
+    partial void DeleteTIENTE(TIENTE instance);
     partial void InsertVIPHAM(VIPHAM instance);
     partial void UpdateVIPHAM(VIPHAM instance);
     partial void DeleteVIPHAM(VIPHAM instance);
@@ -181,19 +181,19 @@ namespace DAL
 			}
 		}
 		
-		public System.Data.Linq.Table<TIENTE> TIENTEs
-		{
-			get
-			{
-				return this.GetTable<TIENTE>();
-			}
-		}
-		
 		public System.Data.Linq.Table<TKDANGNHAP> TKDANGNHAPs
 		{
 			get
 			{
 				return this.GetTable<TKDANGNHAP>();
+			}
+		}
+		
+		public System.Data.Linq.Table<TIENTE> TIENTEs
+		{
+			get
+			{
+				return this.GetTable<TIENTE>();
 			}
 		}
 		
@@ -2670,120 +2670,6 @@ namespace DAL
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.TIENTE")]
-	public partial class TIENTE : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private string _MATT;
-		
-		private string _TENTT;
-		
-		private EntitySet<TAIKHOAN> _TAIKHOANs;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnMATTChanging(string value);
-    partial void OnMATTChanged();
-    partial void OnTENTTChanging(string value);
-    partial void OnTENTTChanged();
-    #endregion
-		
-		public TIENTE()
-		{
-			this._TAIKHOANs = new EntitySet<TAIKHOAN>(new Action<TAIKHOAN>(this.attach_TAIKHOANs), new Action<TAIKHOAN>(this.detach_TAIKHOANs));
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MATT", DbType="Char(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string MATT
-		{
-			get
-			{
-				return this._MATT;
-			}
-			set
-			{
-				if ((this._MATT != value))
-				{
-					this.OnMATTChanging(value);
-					this.SendPropertyChanging();
-					this._MATT = value;
-					this.SendPropertyChanged("MATT");
-					this.OnMATTChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TENTT", DbType="NVarChar(30)")]
-		public string TENTT
-		{
-			get
-			{
-				return this._TENTT;
-			}
-			set
-			{
-				if ((this._TENTT != value))
-				{
-					this.OnTENTTChanging(value);
-					this.SendPropertyChanging();
-					this._TENTT = value;
-					this.SendPropertyChanged("TENTT");
-					this.OnTENTTChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="TIENTE_TAIKHOAN", Storage="_TAIKHOANs", ThisKey="MATT", OtherKey="LOAITIEN")]
-		public EntitySet<TAIKHOAN> TAIKHOANs
-		{
-			get
-			{
-				return this._TAIKHOANs;
-			}
-			set
-			{
-				this._TAIKHOANs.Assign(value);
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-		
-		private void attach_TAIKHOANs(TAIKHOAN entity)
-		{
-			this.SendPropertyChanging();
-			entity.TIENTE = this;
-		}
-		
-		private void detach_TAIKHOANs(TAIKHOAN entity)
-		{
-			this.SendPropertyChanging();
-			entity.TIENTE = null;
-		}
-	}
-	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.TKDANGNHAP")]
 	public partial class TKDANGNHAP : INotifyPropertyChanging, INotifyPropertyChanged
 	{
@@ -2956,6 +2842,120 @@ namespace DAL
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.TIENTE")]
+	public partial class TIENTE : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _MATT;
+		
+		private string _TENTT;
+		
+		private EntitySet<TAIKHOAN> _TAIKHOANs;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMATTChanging(string value);
+    partial void OnMATTChanged();
+    partial void OnTENTTChanging(string value);
+    partial void OnTENTTChanged();
+    #endregion
+		
+		public TIENTE()
+		{
+			this._TAIKHOANs = new EntitySet<TAIKHOAN>(new Action<TAIKHOAN>(this.attach_TAIKHOANs), new Action<TAIKHOAN>(this.detach_TAIKHOANs));
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MATT", DbType="Char(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string MATT
+		{
+			get
+			{
+				return this._MATT;
+			}
+			set
+			{
+				if ((this._MATT != value))
+				{
+					this.OnMATTChanging(value);
+					this.SendPropertyChanging();
+					this._MATT = value;
+					this.SendPropertyChanged("MATT");
+					this.OnMATTChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TENTT", DbType="NVarChar(30)")]
+		public string TENTT
+		{
+			get
+			{
+				return this._TENTT;
+			}
+			set
+			{
+				if ((this._TENTT != value))
+				{
+					this.OnTENTTChanging(value);
+					this.SendPropertyChanging();
+					this._TENTT = value;
+					this.SendPropertyChanged("TENTT");
+					this.OnTENTTChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="TIENTE_TAIKHOAN", Storage="_TAIKHOANs", ThisKey="MATT", OtherKey="LOAITIEN")]
+		public EntitySet<TAIKHOAN> TAIKHOANs
+		{
+			get
+			{
+				return this._TAIKHOANs;
+			}
+			set
+			{
+				this._TAIKHOANs.Assign(value);
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_TAIKHOANs(TAIKHOAN entity)
+		{
+			this.SendPropertyChanging();
+			entity.TIENTE = this;
+		}
+		
+		private void detach_TAIKHOANs(TAIKHOAN entity)
+		{
+			this.SendPropertyChanging();
+			entity.TIENTE = null;
 		}
 	}
 	

@@ -36,7 +36,7 @@
             this.btn_lammoi = new System.Windows.Forms.Button();
             this.btn_tim = new System.Windows.Forms.Button();
             this.crv_khachhang = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.Rpt_DSKhachHang1 = new GUI.Report.Rpt_DSKhachHang();
+            this.Rpt_DSKhachHang2 = new GUI.Report.Rpt_DSKhachHang();
             this.SuspendLayout();
             // 
             // label1
@@ -123,7 +123,7 @@
             this.crv_khachhang.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.crv_khachhang.Location = new System.Drawing.Point(0, 57);
             this.crv_khachhang.Name = "crv_khachhang";
-            this.crv_khachhang.ReportSource = this.Rpt_DSKhachHang1;
+            this.crv_khachhang.ReportSource = this.Rpt_DSKhachHang2;
             this.crv_khachhang.Size = new System.Drawing.Size(1270, 526);
             this.crv_khachhang.TabIndex = 7;
             // 
@@ -159,6 +159,6 @@
         private System.Windows.Forms.Button btn_lammoi;
         private System.Windows.Forms.Button btn_tim;
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crv_khachhang;
-        private Report.Rpt_DSKhachHang Rpt_DSKhachHang1;
+        private Report.Rpt_DSKhachHang Rpt_DSKhachHang2;
     }
 }

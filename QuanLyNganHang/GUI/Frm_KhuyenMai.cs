@@ -25,6 +25,7 @@ namespace GUI
         private void Frm_KhuyenMai_Load(object sender, EventArgs e)
         {
             dgv_khuyenmai.DataSource = BUS_KhuyenMai.LoadKM();
+            cbo_phuongthuctim.SelectedIndex = 0;
         }
 
         public void Clear()
@@ -157,6 +158,27 @@ namespace GUI
                 MessageBox.Show("Lỗi " + ex.Message);
             }
             dgv_khuyenmai.DataSource = BUS_KhuyenMai.LoadKM();
+        }
+
+        private void btn_tim_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                switch (cbo_phuongthuctim.Text)
+                {
+                    case "Mã Khuyến Mãi":
+                        dgv_khuyenmai.DataSource = BUS_KhuyenMai.TimKMTheoMa(txt_kytu.Text);
+                        break;
+
+                    case "Tên Khuyến Mãi":
+                        dgv_khuyenmai.DataSource = BUS_KhuyenMai.TimKMTheoTen(txt_kytu.Text);
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
         }
     }
 }

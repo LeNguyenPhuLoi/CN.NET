@@ -48,6 +48,47 @@ namespace DAL
             return HT;
         }
 
+        public List<ET_HoTroReport> LayHT()
+        {
+            var clone = from ht in db.HOTROs
+                        select new ET_HoTroReport
+                        {
+                            MAKH = ht.MAKH,
+                            DVHT = ht.DVHT,
+                            MANV = ht.MANV,
+                            MAKM = ht.MAKM,
+                        };
+            return clone.ToList();
+        }
+
+        public List<ET_HoTroReport> LayHTTheoMa(string ma)
+        {
+            var clone = from ht in db.HOTROs
+                        where ht.MAKH.Contains(ma)
+                        select new ET_HoTroReport
+                        {
+                            MAKH = ht.MAKH,
+                            DVHT = ht.DVHT,
+                            MANV = ht.MANV,
+                            MAKM = ht.MAKM,
+                        };
+            return clone.ToList();
+        }
+
+        public List<ET_HoTroReport> LayHTTheoDVHT(string dvht)
+        {
+            var clone = from ht in db.HOTROs
+                        where ht.DVHT.Contains(dvht)
+                        select new ET_HoTroReport
+                        {
+                            MAKH = ht.MAKH,
+                            DVHT = ht.DVHT,
+                            MANV = ht.MANV,
+                            MAKM = ht.MAKM,
+                        };
+            return clone.ToList();
+        }
+
         public bool ThemHT(ET_HoTro et)
         {
             bool clone = false;

@@ -45,9 +45,9 @@
             this.btn_lammoi = new System.Windows.Forms.Button();
             this.btn_thoat = new System.Windows.Forms.Button();
             this.cbo_dvht = new System.Windows.Forms.ComboBox();
-            this.cbo_nv = new System.Windows.Forms.ComboBox();
-            this.cbo_km = new System.Windows.Forms.ComboBox();
             this.cbo_timdvht = new System.Windows.Forms.ComboBox();
+            this.txt_manv = new System.Windows.Forms.TextBox();
+            this.txt_makm = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_hotro)).BeginInit();
             this.SuspendLayout();
             // 
@@ -237,38 +237,6 @@
             this.cbo_dvht.Size = new System.Drawing.Size(217, 33);
             this.cbo_dvht.TabIndex = 0;
             // 
-            // cbo_nv
-            // 
-            this.cbo_nv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbo_nv.FormattingEnabled = true;
-            this.cbo_nv.Items.AddRange(new object[] {
-            "THÔNG DỊCH THỊ TRƯỜNG",
-            "TƯ VẤN ĐẦU TƯ",
-            "GIAO DỊCH NGOẠI TỆ",
-            "NẠP TIỀN",
-            "CHUYỂN KHOẢN",
-            "TẠO TÀI KHOẢN"});
-            this.cbo_nv.Location = new System.Drawing.Point(684, 105);
-            this.cbo_nv.Name = "cbo_nv";
-            this.cbo_nv.Size = new System.Drawing.Size(217, 33);
-            this.cbo_nv.TabIndex = 19;
-            // 
-            // cbo_km
-            // 
-            this.cbo_km.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbo_km.FormattingEnabled = true;
-            this.cbo_km.Items.AddRange(new object[] {
-            "THÔNG DỊCH THỊ TRƯỜNG",
-            "TƯ VẤN ĐẦU TƯ",
-            "GIAO DỊCH NGOẠI TỆ",
-            "NẠP TIỀN",
-            "CHUYỂN KHOẢN",
-            "TẠO TÀI KHOẢN"});
-            this.cbo_km.Location = new System.Drawing.Point(684, 198);
-            this.cbo_km.Name = "cbo_km";
-            this.cbo_km.Size = new System.Drawing.Size(217, 33);
-            this.cbo_km.TabIndex = 20;
-            // 
             // cbo_timdvht
             // 
             this.cbo_timdvht.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -285,14 +253,30 @@
             this.cbo_timdvht.Size = new System.Drawing.Size(217, 33);
             this.cbo_timdvht.TabIndex = 21;
             // 
+            // txt_manv
+            // 
+            this.txt_manv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_manv.Location = new System.Drawing.Point(697, 105);
+            this.txt_manv.Name = "txt_manv";
+            this.txt_manv.Size = new System.Drawing.Size(189, 30);
+            this.txt_manv.TabIndex = 22;
+            // 
+            // txt_makm
+            // 
+            this.txt_makm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_makm.Location = new System.Drawing.Point(697, 200);
+            this.txt_makm.Name = "txt_makm";
+            this.txt_makm.Size = new System.Drawing.Size(189, 30);
+            this.txt_makm.TabIndex = 23;
+            // 
             // Frm_HoTro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1325, 616);
+            this.Controls.Add(this.txt_makm);
+            this.Controls.Add(this.txt_manv);
             this.Controls.Add(this.cbo_timdvht);
-            this.Controls.Add(this.cbo_km);
-            this.Controls.Add(this.cbo_nv);
             this.Controls.Add(this.cbo_dvht);
             this.Controls.Add(this.btn_thoat);
             this.Controls.Add(this.btn_lammoi);
@@ -339,8 +323,8 @@
         private System.Windows.Forms.Button btn_lammoi;
         private System.Windows.Forms.Button btn_thoat;
         private System.Windows.Forms.ComboBox cbo_dvht;
-        private System.Windows.Forms.ComboBox cbo_nv;
-        private System.Windows.Forms.ComboBox cbo_km;
         private System.Windows.Forms.ComboBox cbo_timdvht;
+        private System.Windows.Forms.TextBox txt_manv;
+        private System.Windows.Forms.TextBox txt_makm;
     }
 }

@@ -37,6 +37,20 @@ namespace BUS
             return ht.TimHTTheoDVHT(htdvht);
         }
 
+        public List<ET_HoTroReport> LayHT()
+        {
+            return ht.LayHT();
+        }
+
+        public List<ET_HoTroReport> LayHTTheoMa(string ma)
+        {
+            return ht.LayHTTheoMa(ma);
+        }
+
+        public List<ET_HoTroReport> LayHTTheoDVHT(string dvht)
+        {
+            return ht.LayHTTheoDVHT(dvht);
+        }
         public bool ThemHT(ET_HoTro et)
         {
             return ht.ThemHT(et);

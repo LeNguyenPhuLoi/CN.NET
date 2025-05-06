@@ -25,24 +25,15 @@ namespace GUI
         private void Frm_HoTro_Load(object sender, EventArgs e)
         {
             dgv_hotro.DataSource = BUS_HoTro.LoadHT();
-            AddToCBO(BUS_HoTro.LoadMaNV(), cbo_nv);
-            AddToCBO(BUS_HoTro.LoadMaKM(), cbo_km);
             cbo_dvht.SelectedIndex = 0;
             cbo_phuongthuctim.SelectedIndex = 0;
             cbo_timdvht.SelectedIndex = 0;
         }
 
-        public void AddToCBO(IQueryable list, ComboBox cbo)
-        {
-            foreach (var item in list)
-            {
-                cbo.Items.Add(item);
-            }
-        }
         public void Clear()
         {
-            cbo_nv.Text = null;
-            cbo_km.Text = null;
+            txt_manv.Clear();
+            txt_manv.Clear();
             cbo_dvht.SelectedIndex = 0;
             txt_makh.Clear();
             dgv_hotro.DataSource = BUS_HoTro.LoadHT();
@@ -79,8 +70,8 @@ namespace GUI
                 int dong = dgv_hotro.CurrentCell.RowIndex;
                 txt_makh.Text = dgv_hotro.Rows[dong].Cells[0].Value.ToString();
                 cbo_dvht.Text = dgv_hotro.Rows[dong].Cells[1].Value.ToString();
-                cbo_nv.Text = dgv_hotro.Rows[dong].Cells[2].Value.ToString();
-                cbo_km.Text = dgv_hotro.Rows[dong].Cells[3].Value.ToString();
+                txt_manv.Text = dgv_hotro.Rows[dong].Cells[2].Value.ToString();
+                txt_makm.Text = dgv_hotro.Rows[dong].Cells[3].Value.ToString();
             }
             catch(Exception ex)
             {
@@ -94,8 +85,8 @@ namespace GUI
             {
                 ET_HoTro ht = new ET_HoTro(txt_makh.Text,
                                             cbo_dvht.Text,
-                                            cbo_nv.Text,
-                                            cbo_km.Text);
+                                            txt_manv.Text,
+                                            txt_makm.Text);
                 if (BUS_HoTro.ThemHT(ht) == true)
                 {
                     MessageBox.Show("Thêm thành công!");
@@ -119,9 +110,9 @@ namespace GUI
             {
                 ET_HoTro ht = new ET_HoTro(txt_makh.Text,
                                             cbo_dvht.Text,
-                                            cbo_nv.Text,
-                                            cbo_km.Text);
-                if (BUS_HoTro.SuaHT(ht) == true)
+                                           txt_manv.Text,
+                                            txt_makm.Text);
+                if (BUS_HoTro.SuaHT(ht) == false)
                 {
                     MessageBox.Show("Sửa thành công!");
                     Clear();
@@ -147,8 +138,8 @@ namespace GUI
                 {
                 ET_HoTro ht = new ET_HoTro(txt_makh.Text,
                                             cbo_dvht.Text,
-                                            cbo_nv.Text,
-                                            cbo_km.Text);
+                                            txt_manv.Text,
+                                            txt_makm.Text);
                 if (BUS_HoTro.XoaHT(ht) == true)
                 {
                     MessageBox.Show("Xóa thành công!");

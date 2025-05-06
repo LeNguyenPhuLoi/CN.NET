@@ -44,7 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL_BienLai.cs" />
     <Compile Include="DAL_ChiNhanh.cs" />
+    <Compile Include="DAL_HoTro.cs" />
+    <Compile Include="DAL_KhachHang.cs" />
+    <Compile Include="DAL_KhuyenMai.cs" />
     <Compile Include="DAL_NhanVien.cs" />
     <Compile Include="DAL_NoiQuy.cs" />
     <Compile Include="DAL_PhongBan.cs" />
@@ -85,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

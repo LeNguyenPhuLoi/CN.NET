@@ -26,4 +26,12 @@ namespace ET
         public float MucPhat { get => _MucPhat; set => _MucPhat = value; }
         public string GhiChu { get => _GhiChu; set => _GhiChu = value; }
     }
+
+    public class ET_NoiQuyReport
+    {
+        public string MaNQ { get; set; }
+        public string MoTa { get; set; }
+        public float MucPhat { get; set; }
+        public string GhiChu { get; set; }
+    }
 }

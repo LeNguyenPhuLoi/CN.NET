@@ -25,11 +25,15 @@ namespace GUI
         private void Frm_ViPham_Load(object sender, EventArgs e)
         {
             dtp_NgayViPham.MaxDate = DateTime.Now;
+            dtp_TimNgay.MaxDate = DateTime.Now;
             dgv_ViPham.DataSource = BUS_ViPham.LoadVP();
             dgv_ViPham.Columns["NOIQUY"].Visible = false;
             dgv_ViPham.Columns["NHANVIEN"].Visible = false;
             AddToCBO(BUS_ViPham.LoadTenNV(), cbo_NhanVien);
             AddToCBO(BUS_ViPham.LoadMoTaNQ(), cbo_NoiQuy);
+            AddToCBO(BUS_ViPham.LoadTenNV(), cbo_TimNV);
+            AddToCBO(BUS_ViPham.LoadMoTaNQ(), cbo_TimNQ);
+            cbo_PhuongThucTim.SelectedIndex = 0;
         }
 
         public void AddToCBO(IQueryable list, ComboBox c)
@@ -49,6 +53,16 @@ namespace GUI
             txt_TienPhat.Clear();
             txt_SoLanViPham.Clear();
             rtxt_GhiChu.Clear();
+            cbo_PhuongThucTim.SelectedIndex = 0;
+            txt_TuKhoa.Clear();
+            dtp_TimNgay.Value = dtp_TimNgay.MaxDate;
+            txt_TuKhoa.Visible = true;
+            dtp_TimNgay.Visible = false;
+            cbo_TimNV.Text = null;
+            cbo_TimNV.Visible = false;
+            cbo_TimNQ.Text = null;
+            cbo_TimNQ.Visible = false;
+            dgv_ViPham.DataSource = BUS_ViPham.LoadVP();
         }
 
         private void btn_LamMoi_Click(object sender, EventArgs e)
@@ -120,85 +134,176 @@ namespace GUI
 
         private void btn_Them_Click(object sender, EventArgs e)
         {
-            if (txt_SoLanViPham.Text != "")
+            try
             {
-                ET_ViPham vp = new ET_ViPham(txt_MaVP.Text,
-                                            BUS_ViPham.LayMaNVTheoTen(cbo_NhanVien.Text),
-                                            BUS_ViPham.LayMaNQTheoMoTa(cbo_NoiQuy.Text),
-                                            Convert.ToDateTime(dtp_NgayViPham.Text),
-                                            float.Parse(txt_TienPhat.Text),
-                                            Convert.ToInt32(txt_SoLanViPham.Text),
-                                            rtxt_GhiChu.Text);
-                if (BUS_ViPham.ThemVP(vp) == true)
+                if (txt_SoLanViPham.Text != "")
                 {
-                    MessageBox.Show("Thêm thành công!");
-                    Clear();
+                    ET_ViPham vp = new ET_ViPham(txt_MaVP.Text,
+                                                BUS_ViPham.LayMaNVTheoTen(cbo_NhanVien.Text),
+                                                BUS_ViPham.LayMaNQTheoMoTa(cbo_NoiQuy.Text),
+                                                Convert.ToDateTime(dtp_NgayViPham.Text),
+                                                float.Parse(txt_TienPhat.Text),
+                                                Convert.ToInt32(txt_SoLanViPham.Text),
+                                                rtxt_GhiChu.Text);
+                    if (BUS_ViPham.ThemVP(vp) == true)
+                    {
+                        MessageBox.Show("Thêm thành công!");
+                        Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Thêm không thành công!");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Thêm không thành công!");
+                    MessageBox.Show("Số lần vi phạm không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                dgv_ViPham.DataSource = BUS_ViPham.LoadVP();
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Số lần vi phạm không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Lỗi " + ex.Message);
             }
+            dgv_ViPham.DataSource = BUS_ViPham.LoadVP();
         }
 
         private void btn_Sua_Click(object sender, EventArgs e)
         {
-            if (txt_SoLanViPham.Text != "")
+            try
             {
-                ET_ViPham vp = new ET_ViPham(txt_MaVP.Text,
-                                            BUS_ViPham.LayMaNVTheoTen(cbo_NhanVien.Text),
-                                            BUS_ViPham.LayMaNQTheoMoTa(cbo_NoiQuy.Text),
-                                            Convert.ToDateTime(dtp_NgayViPham.Text),
-                                            float.Parse(txt_TienPhat.Text),
-                                            Convert.ToInt32(txt_SoLanViPham.Text),
-                                            rtxt_GhiChu.Text);
-                if (BUS_ViPham.SuaVP(vp) == true)
+                if (txt_SoLanViPham.Text != "")
                 {
-                    MessageBox.Show("Sửa thành công!");
-                    Clear();
+                    ET_ViPham vp = new ET_ViPham(txt_MaVP.Text,
+                                                BUS_ViPham.LayMaNVTheoTen(cbo_NhanVien.Text),
+                                                BUS_ViPham.LayMaNQTheoMoTa(cbo_NoiQuy.Text),
+                                                Convert.ToDateTime(dtp_NgayViPham.Text),
+                                                float.Parse(txt_TienPhat.Text),
+                                                Convert.ToInt32(txt_SoLanViPham.Text),
+                                                rtxt_GhiChu.Text);
+                    if (BUS_ViPham.SuaVP(vp) == true)
+                    {
+                        MessageBox.Show("Sửa thành công!");
+                        Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Sửa không thành công!");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Sửa không thành công!");
+                    MessageBox.Show("Số lần vi phạm không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                dgv_ViPham.DataSource = BUS_ViPham.LoadVP();
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Số lần vi phạm không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Lỗi " + ex.Message);
             }
+            dgv_ViPham.DataSource = BUS_ViPham.LoadVP();
         }
 
         private void btn_Xoa_Click(object sender, EventArgs e)
         {
-            if (txt_SoLanViPham.Text != "")
+            try
             {
-                ET_ViPham vp = new ET_ViPham(txt_MaVP.Text,
-                                            BUS_ViPham.LayMaNVTheoTen(cbo_NhanVien.Text),
-                                            BUS_ViPham.LayMaNQTheoMoTa(cbo_NoiQuy.Text),
-                                            Convert.ToDateTime(dtp_NgayViPham.Text),
-                                            float.Parse(txt_TienPhat.Text),
-                                            Convert.ToInt32(txt_SoLanViPham.Text),
-                                            rtxt_GhiChu.Text);
-                if (BUS_ViPham.XoaVP(vp) == true)
+                if (txt_SoLanViPham.Text != "")
                 {
-                    MessageBox.Show("Xóa thành công!");
-                    Clear();
+                    ET_ViPham vp = new ET_ViPham(txt_MaVP.Text,
+                                                BUS_ViPham.LayMaNVTheoTen(cbo_NhanVien.Text),
+                                                BUS_ViPham.LayMaNQTheoMoTa(cbo_NoiQuy.Text),
+                                                Convert.ToDateTime(dtp_NgayViPham.Text),
+                                                float.Parse(txt_TienPhat.Text),
+                                                Convert.ToInt32(txt_SoLanViPham.Text),
+                                                rtxt_GhiChu.Text);
+                    if (BUS_ViPham.XoaVP(vp) == true)
+                    {
+                        MessageBox.Show("Xóa thành công!");
+                        Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa không thành công!");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Xóa không thành công!");
+                    MessageBox.Show("Số lần vi phạm không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                dgv_ViPham.DataSource = BUS_ViPham.LoadVP();
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Số lần vi phạm không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
+            dgv_ViPham.DataSource = BUS_ViPham.LoadVP();
+        }
+
+        private void cbo_PhuongThucTim_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                switch (cbo_PhuongThucTim.Text)
+                {
+                    case "Mã Vi Phạm":
+                        txt_TuKhoa.Visible = true;
+                        dtp_TimNgay.Visible = false;
+                        cbo_TimNV.Visible = false;
+                        cbo_TimNQ.Visible = false;
+                        break;
+
+                    case "Nhân Viên":
+                        txt_TuKhoa.Visible = false;
+                        dtp_TimNgay.Visible = false;
+                        cbo_TimNV.Visible = true;
+                        cbo_TimNQ.Visible = false;
+                        break;
+
+                    case "Nội Quy":
+                        txt_TuKhoa.Visible = false;
+                        dtp_TimNgay.Visible = false;
+                        cbo_TimNV.Visible = false;
+                        cbo_TimNQ.Visible = true;
+                        break;
+
+                    case "Ngày Vi Phạm":
+                        txt_TuKhoa.Visible = false;
+                        dtp_TimNgay.Visible = true;
+                        cbo_TimNV.Visible = false;
+                        cbo_TimNQ.Visible = false;
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
+        }
+
+        private void btn_Tim_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                switch (cbo_PhuongThucTim.Text)
+                {
+                    case "Mã Vi Phạm":
+                        dgv_ViPham.DataSource = BUS_ViPham.TimVPTheoMa(txt_TuKhoa.Text);
+                        break;
+
+                    case "Nhân Viên":
+                        dgv_ViPham.DataSource = BUS_ViPham.TimVPTheoTenNV(cbo_TimNV.Text);
+                        break;
+
+                    case "Nội Quy":
+                        dgv_ViPham.DataSource = BUS_ViPham.TimVPTheoMoTa(cbo_TimNQ.Text);
+                        break;
+
+                    case "Ngày Vi Phạm":
+                        dgv_ViPham.DataSource = BUS_ViPham.TimVPTheoNgay(dtp_TimNgay.Value);
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
             }
         }
     }

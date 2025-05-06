@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLNH" Class="QLNHDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-IRNS9V5;Initial Catalog=QLNH;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="QLNHConnectionString" Provider="System.Data.SqlClient" />
-  <Table Name="dbo.TIENTE" Member="TIENTEs">
-    <Type Name="TIENTE">
-      <Column Name="MATT" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="TENTT" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
-      <Association Name="TIENTE_TAIKHOAN" Member="TAIKHOANs" ThisKey="MATT" OtherKey="LOAITIEN" Type="TAIKHOAN" />
-    </Type>
-  </Table>
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ADMIN-PC\SQLEXPRESS;Initial Catalog=QLNH;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="QLNHConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.BIENLAI" Member="BIENLAIs">
     <Type Name="BIENLAI">
       <Column Name="MABL" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="LOAIBL" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
-      <Column Name="NGAYLAP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="SOTIEN" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="NGAYLAP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="MANV" Type="System.String" DbType="Char(10)" CanBeNull="true" />
       <Column Name="MaKH" Type="System.String" DbType="Char(10)" CanBeNull="true" />
       <Association Name="KHACHHANG_BIENLAI" Member="KHACHHANG" ThisKey="MaKH" OtherKey="MAKH" Type="KHACHHANG" IsForeignKey="true" />
@@ -31,8 +24,8 @@
     <Type Name="HOTRO">
       <Column Name="MAKH" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="DVHT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="MAKM" Type="System.String" DbType="Char(10)" CanBeNull="true" />
       <Column Name="MANV" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MAKM" Type="System.String" DbType="Char(10)" CanBeNull="true" />
       <Association Name="KHACHHANG_HOTRO" Member="KHACHHANG" ThisKey="MAKH" OtherKey="MAKH" Type="KHACHHANG" IsForeignKey="true" />
       <Association Name="KHUYENMAI_HOTRO" Member="KHUYENMAI" ThisKey="MAKM" OtherKey="MAKM" Type="KHUYENMAI" IsForeignKey="true" />
       <Association Name="NHANVIEN_HOTRO" Member="NHANVIEN" ThisKey="MANV" OtherKey="MANV" Type="NHANVIEN" IsForeignKey="true" />
@@ -57,7 +50,6 @@
       <Column Name="TENKM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="NGAYBATDAU" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="NGAYKETTHUC" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="PHANTRAMGIAM" Type="System.Double" DbType="Float" CanBeNull="true" />
       <Column Name="DIEUKIEN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
       <Association Name="KHUYENMAI_HOTRO" Member="HOTROs" ThisKey="MAKM" OtherKey="MAKM" Type="HOTRO" />
     </Type>
@@ -67,6 +59,15 @@
       <Column Name="MALOAI" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="TENNH" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
       <Association Name="LOAITAIKHOAN_TAIKHOAN" Member="TAIKHOANs" ThisKey="MALOAI" OtherKey="LOAITK" Type="TAIKHOAN" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NOIQUY" Member="NOIQUYs">
+    <Type Name="NOIQUY">
+      <Column Name="MANQ" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MOTA" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MUCPHAT" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(225)" CanBeNull="true" />
+      <Association Name="NOIQUY_VIPHAM" Member="VIPHAMs" ThisKey="MANQ" OtherKey="MANQ" Type="VIPHAM" />
     </Type>
   </Table>
   <Table Name="dbo.NHANVIEN" Member="NHANVIENs">
@@ -91,15 +92,6 @@
       <Association Name="PHONGBAN_NHANVIEN" Member="PHONGBAN" ThisKey="MAPB" OtherKey="MAPB" Type="PHONGBAN" IsForeignKey="true" />
     </Type>
   </Table>
-  <Table Name="dbo.NOIQUY" Member="NOIQUYs">
-    <Type Name="NOIQUY">
-      <Column Name="MANQ" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="MOTA" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
-      <Column Name="MUCPHAT" Type="System.Double" DbType="Float" CanBeNull="true" />
-      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(225)" CanBeNull="true" />
-      <Association Name="NOIQUY_VIPHAM" Member="VIPHAMs" ThisKey="MANQ" OtherKey="MANQ" Type="VIPHAM" />
-    </Type>
-  </Table>
   <Table Name="dbo.PHONGBAN" Member="PHONGBANs">
     <Type Name="PHONGBAN">
       <Column Name="MAPB" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -122,6 +114,13 @@
       <Association Name="LOAITAIKHOAN_TAIKHOAN" Member="LOAITAIKHOAN" ThisKey="LOAITK" OtherKey="MALOAI" Type="LOAITAIKHOAN" IsForeignKey="true" />
       <Association Name="NHANVIEN_TAIKHOAN" Member="NHANVIEN" ThisKey="MANV" OtherKey="MANV" Type="NHANVIEN" IsForeignKey="true" />
       <Association Name="TIENTE_TAIKHOAN" Member="TIENTE" ThisKey="LOAITIEN" OtherKey="MATT" Type="TIENTE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIENTE" Member="TIENTEs">
+    <Type Name="TIENTE">
+      <Column Name="MATT" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENTT" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Association Name="TIENTE_TAIKHOAN" Member="TAIKHOANs" ThisKey="MATT" OtherKey="LOAITIEN" Type="TAIKHOAN" />
     </Type>
   </Table>
   <Table Name="dbo.TKDANGNHAP" Member="TKDANGNHAPs">

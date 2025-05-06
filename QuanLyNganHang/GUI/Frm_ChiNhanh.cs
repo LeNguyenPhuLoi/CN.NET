@@ -25,6 +25,7 @@ namespace GUI
         private void Frm_ChiNhanh_Load(object sender, EventArgs e)
         {
             dgv_ChiNhanh.DataSource = BUS_ChiNhanh.LoadCN();
+            cbo_PhuongThucTim.SelectedIndex = 0;
         }
 
         public void Clear()
@@ -32,6 +33,9 @@ namespace GUI
             txt_MaCN.Clear();
             txt_TenCN.Clear();
             txt_DiaChi.Clear();
+            cbo_PhuongThucTim.SelectedIndex = 0;
+            txt_TuKhoa.Clear();
+            dgv_ChiNhanh.DataSource = BUS_ChiNhanh.LoadCN();
         }
 
         private void btn_LamMoi_Click(object sender, EventArgs e)
@@ -59,16 +63,24 @@ namespace GUI
 
         private void btn_Them_Click(object sender, EventArgs e)
         {
-            ET_ChiNhanh cn = new ET_ChiNhanh(txt_MaCN.Text,txt_TenCN.Text,txt_DiaChi.Text);
-            if(BUS_ChiNhanh.ThemCN(cn) == true)
+            try
             {
-                MessageBox.Show("Thêm thành công!");
-                Clear();
+                ET_ChiNhanh cn = new ET_ChiNhanh(txt_MaCN.Text,txt_TenCN.Text,txt_DiaChi.Text);
+                if(BUS_ChiNhanh.ThemCN(cn) == true)
+                {
+                    MessageBox.Show("Thêm thành công!");
+                    Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Thêm không thành công!");
+                }
             }
-            else
+            catch(Exception ex)
             {
-                MessageBox.Show("Thêm không thành công!");
+                MessageBox.Show("Lỗi " + ex.Message);
             }
+            
             dgv_ChiNhanh.DataSource = BUS_ChiNhanh.LoadCN();
         }
 
@@ -89,16 +101,24 @@ namespace GUI
 
         private void btn_Sua_Click(object sender, EventArgs e)
         {
-            ET_ChiNhanh cn = new ET_ChiNhanh(txt_MaCN.Text, txt_TenCN.Text, txt_DiaChi.Text);
-            if (BUS_ChiNhanh.SuaCN(cn) == true)
+            try
             {
-                MessageBox.Show("Sửa thành công!");
-                Clear();
+                ET_ChiNhanh cn = new ET_ChiNhanh(txt_MaCN.Text, txt_TenCN.Text, txt_DiaChi.Text);
+                if (BUS_ChiNhanh.SuaCN(cn) == true)
+                {
+                    MessageBox.Show("Sửa thành công!");
+                    Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Sửa không thành công!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Sửa không thành công!");
+                MessageBox.Show("Lỗi " + ex.Message);
             }
+
             dgv_ChiNhanh.DataSource = BUS_ChiNhanh.LoadCN();
         }
 
@@ -107,18 +127,50 @@ namespace GUI
             DialogResult = MessageBox.Show("Bạn có muốn xóa?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (DialogResult == DialogResult.Yes)
             {
-                ET_ChiNhanh cn = new ET_ChiNhanh(txt_MaCN.Text, txt_TenCN.Text, txt_DiaChi.Text);
-                if (BUS_ChiNhanh.XoaCN(cn) == true)
+                try
                 {
-                    MessageBox.Show("Xóa thành công!");
-                    Clear();
+                    ET_ChiNhanh cn = new ET_ChiNhanh(txt_MaCN.Text, txt_TenCN.Text, txt_DiaChi.Text);
+                    if (BUS_ChiNhanh.XoaCN(cn) == true)
+                    {
+                        MessageBox.Show("Xóa thành công!");
+                        Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa không thành công!");
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Xóa không thành công!");
+                    MessageBox.Show("Lỗi " + ex.Message);
                 }
             }
             dgv_ChiNhanh.DataSource = BUS_ChiNhanh.LoadCN();
+        }
+
+        private void btn_Tim_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                switch (cbo_PhuongThucTim.Text)
+                {
+                    case "Mã Chi Nhánh":
+                        dgv_ChiNhanh.DataSource = BUS_ChiNhanh.TimCNTheoMa(txt_TuKhoa.Text);
+                        break;
+
+                    case "Tên Chi Nhánh":
+                        dgv_ChiNhanh.DataSource = BUS_ChiNhanh.TimCNTheoTen(txt_TuKhoa.Text);
+                        break;
+
+                    case "Địa Chỉ":
+                        dgv_ChiNhanh.DataSource = BUS_ChiNhanh.TimCNTheoDiaChi(txt_TuKhoa.Text);
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
         }
     }
 }

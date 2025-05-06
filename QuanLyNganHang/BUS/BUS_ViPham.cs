@@ -53,6 +53,51 @@ namespace BUS
             return vp.LayMucPhatTheoMoTa(mota);
         }
 
+        public IQueryable TimVPTheoMa(string ma)
+        {
+            return vp.TimVPTheoMa(ma);
+        }
+
+        public IQueryable TimVPTheoTenNV(string ten)
+        {
+            return vp.TimVPTheoTenNV(ten);
+        }
+
+        public IQueryable TimVPTheoMoTa(string mota)
+        {
+            return vp.TimVPTheoMoTa(mota);
+        }
+
+        public IQueryable TimVPTheoNgay(DateTime ngay)
+        {
+            return vp.TimVPTheoNgay(ngay);
+        }
+
+        public List<ET_ViPhamReport> LayVPChoReport()
+        {
+            return vp.LayVPChoReport();
+        }
+
+        public List<ET_ViPhamReport> LayVPChoReportTheoMaVP(string ma)
+        {
+            return vp.LayVPChoReportTheoMaVP(ma);
+        }
+
+        public List<ET_ViPhamReport> LayVPChoReportTheoTenNV(string ten)
+        {
+            return vp.LayVPChoReportTheoTenNV(ten);
+        }
+
+        public List<ET_ViPhamReport> LayVPChoReportTheoMoTa(string mota)
+        {
+            return vp.LayVPChoReportTheoMoTa(mota);
+        }
+
+        public List<ET_ViPhamReport> LayVPChoReportTheoNgay(DateTime ngay)
+        {
+            return vp.LayVPChoReportTheoNgay(ngay);
+        }
+
         public bool ThemVP(ET_ViPham et)
         {
             return vp.ThemVP(et);

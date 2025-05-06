@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\",
+  "WorkspaceRootPath": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net-ver1.1\\quanlynganhang\\gui\\frm_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\cn.net\\cn.net-main\\cn.net-main\\quanlynganhang\\gui\\frm_khuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_khuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net-ver1.1\\quanlynganhang\\gui\\frm_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\cn.net\\cn.net-main\\cn.net-main\\quanlynganhang\\gui\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net-ver1.1\\quanlynganhang\\gui\\frm_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\cn.net\\cn.net-main\\cn.net-main\\quanlynganhang\\gui\\frm_khuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_khuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B199A329-D398-42C8-A8FA-E0018639608C}|BUS\\BUS.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net-ver1.1\\quanlynganhang\\bus\\bus_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B199A329-D398-42C8-A8FA-E0018639608C}|BUS\\BUS.csproj|solutionrelative:bus\\bus_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|d:\\h\u1ECDc k\u00EC 4\\x\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0111\u1ED3 \u00E1n\\cn.net-ver1.1\\quanlynganhang\\dal\\dal_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|solutionrelative:dal\\dal_vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\cn.net\\cn.net-main\\cn.net-main\\quanlynganhang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\cn.net\\cn.net-main\\cn.net-main\\quanlynganhang\\gui\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\cn.net\\cn.net-main\\cn.net-main\\quanlynganhang\\gui\\frm_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\GUI\\Program.cs",
+              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\GUI\\Program.cs",
+              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:55:58.271Z",
               "IsPinned": true,
@@ -52,72 +52,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Frm_NhanVien.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\GUI\\Frm_NhanVien.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_NhanVien.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\GUI\\Frm_NhanVien.cs",
-              "RelativeToolTip": "GUI\\Frm_NhanVien.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAApwIkAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Frm_KhuyenMai.cs",
+              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_KhuyenMai.cs",
+              "RelativeDocumentMoniker": "GUI\\Frm_KhuyenMai.cs",
+              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_KhuyenMai.cs*",
+              "RelativeToolTip": "GUI\\Frm_KhuyenMai.cs*",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAswJUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T10:21:12.056Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-05-06T08:12:28.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Frm_ViPham.cs [Design]",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\GUI\\Frm_ViPham.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_ViPham.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\GUI\\Frm_ViPham.cs [Design]",
-              "RelativeToolTip": "GUI\\Frm_ViPham.cs [Design]",
+              "Title": "Frm_KhachHang.cs",
+              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_KhachHang.cs",
+              "RelativeDocumentMoniker": "GUI\\Frm_KhachHang.cs",
+              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_KhachHang.cs",
+              "RelativeToolTip": "GUI\\Frm_KhachHang.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAcwHoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T09:52:57.936Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-05-06T08:12:31.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Frm_KhuyenMai.cs [Design]",
+              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_KhuyenMai.cs",
+              "RelativeDocumentMoniker": "GUI\\Frm_KhuyenMai.cs",
+              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_KhuyenMai.cs [Design]*",
+              "RelativeToolTip": "GUI\\Frm_KhuyenMai.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:08:54.454Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Frm_ViPham.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\GUI\\Frm_ViPham.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_ViPham.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\GUI\\Frm_ViPham.cs",
-              "RelativeToolTip": "GUI\\Frm_ViPham.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAiwMIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T10:06:51.509Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DAL_ViPham.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\DAL\\DAL_ViPham.cs",
-              "RelativeDocumentMoniker": "DAL\\DAL_ViPham.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\DAL\\DAL_ViPham.cs",
-              "RelativeToolTip": "DAL\\DAL_ViPham.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwEwAAAAAAAAAAAAAAA==",
+              "Title": "Frm_KhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_KhachHang.cs",
+              "RelativeDocumentMoniker": "GUI\\Frm_KhachHang.cs",
+              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_KhachHang.cs [Design]",
+              "RelativeToolTip": "GUI\\Frm_KhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T10:11:13.285Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T08:09:07.491Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BUS_ViPham.cs",
-              "DocumentMoniker": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\BUS\\BUS_ViPham.cs",
-              "RelativeDocumentMoniker": "BUS\\BUS_ViPham.cs",
-              "ToolTip": "D:\\H\u1ECDc k\u00EC 4\\X\u00E2y d\u1EF1ng \u1EE9ng d\u1EE5ng theo c\u00F4ng ngh\u1EC7 .net\\\u0110\u1ED3 \u00E1n\\CN.NET-ver1.1\\QuanLyNganHang\\BUS\\BUS_ViPham.cs",
-              "RelativeToolTip": "BUS\\BUS_ViPham.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDQAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Frm_NhanVien.cs [Design]",
+              "DocumentMoniker": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_NhanVien.cs",
+              "RelativeDocumentMoniker": "GUI\\Frm_NhanVien.cs",
+              "ToolTip": "D:\\K\u00EC 4\\CN.NET\\CN.NET-main\\CN.NET-main\\QuanLyNganHang\\GUI\\Frm_NhanVien.cs [Design]",
+              "RelativeToolTip": "GUI\\Frm_NhanVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T10:12:05.413Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T08:09:02.736Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

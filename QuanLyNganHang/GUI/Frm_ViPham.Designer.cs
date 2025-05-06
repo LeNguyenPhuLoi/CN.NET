@@ -49,6 +49,13 @@
             this.cbo_NhanVien = new System.Windows.Forms.ComboBox();
             this.cbo_NoiQuy = new System.Windows.Forms.ComboBox();
             this.dgv_ViPham = new System.Windows.Forms.DataGridView();
+            this.btn_Tim = new System.Windows.Forms.Button();
+            this.txt_TuKhoa = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.cbo_PhuongThucTim = new System.Windows.Forms.ComboBox();
+            this.dtp_TimNgay = new System.Windows.Forms.DateTimePicker();
+            this.cbo_TimNV = new System.Windows.Forms.ComboBox();
+            this.cbo_TimNQ = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ViPham)).BeginInit();
             this.SuspendLayout();
             // 
@@ -217,7 +224,7 @@
             // 
             // dtp_NgayViPham
             // 
-            this.dtp_NgayViPham.CustomFormat = "MM/dd/yyyy";
+            this.dtp_NgayViPham.CustomFormat = "dd/MM/yyyy";
             this.dtp_NgayViPham.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_NgayViPham.Location = new System.Drawing.Point(185, 213);
             this.dtp_NgayViPham.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
@@ -249,20 +256,97 @@
             this.dgv_ViPham.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_ViPham.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_ViPham.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgv_ViPham.Location = new System.Drawing.Point(0, 271);
+            this.dgv_ViPham.Location = new System.Drawing.Point(0, 313);
             this.dgv_ViPham.MultiSelect = false;
             this.dgv_ViPham.Name = "dgv_ViPham";
             this.dgv_ViPham.ReadOnly = true;
             this.dgv_ViPham.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_ViPham.Size = new System.Drawing.Size(1245, 368);
+            this.dgv_ViPham.Size = new System.Drawing.Size(1245, 326);
             this.dgv_ViPham.TabIndex = 95;
             this.dgv_ViPham.Click += new System.EventHandler(this.dgv_ViPham_Click);
+            // 
+            // btn_Tim
+            // 
+            this.btn_Tim.Location = new System.Drawing.Point(976, 263);
+            this.btn_Tim.Name = "btn_Tim";
+            this.btn_Tim.Size = new System.Drawing.Size(75, 29);
+            this.btn_Tim.TabIndex = 99;
+            this.btn_Tim.Text = "Tìm";
+            this.btn_Tim.UseVisualStyleBackColor = true;
+            this.btn_Tim.Click += new System.EventHandler(this.btn_Tim_Click);
+            // 
+            // txt_TuKhoa
+            // 
+            this.txt_TuKhoa.Location = new System.Drawing.Point(673, 263);
+            this.txt_TuKhoa.Name = "txt_TuKhoa";
+            this.txt_TuKhoa.Size = new System.Drawing.Size(282, 29);
+            this.txt_TuKhoa.TabIndex = 98;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(224, 266);
+            this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(150, 21);
+            this.label12.TabIndex = 97;
+            this.label12.Text = "Phương Thức Tìm";
+            // 
+            // cbo_PhuongThucTim
+            // 
+            this.cbo_PhuongThucTim.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_PhuongThucTim.FormattingEnabled = true;
+            this.cbo_PhuongThucTim.Items.AddRange(new object[] {
+            "Mã Vi Phạm",
+            "Nhân Viên",
+            "Nội Quy",
+            "Ngày Vi Phạm"});
+            this.cbo_PhuongThucTim.Location = new System.Drawing.Point(385, 263);
+            this.cbo_PhuongThucTim.Name = "cbo_PhuongThucTim";
+            this.cbo_PhuongThucTim.Size = new System.Drawing.Size(282, 29);
+            this.cbo_PhuongThucTim.TabIndex = 96;
+            this.cbo_PhuongThucTim.TextChanged += new System.EventHandler(this.cbo_PhuongThucTim_TextChanged);
+            // 
+            // dtp_TimNgay
+            // 
+            this.dtp_TimNgay.CustomFormat = "dd/MM/yyyy";
+            this.dtp_TimNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtp_TimNgay.Location = new System.Drawing.Point(673, 263);
+            this.dtp_TimNgay.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
+            this.dtp_TimNgay.Name = "dtp_TimNgay";
+            this.dtp_TimNgay.Size = new System.Drawing.Size(282, 29);
+            this.dtp_TimNgay.TabIndex = 100;
+            // 
+            // cbo_TimNV
+            // 
+            this.cbo_TimNV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_TimNV.FormattingEnabled = true;
+            this.cbo_TimNV.Location = new System.Drawing.Point(673, 263);
+            this.cbo_TimNV.Name = "cbo_TimNV";
+            this.cbo_TimNV.Size = new System.Drawing.Size(282, 29);
+            this.cbo_TimNV.TabIndex = 101;
+            // 
+            // cbo_TimNQ
+            // 
+            this.cbo_TimNQ.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_TimNQ.FormattingEnabled = true;
+            this.cbo_TimNQ.Location = new System.Drawing.Point(673, 263);
+            this.cbo_TimNQ.Name = "cbo_TimNQ";
+            this.cbo_TimNQ.Size = new System.Drawing.Size(282, 29);
+            this.cbo_TimNQ.TabIndex = 102;
             // 
             // Frm_ViPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1245, 639);
+            this.Controls.Add(this.cbo_TimNQ);
+            this.Controls.Add(this.cbo_TimNV);
+            this.Controls.Add(this.dtp_TimNgay);
+            this.Controls.Add(this.btn_Tim);
+            this.Controls.Add(this.txt_TuKhoa);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.cbo_PhuongThucTim);
             this.Controls.Add(this.dgv_ViPham);
             this.Controls.Add(this.cbo_NoiQuy);
             this.Controls.Add(this.cbo_NhanVien);
@@ -319,5 +403,12 @@
         private System.Windows.Forms.ComboBox cbo_NhanVien;
         private System.Windows.Forms.ComboBox cbo_NoiQuy;
         private System.Windows.Forms.DataGridView dgv_ViPham;
+        private System.Windows.Forms.Button btn_Tim;
+        private System.Windows.Forms.TextBox txt_TuKhoa;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox cbo_PhuongThucTim;
+        private System.Windows.Forms.DateTimePicker dtp_TimNgay;
+        private System.Windows.Forms.ComboBox cbo_TimNV;
+        private System.Windows.Forms.ComboBox cbo_TimNQ;
     }
 }

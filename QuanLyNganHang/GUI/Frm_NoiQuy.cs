@@ -25,6 +25,7 @@ namespace GUI
         private void Frm_NoiQuy_Load(object sender, EventArgs e)
         {
             dgv_NoiQuy.DataSource = BUS_NoiQuy.LoadNQ();
+            cbo_PhuongThucTim.SelectedIndex = 0;
         }
 
         public void Clear()
@@ -33,6 +34,9 @@ namespace GUI
             txt_MoTa.Clear();
             txt_MucPhat.Clear();
             rtxt_GhiChu.Clear();
+            cbo_PhuongThucTim.SelectedIndex = 0;
+            txt_TuKhoa.Clear();
+            dgv_NoiQuy.DataSource = BUS_NoiQuy.LoadNQ();
         }
 
         private void btn_LamMoi_Click(object sender, EventArgs e)
@@ -76,51 +80,97 @@ namespace GUI
 
         private void btn_Them_Click(object sender, EventArgs e)
         {
-            ET_NoiQuy nq = new ET_NoiQuy(txt_MaNQ.Text,txt_MoTa.Text, float.Parse(txt_MucPhat.Text),rtxt_GhiChu.Text);
-            if (BUS_NoiQuy.ThemNQ(nq) == true)
+            try
             {
-                MessageBox.Show("Thêm thành công!");
-                Clear();
+                ET_NoiQuy nq = new ET_NoiQuy(txt_MaNQ.Text, txt_MoTa.Text, float.Parse(txt_MucPhat.Text), rtxt_GhiChu.Text);
+                if (BUS_NoiQuy.ThemNQ(nq) == true)
+                {
+                    MessageBox.Show("Thêm thành công!");
+                    Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Thêm không thành công!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Thêm không thành công!");
+                MessageBox.Show("Lỗi " + ex.Message);
             }
+
             dgv_NoiQuy.DataSource = BUS_NoiQuy.LoadNQ();
         }
 
         private void btn_Sua_Click(object sender, EventArgs e)
         {
-            ET_NoiQuy nq = new ET_NoiQuy(txt_MaNQ.Text, txt_MoTa.Text, float.Parse(txt_MucPhat.Text), rtxt_GhiChu.Text);
-            if (BUS_NoiQuy.SuaNQ(nq) == true)
+            try
             {
-                MessageBox.Show("Sửa thành công!");
-                Clear();
+                ET_NoiQuy nq = new ET_NoiQuy(txt_MaNQ.Text, txt_MoTa.Text, float.Parse(txt_MucPhat.Text), rtxt_GhiChu.Text);
+                if (BUS_NoiQuy.SuaNQ(nq) == true)
+                {
+                    MessageBox.Show("Sửa thành công!");
+                    Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Sửa không thành công!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Sửa không thành công!");
+                MessageBox.Show("Lỗi " + ex.Message);
             }
+
             dgv_NoiQuy.DataSource = BUS_NoiQuy.LoadNQ();
         }
 
         private void btn_Xoa_Click(object sender, EventArgs e)
         {
-            DialogResult = MessageBox.Show("Bạn có muốn xóa?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (DialogResult == DialogResult.Yes)
+            try
             {
-                ET_NoiQuy nq = new ET_NoiQuy(txt_MaNQ.Text, txt_MoTa.Text, float.Parse(txt_MucPhat.Text), rtxt_GhiChu.Text);
-                if (BUS_NoiQuy.XoaNQ(nq) == true)
+                DialogResult = MessageBox.Show("Bạn có muốn xóa?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (DialogResult == DialogResult.Yes)
                 {
-                    MessageBox.Show("Xóa thành công!");
-                    Clear();
+                    ET_NoiQuy nq = new ET_NoiQuy(txt_MaNQ.Text, txt_MoTa.Text, float.Parse(txt_MucPhat.Text), rtxt_GhiChu.Text);
+                    if (BUS_NoiQuy.XoaNQ(nq) == true)
+                    {
+                        MessageBox.Show("Xóa thành công!");
+                        Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa không thành công!");
+                    }
+
                 }
-                else
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
+            }
+            dgv_NoiQuy.DataSource = BUS_NoiQuy.LoadNQ();
+        }
+
+        private void btn_Tim_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                switch (cbo_PhuongThucTim.Text) 
                 {
-                    MessageBox.Show("Xóa không thành công!");
+                    case "Mã Nội Quy":
+                        dgv_NoiQuy.DataSource = BUS_NoiQuy.TimNQTheoMa(txt_TuKhoa.Text);
+                        break;
+
+                    case "Mô Tả":
+                        dgv_NoiQuy.DataSource = BUS_NoiQuy.TimNQTheoMoTa(txt_TuKhoa.Text);
+                        break;
                 }
-                dgv_NoiQuy.DataSource = BUS_NoiQuy.LoadNQ();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi " + ex.Message);
             }
         }
+
     }
 }

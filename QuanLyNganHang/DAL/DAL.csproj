@@ -44,7 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL_BienLai.cs" />
     <Compile Include="DAL_ChiNhanh.cs" />
+    <Compile Include="DAL_HoTro.cs" />
+    <Compile Include="DAL_KhachHang.cs" />
+    <Compile Include="DAL_KhuyenMai.cs" />
     <Compile Include="DAL_LoaiTaiKhoan.cs" />
     <Compile Include="DAL_Login.cs" />
     <Compile Include="DAL_NhanVien.cs" />

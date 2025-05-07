@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ET_BienLai.cs" />
     <Compile Include="ET_ChiNhanh.cs" />
+    <Compile Include="ET_HoTro.cs" />
+    <Compile Include="ET_KhachHang.cs" />
+    <Compile Include="ET_KhuyenMai.cs" />
     <Compile Include="ET_LoaiTaiKhoan.cs" />
     <Compile Include="ET_Login.cs" />
     <Compile Include="ET_NhanVien.cs" />

@@ -31,3 +31,25 @@ C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\obj\Debug
 C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.exe
 C:\Users\leloi\OneDrive\Tài liệu\GitHub\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.pdb
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.exe.config
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.exe
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.pdb
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.exe
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.pdb
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.exe.config
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.exe
+D:\Kì 4\ad\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.pdb
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.exe.config
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.pdb
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.pdb
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.exe.config
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.pdb

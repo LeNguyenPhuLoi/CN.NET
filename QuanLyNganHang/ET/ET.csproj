@@ -48,9 +48,14 @@
     <Compile Include="ET_HoTro.cs" />
     <Compile Include="ET_KhachHang.cs" />
     <Compile Include="ET_KhuyenMai.cs" />
+    <Compile Include="ET_LoaiTaiKhoan.cs" />
+    <Compile Include="ET_Login.cs" />
     <Compile Include="ET_NhanVien.cs" />
     <Compile Include="ET_NoiQuy.cs" />
     <Compile Include="ET_PhongBan.cs" />
+    <Compile Include="ET_TaiKhoan.cs" />
+    <Compile Include="ET_TaiKhoanDangNhap.cs" />
+    <Compile Include="ET_TienTe.cs" />
     <Compile Include="ET_ViPham.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

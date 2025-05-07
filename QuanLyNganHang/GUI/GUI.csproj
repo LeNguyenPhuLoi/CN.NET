@@ -53,6 +53,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class Chung\ClassChung.cs" />
+    <Compile Include="DSTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSTaiKhoan.Designer.cs">
+      <DependentUpon>DSTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +218,9 @@
     <Compile Include="TienTe.Designer.cs">
       <DependentUpon>TienTe.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DSTaiKhoan.resx">
+      <DependentUpon>DSTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_ChiNhanh.resx">
       <DependentUpon>Frm_ChiNhanh.cs</DependentUpon>
     </EmbeddedResource>

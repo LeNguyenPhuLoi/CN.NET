@@ -51,6 +51,7 @@
     <Compile Include="DAL_NoiQuy.cs" />
     <Compile Include="DAL_PhongBan.cs" />
     <Compile Include="DAL_TaiKhoan.cs" />
+    <Compile Include="DAL_TaiKhoanDangNhap.cs" />
     <Compile Include="DAL_TienTe.cs" />
     <Compile Include="DAL_ViPham.cs" />
     <Compile Include="Program.cs" />

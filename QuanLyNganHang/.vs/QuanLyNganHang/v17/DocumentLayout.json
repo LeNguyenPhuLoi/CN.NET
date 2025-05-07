@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\tiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\tiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\tiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\tiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\dal\\qlnh.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
@@ -40,7 +28,7 @@
               "RelativeDocumentMoniker": "GUI\\Program.cs",
               "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:55:58.271Z",
               "IsPinned": true,
@@ -48,7 +36,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "QLNH.dbml",
               "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\DAL\\QLNH.dbml",
               "RelativeDocumentMoniker": "DAL\\QLNH.dbml",
@@ -56,46 +44,7 @@
               "RelativeToolTip": "DAL\\QLNH.dbml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
               "WhenOpened": "2025-05-05T09:13:41.575Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaiKhoan.cs",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TaiKhoan.cs",
-              "RelativeDocumentMoniker": "GUI\\TaiKhoan.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TaiKhoan.cs",
-              "RelativeToolTip": "GUI\\TaiKhoan.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAEQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:12:21.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TienTe.cs",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TienTe.cs",
-              "RelativeDocumentMoniker": "GUI\\TienTe.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TienTe.cs",
-              "RelativeToolTip": "GUI\\TienTe.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:10:55.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TienTe.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TienTe.cs",
-              "RelativeDocumentMoniker": "GUI\\TienTe.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\TienTe.cs [Design]",
-              "RelativeToolTip": "GUI\\TienTe.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:09:23.62Z",
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             }
           ]
         }

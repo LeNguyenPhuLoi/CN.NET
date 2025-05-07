@@ -177,6 +177,12 @@
       <DependentUpon>Rpt_DSPhongBan.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Report\rpt_DSTaiKhoan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_DSTaiKhoan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Report\Rpt_DSViPham.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -193,6 +199,12 @@
     </Compile>
     <Compile Include="TaiKhoan.Designer.cs">
       <DependentUpon>TaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoanDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaiKhoanDangNhap.Designer.cs">
+      <DependentUpon>TaiKhoanDangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="TienTe.cs">
       <SubType>Form</SubType>
@@ -261,12 +273,19 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Rpt_DSPhongBan.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_DSTaiKhoan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_DSTaiKhoan.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report\Rpt_DSViPham.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Rpt_DSViPham.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TaiKhoan.resx">
       <DependentUpon>TaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiKhoanDangNhap.resx">
+      <DependentUpon>TaiKhoanDangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TienTe.resx">
       <DependentUpon>TienTe.cs</DependentUpon>

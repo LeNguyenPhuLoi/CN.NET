@@ -22,6 +22,11 @@ namespace BUS
             return tk.LoadLoaiTK();
         }
 
+        public IQueryable TimTaiKhoan(string ma) 
+        {
+            return tk.TimKiemtaikhoan(ma);
+        }
+
         public IQueryable<string> LayTheoMaLTK(string ma)
         {
             return tk.sp_LayTheoMaLoaiTK(ma);

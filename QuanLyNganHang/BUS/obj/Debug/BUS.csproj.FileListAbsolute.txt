@@ -68,3 +68,18 @@ D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NE
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.exe
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.pdb
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\bin\Debug\BUS.exe.config
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\bin\Debug\BUS.exe
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\bin\Debug\BUS.pdb
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\bin\Debug\DAL.exe
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\bin\Debug\ET.exe
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\bin\Debug\DAL.pdb
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\bin\Debug\DAL.exe.config
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\bin\Debug\ET.pdb
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\bin\Debug\ET.exe.config
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.SuggestedBindingRedirects.cache
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.exe
+D:\CN.Net\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.pdb

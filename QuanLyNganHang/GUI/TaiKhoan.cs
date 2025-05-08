@@ -150,5 +150,10 @@ namespace GUI
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnTim_Click(object sender, EventArgs e)
+        {
+            dgvTaiKhoan.DataSource = bustk.TimTaiKhoan(txtTim.Text);
+        }
     }
 }

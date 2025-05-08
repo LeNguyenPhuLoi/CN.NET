@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLNH" Class="QLNHDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-IRNS9V5;Initial Catalog=QLNH;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="QLNHConnectionString2" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=B202A-PC32\SQLEXPRESS;Initial Catalog=QLNH;Integrated Security=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="QLNHConnectionString3" Provider="System.Data.SqlClient" />
   <Table Name="dbo.BIENLAI" Member="BIENLAIs">
     <Type Name="BIENLAI">
       <Column Name="MABL" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="LOAIBL" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
-      <Column Name="NGAYLAP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="SOTIEN" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="NGAYLAP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="MANV" Type="System.String" DbType="Char(10)" CanBeNull="true" />
       <Column Name="MaKH" Type="System.String" DbType="Char(10)" CanBeNull="true" />
       <Association Name="KHACHHANG_BIENLAI" Member="KHACHHANG" ThisKey="MaKH" OtherKey="MAKH" Type="KHACHHANG" IsForeignKey="true" />
@@ -37,8 +37,8 @@
     <Type Name="HOTRO">
       <Column Name="MAKH" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="DVHT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="MAKM" Type="System.String" DbType="Char(10)" CanBeNull="true" />
       <Column Name="MANV" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MAKM" Type="System.String" DbType="Char(10)" CanBeNull="true" />
       <Association Name="KHACHHANG_HOTRO" Member="KHACHHANG" ThisKey="MAKH" OtherKey="MAKH" Type="KHACHHANG" IsForeignKey="true" />
       <Association Name="KHUYENMAI_HOTRO" Member="KHUYENMAI" ThisKey="MAKM" OtherKey="MAKM" Type="KHUYENMAI" IsForeignKey="true" />
       <Association Name="NHANVIEN_HOTRO" Member="NHANVIEN" ThisKey="MANV" OtherKey="MANV" Type="NHANVIEN" IsForeignKey="true" />
@@ -63,7 +63,6 @@
       <Column Name="TENKM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="NGAYBATDAU" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="NGAYKETTHUC" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="PHANTRAMGIAM" Type="System.Double" DbType="Float" CanBeNull="true" />
       <Column Name="DIEUKIEN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
       <Association Name="KHUYENMAI_HOTRO" Member="HOTROs" ThisKey="MAKM" OtherKey="MAKM" Type="HOTRO" />
     </Type>

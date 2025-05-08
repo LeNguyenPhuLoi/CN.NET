@@ -59,11 +59,11 @@
     <Compile Include="DSTaiKhoan.Designer.cs">
       <DependentUpon>DSTaiKhoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_BienLai.cs">
       <SubType>Form</SubType>
@@ -294,8 +294,17 @@
     <Compile Include="TienTe.Designer.cs">
       <DependentUpon>TienTe.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DSTaiKhoan.resx">
       <DependentUpon>DSTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_BienLai.resx">
       <DependentUpon>Frm_BienLai.cs</DependentUpon>
@@ -407,6 +416,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TienTe.resx">
       <DependentUpon>TienTe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

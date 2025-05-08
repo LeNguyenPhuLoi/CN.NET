@@ -21,6 +21,15 @@ namespace DAL
             return taikhoan;
         }
 
+        public IQueryable TimKiemtaikhoan(string ma)
+        {
+            IQueryable tim =from tk in db.TAIKHOANs
+                             from kh in db.KHACHHANGs
+                             where tk.MAKH.Contains(ma) || (kh.TENKH.Contains(ma) && tk.MAKH == kh.MAKH)
+                             select tk;
+            return tim;
+        }
+
         public IQueryable LoadLoaiTK()
         {
             IQueryable loaitk = from ltk in db.LOAITAIKHOANs

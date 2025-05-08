@@ -72,7 +72,7 @@ namespace DAL
     #endregion
 		
 		public QLNHDataContext() : 
-				base(global::DAL.Properties.Settings.Default.QLNHConnectionString2, mappingSource)
+				base(global::DAL.Properties.Settings.Default.QLNHConnectionString3, mappingSource)
 		{
 			OnCreated();
 		}
@@ -216,9 +216,9 @@ namespace DAL
 		
 		private string _LOAIBL;
 		
-		private System.Nullable<System.DateTime> _NGAYLAP;
-		
 		private System.Nullable<double> _SOTIEN;
+		
+		private System.Nullable<System.DateTime> _NGAYLAP;
 		
 		private string _MANV;
 		
@@ -236,10 +236,10 @@ namespace DAL
     partial void OnMABLChanged();
     partial void OnLOAIBLChanging(string value);
     partial void OnLOAIBLChanged();
-    partial void OnNGAYLAPChanging(System.Nullable<System.DateTime> value);
-    partial void OnNGAYLAPChanged();
     partial void OnSOTIENChanging(System.Nullable<double> value);
     partial void OnSOTIENChanged();
+    partial void OnNGAYLAPChanging(System.Nullable<System.DateTime> value);
+    partial void OnNGAYLAPChanged();
     partial void OnMANVChanging(string value);
     partial void OnMANVChanged();
     partial void OnMaKHChanging(string value);
@@ -293,26 +293,6 @@ namespace DAL
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NGAYLAP", DbType="Date")]
-		public System.Nullable<System.DateTime> NGAYLAP
-		{
-			get
-			{
-				return this._NGAYLAP;
-			}
-			set
-			{
-				if ((this._NGAYLAP != value))
-				{
-					this.OnNGAYLAPChanging(value);
-					this.SendPropertyChanging();
-					this._NGAYLAP = value;
-					this.SendPropertyChanged("NGAYLAP");
-					this.OnNGAYLAPChanged();
-				}
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOTIEN", DbType="Float")]
 		public System.Nullable<double> SOTIEN
 		{
@@ -329,6 +309,26 @@ namespace DAL
 					this._SOTIEN = value;
 					this.SendPropertyChanged("SOTIEN");
 					this.OnSOTIENChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NGAYLAP", DbType="Date")]
+		public System.Nullable<System.DateTime> NGAYLAP
+		{
+			get
+			{
+				return this._NGAYLAP;
+			}
+			set
+			{
+				if ((this._NGAYLAP != value))
+				{
+					this.OnNGAYLAPChanging(value);
+					this.SendPropertyChanging();
+					this._NGAYLAP = value;
+					this.SendPropertyChanged("NGAYLAP");
+					this.OnNGAYLAPChanged();
 				}
 			}
 		}
@@ -906,9 +906,9 @@ namespace DAL
 		
 		private string _DVHT;
 		
-		private string _MAKM;
-		
 		private string _MANV;
+		
+		private string _MAKM;
 		
 		private EntityRef<KHACHHANG> _KHACHHANG;
 		
@@ -924,10 +924,10 @@ namespace DAL
     partial void OnMAKHChanged();
     partial void OnDVHTChanging(string value);
     partial void OnDVHTChanged();
-    partial void OnMAKMChanging(string value);
-    partial void OnMAKMChanged();
     partial void OnMANVChanging(string value);
     partial void OnMANVChanged();
+    partial void OnMAKMChanging(string value);
+    partial void OnMAKMChanged();
     #endregion
 		
 		public HOTRO()
@@ -982,30 +982,6 @@ namespace DAL
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAKM", DbType="Char(10)")]
-		public string MAKM
-		{
-			get
-			{
-				return this._MAKM;
-			}
-			set
-			{
-				if ((this._MAKM != value))
-				{
-					if (this._KHUYENMAI.HasLoadedOrAssignedValue)
-					{
-						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
-					}
-					this.OnMAKMChanging(value);
-					this.SendPropertyChanging();
-					this._MAKM = value;
-					this.SendPropertyChanged("MAKM");
-					this.OnMAKMChanged();
-				}
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MANV", DbType="Char(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
 		public string MANV
 		{
@@ -1026,6 +1002,30 @@ namespace DAL
 					this._MANV = value;
 					this.SendPropertyChanged("MANV");
 					this.OnMANVChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAKM", DbType="Char(10)")]
+		public string MAKM
+		{
+			get
+			{
+				return this._MAKM;
+			}
+			set
+			{
+				if ((this._MAKM != value))
+				{
+					if (this._KHUYENMAI.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
+					this.OnMAKMChanging(value);
+					this.SendPropertyChanging();
+					this._MAKM = value;
+					this.SendPropertyChanged("MAKM");
+					this.OnMAKMChanged();
 				}
 			}
 		}
@@ -1433,8 +1433,6 @@ namespace DAL
 		
 		private System.Nullable<System.DateTime> _NGAYKETTHUC;
 		
-		private System.Nullable<double> _PHANTRAMGIAM;
-		
 		private string _DIEUKIEN;
 		
 		private EntitySet<HOTRO> _HOTROs;
@@ -1451,8 +1449,6 @@ namespace DAL
     partial void OnNGAYBATDAUChanged();
     partial void OnNGAYKETTHUCChanging(System.Nullable<System.DateTime> value);
     partial void OnNGAYKETTHUCChanged();
-    partial void OnPHANTRAMGIAMChanging(System.Nullable<double> value);
-    partial void OnPHANTRAMGIAMChanged();
     partial void OnDIEUKIENChanging(string value);
     partial void OnDIEUKIENChanged();
     #endregion
@@ -1539,26 +1535,6 @@ namespace DAL
 					this._NGAYKETTHUC = value;
 					this.SendPropertyChanged("NGAYKETTHUC");
 					this.OnNGAYKETTHUCChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PHANTRAMGIAM", DbType="Float")]
-		public System.Nullable<double> PHANTRAMGIAM
-		{
-			get
-			{
-				return this._PHANTRAMGIAM;
-			}
-			set
-			{
-				if ((this._PHANTRAMGIAM != value))
-				{
-					this.OnPHANTRAMGIAMChanging(value);
-					this.SendPropertyChanging();
-					this._PHANTRAMGIAM = value;
-					this.SendPropertyChanged("PHANTRAMGIAM");
-					this.OnPHANTRAMGIAMChanged();
 				}
 			}
 		}

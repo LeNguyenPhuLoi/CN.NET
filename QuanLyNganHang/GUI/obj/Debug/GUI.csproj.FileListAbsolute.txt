@@ -225,3 +225,126 @@ D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NE
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTaiKhoan.resources
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTaiKhoanDangNhap.resources
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\2\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTienTe.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\GUI.exe.config
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\GUI.exe
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\GUI.pdb
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\BUS.exe
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.Shared.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\ET.exe
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\DAL.exe
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\stdole.dll
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\BUS.pdb
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\BUS.exe.config
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\ET.pdb
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\ET.exe.config
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\DAL.pdb
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\bin\Debug\DAL.exe.config
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmDSTaiKhoan.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmMenu.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_BienLai.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_ChiNhanh.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSBienLai.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSChiNhanh.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSHoTro.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSKhachHang.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSNhanVien.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSNoiQuy.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSPhongBan.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSViPham.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_HoTro.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_KhachHang.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_KhuyenMai.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_NhanVien.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_NoiQuy.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_PhongBan.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_ViPham.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmLoaiTaiKhoan.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmLogin.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTaiKhoan.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTaiKhoanDangNhap.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTienTe.resources
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.exe
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.pdb
+D:\CN.Net\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmUser.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\GUI.exe.config
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\GUI.exe
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\GUI.pdb
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\BUS.exe
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.Shared.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\ET.exe
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\DAL.exe
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\stdole.dll
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\BUS.pdb
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\BUS.exe.config
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\ET.pdb
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\ET.exe.config
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\DAL.pdb
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\bin\Debug\DAL.exe.config
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmDSTaiKhoan.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmMenu.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_BienLai.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_ChiNhanh.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSBienLai.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSChiNhanh.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSHoTro.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSKhachHang.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSNhanVien.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSNoiQuy.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSPhongBan.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_DSViPham.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_HoTro.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_KhachHang.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_KhuyenMai.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_NhanVien.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_NoiQuy.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_PhongBan.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Frm_ViPham.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmLoaiTaiKhoan.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmLogin.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTaiKhoan.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTaiKhoanDangNhap.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmTienTe.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.frmUser.resources
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.csproj.Up2Date
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.exe
+D:\Kì 4\tam\CN.NET\QuanLyNganHang\GUI\obj\Debug\GUI.pdb

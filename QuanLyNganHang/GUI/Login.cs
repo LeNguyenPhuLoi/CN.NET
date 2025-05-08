@@ -19,7 +19,7 @@ namespace GUI
         {
             InitializeComponent();
         }
-
+        public Form NextForm { get; set; }
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUser.Text.Trim();
@@ -38,23 +38,32 @@ namespace GUI
             // Phân quyền
             if (buslq.IsAdmin(user))
             {
-                //Form frmAdmin = new frmAdmin(user); // bạn cần tạo form này
-                //frmAdmin.Show();
-                MessageBox.Show("nguoi dung");
+                NextForm = new frmMenu(); // bạn cần tạo form này
+                Form frmMenu = new frmMenu();
+                frmMenu.Show();
             }
             else if (buslq.IsNhanVien(user))
             {
-                //Form frmNhanVien = new frmNhanVien(user); // bạn cần tạo form này
-                //frmNhanVien.Show();
-                MessageBox.Show("quan ly");
+                NextForm = new frmUser(); // bạn cần tạo form này
+                Form frmUser = new frmUser();
+                frmUser.Show();
             }
-
-            this.Close();
+            this.Hide();
         }
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-       
+
+        }
+
+        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

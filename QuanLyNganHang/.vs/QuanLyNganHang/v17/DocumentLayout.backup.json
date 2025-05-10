@@ -1,25 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\",
+  "WorkspaceRootPath": "D:\\K\u00EC 4\\tam\\CN.NET\\QuanLyNganHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|c:\\users\\leloi\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\cn.net\\quanlynganhang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\tam\\cn.net\\quanlynganhang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,71 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
+              "DocumentMoniker": "D:\\K\u00EC 4\\tam\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
               "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
-              "RelativeToolTip": "GUI\\Program.cs",
+              "ToolTip": "D:\\K\u00EC 4\\tam\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs*",
+              "RelativeToolTip": "GUI\\Program.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:55:58.271Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\User.cs",
-              "RelativeDocumentMoniker": "GUI\\User.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\User.cs",
-              "RelativeToolTip": "GUI\\User.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAAHEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:16:25.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\User.cs",
-              "RelativeDocumentMoniker": "GUI\\User.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\User.cs [Design]",
-              "RelativeToolTip": "GUI\\User.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:16:19.092Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Menu.cs",
-              "RelativeDocumentMoniker": "GUI\\Menu.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Menu.cs",
-              "RelativeToolTip": "GUI\\Menu.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T12:39:06.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Menu.cs",
-              "RelativeDocumentMoniker": "GUI\\Menu.cs",
-              "ToolTip": "C:\\Users\\leloi\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\CN.NET\\QuanLyNganHang\\GUI\\Menu.cs [Design]",
-              "RelativeToolTip": "GUI\\Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T12:38:49.69Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

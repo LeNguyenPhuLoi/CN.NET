@@ -28,7 +28,6 @@ namespace GUI
             AddToCombo(bustk.LoadKH(), cboMaKH);
             AddToCombo(bustk.LoadNV(), cboMaNV);
             AddToCombo(bustk.LoadLTK(), cboLoaiTK);
-            cboTim.SelectedIndex = 0;
         }
 
         public void AddToCombo(IQueryable list, ComboBox c)
@@ -113,7 +112,6 @@ namespace GUI
             cboLoaiTien.SelectedIndex = -1;
             cboLoaiTK.SelectedIndex = -1;
             txtMaTK.Focus();
-            dgvTaiKhoan.DataSource = bustk.LoadTK();
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
@@ -150,31 +148,6 @@ namespace GUI
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void btnTim_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                switch (cboTim.Text)
-                {
-                    case "Mã Tài Khoản":
-                        dgvTaiKhoan.DataSource = bustk.TimTheoMaTK(txtKey.Text);
-                        break;
-
-                    case "Số Dư":
-                        dgvTaiKhoan.DataSource = bustk.TimTheoSoDu(float.Parse(txtKey.Text));
-                        break;
-
-                    case "Mã Khách Hàng":
-                    case "Tên Khách Hàng":
-                        dgvTaiKhoan.DataSource = bustk.TimTheoMaOrTenKH(txtKey.Text);
-                        break;
-                }
-            }catch(Exception ex)
-            {
-                MessageBox.Show("Lỗi: "+ex);
             }
         }
     }

@@ -16,14 +16,10 @@ namespace GUI
         {
             InitializeComponent();
         }
-        private bool isLoggingOut = false;
+
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            isLoggingOut = true;
-            GUI.frmLogin frmLogin = new GUI.frmLogin();
-            frmLogin.Show();
-
-            this.Close();
+            this.Close(); 
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
@@ -38,22 +34,21 @@ namespace GUI
 
         private void frmMenu_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (!isLoggingOut)
+            DialogResult rs = MessageBox.Show("Bạn có muốn thoát Chương trình?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (rs == DialogResult.Yes)
             {
-                DialogResult rs = MessageBox.Show("Bạn có muốn thoát Chương trình?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (rs == DialogResult.Yes)
-                {
-                    Application.Exit();
-                }
-                else
-                {
-                    e.Cancel = true;
-                }
+                e.Cancel = false;
             }
             else
             {
-                e.Cancel= false;
+                e.Cancel = true;
             }
+
+            GUI.frmLogin frmLogin = new GUI.frmLogin();
+            frmLogin.NextForm = new frmLogin();
+            frmLogin.Show();
+
+            this.Hide();
         }
 
         private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)

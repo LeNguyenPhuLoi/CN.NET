@@ -26,14 +26,16 @@ namespace GUI
         {
             dgv_hotro.DataSource = BUS_HoTro.LoadHT();
             cbo_dvht.SelectedIndex = 0;
+            cbo_manv.SelectedIndex = 0;
+            cbo_makm.SelectedIndex = 0;
             cbo_phuongthuctim.SelectedIndex = 0;
             cbo_timdvht.SelectedIndex = 0;
         }
 
         public void Clear()
         {
-            txt_manv.Clear();
-            txt_manv.Clear();
+            cbo_manv.SelectedIndex = 0;
+            cbo_makm.SelectedIndex = 0;
             cbo_dvht.SelectedIndex = 0;
             txt_makh.Clear();
             dgv_hotro.DataSource = BUS_HoTro.LoadHT();
@@ -70,8 +72,8 @@ namespace GUI
                 int dong = dgv_hotro.CurrentCell.RowIndex;
                 txt_makh.Text = dgv_hotro.Rows[dong].Cells[0].Value.ToString();
                 cbo_dvht.Text = dgv_hotro.Rows[dong].Cells[1].Value.ToString();
-                txt_manv.Text = dgv_hotro.Rows[dong].Cells[2].Value.ToString();
-                txt_makm.Text = dgv_hotro.Rows[dong].Cells[3].Value.ToString();
+                cbo_manv.Text = dgv_hotro.Rows[dong].Cells[2].Value.ToString();
+                cbo_makm.Text = dgv_hotro.Rows[dong].Cells[3].Value.ToString();
             }
             catch(Exception ex)
             {
@@ -85,8 +87,8 @@ namespace GUI
             {
                 ET_HoTro ht = new ET_HoTro(txt_makh.Text,
                                             cbo_dvht.Text,
-                                            txt_manv.Text,
-                                            txt_makm.Text);
+                                            cbo_manv.Text,
+                                            cbo_makm.Text);
                 if (BUS_HoTro.ThemHT(ht) == true)
                 {
                     MessageBox.Show("Thêm thành công!");
@@ -110,8 +112,8 @@ namespace GUI
             {
                 ET_HoTro ht = new ET_HoTro(txt_makh.Text,
                                             cbo_dvht.Text,
-                                           txt_manv.Text,
-                                            txt_makm.Text);
+                                           cbo_manv.Text,
+                                            cbo_makm.Text);
                 if (BUS_HoTro.SuaHT(ht) == false)
                 {
                     MessageBox.Show("Sửa thành công!");
@@ -138,8 +140,8 @@ namespace GUI
                 {
                 ET_HoTro ht = new ET_HoTro(txt_makh.Text,
                                             cbo_dvht.Text,
-                                            txt_manv.Text,
-                                            txt_makm.Text);
+                                            cbo_manv.Text,
+                                            cbo_makm.Text);
                 if (BUS_HoTro.XoaHT(ht) == true)
                 {
                     MessageBox.Show("Xóa thành công!");

@@ -71,7 +71,7 @@
             // 
             this.txt_SoLanViPham.Location = new System.Drawing.Point(649, 125);
             this.txt_SoLanViPham.Name = "txt_SoLanViPham";
-            this.txt_SoLanViPham.Size = new System.Drawing.Size(282, 29);
+            this.txt_SoLanViPham.Size = new System.Drawing.Size(282, 35);
             this.txt_SoLanViPham.TabIndex = 85;
             this.txt_SoLanViPham.Leave += new System.EventHandler(this.txt_SoLanViPham_Leave);
             // 
@@ -81,7 +81,7 @@
             this.label8.Location = new System.Drawing.Point(550, 172);
             this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 21);
+            this.label8.Size = new System.Drawing.Size(93, 27);
             this.label8.TabIndex = 84;
             this.label8.Text = "Ghi Chú";
             // 
@@ -91,7 +91,7 @@
             this.label7.Location = new System.Drawing.Point(491, 133);
             this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(132, 21);
+            this.label7.Size = new System.Drawing.Size(168, 27);
             this.label7.TabIndex = 83;
             this.label7.Text = "Số Lần Vi Phạm";
             // 
@@ -150,14 +150,14 @@
             this.txt_TienPhat.Location = new System.Drawing.Point(649, 81);
             this.txt_TienPhat.Name = "txt_TienPhat";
             this.txt_TienPhat.ReadOnly = true;
-            this.txt_TienPhat.Size = new System.Drawing.Size(282, 29);
+            this.txt_TienPhat.Size = new System.Drawing.Size(282, 35);
             this.txt_TienPhat.TabIndex = 77;
             // 
             // txt_MaVP
             // 
             this.txt_MaVP.Location = new System.Drawing.Point(185, 81);
             this.txt_MaVP.Name = "txt_MaVP";
-            this.txt_MaVP.Size = new System.Drawing.Size(282, 29);
+            this.txt_MaVP.Size = new System.Drawing.Size(282, 35);
             this.txt_MaVP.TabIndex = 76;
             // 
             // label3
@@ -166,7 +166,7 @@
             this.label3.Location = new System.Drawing.Point(543, 84);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 21);
+            this.label3.Size = new System.Drawing.Size(104, 27);
             this.label3.TabIndex = 75;
             this.label3.Text = "Tiền Phạt";
             // 
@@ -176,7 +176,7 @@
             this.label2.Location = new System.Drawing.Point(56, 84);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 21);
+            this.label2.Size = new System.Drawing.Size(132, 27);
             this.label2.TabIndex = 74;
             this.label2.Text = "Mã Vi Phạm";
             // 
@@ -188,7 +188,7 @@
             this.label1.Location = new System.Drawing.Point(476, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(329, 42);
+            this.label1.Size = new System.Drawing.Size(408, 54);
             this.label1.TabIndex = 73;
             this.label1.Text = "Quản Trị Vi Phạm";
             // 
@@ -198,7 +198,7 @@
             this.label4.Location = new System.Drawing.Point(71, 128);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 21);
+            this.label4.Size = new System.Drawing.Size(114, 27);
             this.label4.TabIndex = 87;
             this.label4.Text = "Nhân Viên";
             // 
@@ -208,7 +208,7 @@
             this.label5.Location = new System.Drawing.Point(84, 172);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 21);
+            this.label5.Size = new System.Drawing.Size(94, 27);
             this.label5.TabIndex = 89;
             this.label5.Text = "Nội Quy";
             // 
@@ -218,7 +218,7 @@
             this.label6.Location = new System.Drawing.Point(41, 219);
             this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(117, 21);
+            this.label6.Size = new System.Drawing.Size(151, 27);
             this.label6.TabIndex = 91;
             this.label6.Text = "Ngày Vi Phạm";
             // 
@@ -229,7 +229,7 @@
             this.dtp_NgayViPham.Location = new System.Drawing.Point(185, 213);
             this.dtp_NgayViPham.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
             this.dtp_NgayViPham.Name = "dtp_NgayViPham";
-            this.dtp_NgayViPham.Size = new System.Drawing.Size(282, 29);
+            this.dtp_NgayViPham.Size = new System.Drawing.Size(282, 35);
             this.dtp_NgayViPham.TabIndex = 92;
             // 
             // cbo_NhanVien
@@ -238,7 +238,7 @@
             this.cbo_NhanVien.FormattingEnabled = true;
             this.cbo_NhanVien.Location = new System.Drawing.Point(185, 125);
             this.cbo_NhanVien.Name = "cbo_NhanVien";
-            this.cbo_NhanVien.Size = new System.Drawing.Size(282, 29);
+            this.cbo_NhanVien.Size = new System.Drawing.Size(282, 35);
             this.cbo_NhanVien.TabIndex = 93;
             // 
             // cbo_NoiQuy
@@ -247,7 +247,7 @@
             this.cbo_NoiQuy.FormattingEnabled = true;
             this.cbo_NoiQuy.Location = new System.Drawing.Point(185, 169);
             this.cbo_NoiQuy.Name = "cbo_NoiQuy";
-            this.cbo_NoiQuy.Size = new System.Drawing.Size(282, 29);
+            this.cbo_NoiQuy.Size = new System.Drawing.Size(282, 35);
             this.cbo_NoiQuy.TabIndex = 94;
             this.cbo_NoiQuy.SelectedIndexChanged += new System.EventHandler(this.cbo_NoiQuy_SelectedIndexChanged);
             // 
@@ -260,6 +260,7 @@
             this.dgv_ViPham.MultiSelect = false;
             this.dgv_ViPham.Name = "dgv_ViPham";
             this.dgv_ViPham.ReadOnly = true;
+            this.dgv_ViPham.RowHeadersWidth = 51;
             this.dgv_ViPham.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_ViPham.Size = new System.Drawing.Size(1245, 326);
             this.dgv_ViPham.TabIndex = 95;
@@ -279,7 +280,7 @@
             // 
             this.txt_TuKhoa.Location = new System.Drawing.Point(673, 263);
             this.txt_TuKhoa.Name = "txt_TuKhoa";
-            this.txt_TuKhoa.Size = new System.Drawing.Size(282, 29);
+            this.txt_TuKhoa.Size = new System.Drawing.Size(282, 35);
             this.txt_TuKhoa.TabIndex = 98;
             // 
             // label12
@@ -288,7 +289,7 @@
             this.label12.Location = new System.Drawing.Point(224, 266);
             this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(150, 21);
+            this.label12.Size = new System.Drawing.Size(187, 27);
             this.label12.TabIndex = 97;
             this.label12.Text = "Phương Thức Tìm";
             // 
@@ -303,7 +304,7 @@
             "Ngày Vi Phạm"});
             this.cbo_PhuongThucTim.Location = new System.Drawing.Point(385, 263);
             this.cbo_PhuongThucTim.Name = "cbo_PhuongThucTim";
-            this.cbo_PhuongThucTim.Size = new System.Drawing.Size(282, 29);
+            this.cbo_PhuongThucTim.Size = new System.Drawing.Size(282, 35);
             this.cbo_PhuongThucTim.TabIndex = 96;
             this.cbo_PhuongThucTim.TextChanged += new System.EventHandler(this.cbo_PhuongThucTim_TextChanged);
             // 
@@ -314,7 +315,7 @@
             this.dtp_TimNgay.Location = new System.Drawing.Point(673, 263);
             this.dtp_TimNgay.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
             this.dtp_TimNgay.Name = "dtp_TimNgay";
-            this.dtp_TimNgay.Size = new System.Drawing.Size(282, 29);
+            this.dtp_TimNgay.Size = new System.Drawing.Size(282, 35);
             this.dtp_TimNgay.TabIndex = 100;
             // 
             // cbo_TimNV
@@ -323,7 +324,7 @@
             this.cbo_TimNV.FormattingEnabled = true;
             this.cbo_TimNV.Location = new System.Drawing.Point(673, 263);
             this.cbo_TimNV.Name = "cbo_TimNV";
-            this.cbo_TimNV.Size = new System.Drawing.Size(282, 29);
+            this.cbo_TimNV.Size = new System.Drawing.Size(282, 35);
             this.cbo_TimNV.TabIndex = 101;
             // 
             // cbo_TimNQ
@@ -332,12 +333,12 @@
             this.cbo_TimNQ.FormattingEnabled = true;
             this.cbo_TimNQ.Location = new System.Drawing.Point(673, 263);
             this.cbo_TimNQ.Name = "cbo_TimNQ";
-            this.cbo_TimNQ.Size = new System.Drawing.Size(282, 29);
+            this.cbo_TimNQ.Size = new System.Drawing.Size(282, 35);
             this.cbo_TimNQ.TabIndex = 102;
             // 
             // Frm_ViPham
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1245, 639);
             this.Controls.Add(this.cbo_TimNQ);
@@ -374,6 +375,7 @@
             this.Text = "Frm_ViPham";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_ViPham_FormClosing);
             this.Load += new System.EventHandler(this.Frm_ViPham_Load);
+            this.Resize += new System.EventHandler(this.Frm_ViPham_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ViPham)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

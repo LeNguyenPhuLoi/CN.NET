@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\K\u00EC 4\\tam\\CN.NET\\QuanLyNganHang\\",
+  "WorkspaceRootPath": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\tam\\cn.net\\quanlynganhang\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\ba\u0301o ca\u0301o nho\u0301m 4\\cn.net 2.0\\cn.net\\quanlynganhang\\gui\\frm_hotro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_hotro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\ba\u0301o ca\u0301o nho\u0301m 4\\cn.net 2.0\\cn.net\\quanlynganhang\\gui\\frm_hotro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\frm_hotro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\ba\u0301o ca\u0301o nho\u0301m 4\\cn.net 2.0\\cn.net\\quanlynganhang\\gui\\report\\rpt_dshotro.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\report\\rpt_dshotro.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|d:\\k\u00EC 4\\ba\u0301o ca\u0301o nho\u0301m 4\\cn.net 2.0\\cn.net\\quanlynganhang\\gui\\report\\rpt_dsbienlai.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{8318BBFE-3662-4BA8-83B9-5518E97A1813}|GUI\\GUI.csproj|solutionrelative:gui\\report\\rpt_dsbienlai.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|d:\\k\u00EC 4\\ba\u0301o ca\u0301o nho\u0301m 4\\cn.net 2.0\\cn.net\\quanlynganhang\\dal\\qlnh.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{CFC980BC-6581-493D-B991-1D4869CD11E2}|DAL\\DAL.csproj|solutionrelative:dal\\qlnh.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\K\u00EC 4\\tam\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs",
-              "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "D:\\K\u00EC 4\\tam\\CN.NET\\QuanLyNganHang\\GUI\\Program.cs*",
-              "RelativeToolTip": "GUI\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:55:58.271Z",
+              "DocumentIndex": 4,
+              "Title": "QLNH.dbml",
+              "DocumentMoniker": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\DAL\\QLNH.dbml",
+              "RelativeDocumentMoniker": "DAL\\QLNH.dbml",
+              "ToolTip": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\DAL\\QLNH.dbml",
+              "RelativeToolTip": "DAL\\QLNH.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2025-05-10T13:47:54.384Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frm_HoTro.cs",
+              "DocumentMoniker": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\GUI\\Frm_HoTro.cs",
+              "RelativeDocumentMoniker": "GUI\\Frm_HoTro.cs",
+              "ToolTip": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\GUI\\Frm_HoTro.cs*",
+              "RelativeToolTip": "GUI\\Frm_HoTro.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T01:24:53.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frm_HoTro.cs [Design]",
+              "DocumentMoniker": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\GUI\\Frm_HoTro.cs",
+              "RelativeDocumentMoniker": "GUI\\Frm_HoTro.cs",
+              "ToolTip": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\GUI\\Frm_HoTro.cs [Design]*",
+              "RelativeToolTip": "GUI\\Frm_HoTro.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T01:21:07.761Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rpt_DSHoTro.rpt",
+              "DocumentMoniker": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\GUI\\Report\\Rpt_DSHoTro.rpt",
+              "RelativeDocumentMoniker": "GUI\\Report\\Rpt_DSHoTro.rpt",
+              "ToolTip": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\GUI\\Report\\Rpt_DSHoTro.rpt",
+              "RelativeToolTip": "GUI\\Report\\Rpt_DSHoTro.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-05-14T01:16:31.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rpt_DSBienLai.rpt",
+              "DocumentMoniker": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\GUI\\Report\\Rpt_DSBienLai.rpt",
+              "RelativeDocumentMoniker": "GUI\\Report\\Rpt_DSBienLai.rpt",
+              "ToolTip": "D:\\K\u00EC 4\\BA\u0301O CA\u0301O NHO\u0301M 4\\CN.NET 2.0\\CN.NET\\QuanLyNganHang\\GUI\\Report\\Rpt_DSBienLai.rpt",
+              "RelativeToolTip": "GUI\\Report\\Rpt_DSBienLai.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-05-14T01:08:25.495Z",
               "EditorCaption": ""
             }
           ]

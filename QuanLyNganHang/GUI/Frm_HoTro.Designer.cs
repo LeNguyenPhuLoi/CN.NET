@@ -46,8 +46,8 @@
             this.btn_thoat = new System.Windows.Forms.Button();
             this.cbo_dvht = new System.Windows.Forms.ComboBox();
             this.cbo_timdvht = new System.Windows.Forms.ComboBox();
-            this.txt_manv = new System.Windows.Forms.TextBox();
-            this.txt_makm = new System.Windows.Forms.TextBox();
+            this.cbo_makm = new System.Windows.Forms.ComboBox();
+            this.cbo_manv = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_hotro)).BeginInit();
             this.SuspendLayout();
             // 
@@ -253,29 +253,42 @@
             this.cbo_timdvht.Size = new System.Drawing.Size(217, 33);
             this.cbo_timdvht.TabIndex = 21;
             // 
-            // txt_manv
+            // cbo_makm
             // 
-            this.txt_manv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_manv.Location = new System.Drawing.Point(697, 105);
-            this.txt_manv.Name = "txt_manv";
-            this.txt_manv.Size = new System.Drawing.Size(189, 30);
-            this.txt_manv.TabIndex = 22;
+            this.cbo_makm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbo_makm.FormattingEnabled = true;
+            this.cbo_makm.Items.AddRange(new object[] {
+            "KM01",
+            "KM02",
+            "KM03"});
+            this.cbo_makm.Location = new System.Drawing.Point(705, 200);
+            this.cbo_makm.Name = "cbo_makm";
+            this.cbo_makm.Size = new System.Drawing.Size(190, 33);
+            this.cbo_makm.TabIndex = 22;
             // 
-            // txt_makm
+            // cbo_manv
             // 
-            this.txt_makm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_makm.Location = new System.Drawing.Point(697, 200);
-            this.txt_makm.Name = "txt_makm";
-            this.txt_makm.Size = new System.Drawing.Size(189, 30);
-            this.txt_makm.TabIndex = 23;
+            this.cbo_manv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbo_manv.FormattingEnabled = true;
+            this.cbo_manv.Items.AddRange(new object[] {
+            "NV0001",
+            "NV0002",
+            "NV0003",
+            "NV0004",
+            "NV0005",
+            "NV0006"});
+            this.cbo_manv.Location = new System.Drawing.Point(705, 105);
+            this.cbo_manv.Name = "cbo_manv";
+            this.cbo_manv.Size = new System.Drawing.Size(190, 33);
+            this.cbo_manv.TabIndex = 23;
             // 
             // Frm_HoTro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1325, 616);
-            this.Controls.Add(this.txt_makm);
-            this.Controls.Add(this.txt_manv);
+            this.Controls.Add(this.cbo_manv);
+            this.Controls.Add(this.cbo_makm);
             this.Controls.Add(this.cbo_timdvht);
             this.Controls.Add(this.cbo_dvht);
             this.Controls.Add(this.btn_thoat);
@@ -324,7 +337,7 @@
         private System.Windows.Forms.Button btn_thoat;
         private System.Windows.Forms.ComboBox cbo_dvht;
         private System.Windows.Forms.ComboBox cbo_timdvht;
-        private System.Windows.Forms.TextBox txt_manv;
-        private System.Windows.Forms.TextBox txt_makm;
+        private System.Windows.Forms.ComboBox cbo_makm;
+        private System.Windows.Forms.ComboBox cbo_manv;
     }
 }

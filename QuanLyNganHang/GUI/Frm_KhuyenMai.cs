@@ -35,6 +35,7 @@ namespace GUI
             dtp_ngaybatdau.Text = dtp_ngaybatdau.MinDate.ToString();
             dtp_ngayketthuc.Text = dtp_ngayketthuc.MinDate.ToString();
             txt_dieukien.Clear();
+            dgv_khuyenmai.DataSource = BUS_KhuyenMai.LoadKM();
         }
 
         private void btn_lammoi_Click(object sender, EventArgs e)

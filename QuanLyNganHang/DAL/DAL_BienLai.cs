@@ -21,7 +21,7 @@ namespace DAL
         {
             IQueryable BL = from bl in db.BIENLAIs
                             where bl.MABL.Contains(ma)
-                            select bl;
+                            select new { bl.MABL, bl.LOAIBL, bl.SOTIEN, bl.NGAYLAP, bl.MANV, bl.MaKH };
             return BL;
         }
 
@@ -29,7 +29,7 @@ namespace DAL
         {
             IQueryable BL = from bl in db.BIENLAIs
                             where bl.LOAIBL.Contains(loai)
-                            select bl;
+                            select new { bl.MABL, bl.LOAIBL, bl.SOTIEN, bl.NGAYLAP, bl.MANV, bl.MaKH };
             return BL;
         }
 
@@ -37,7 +37,7 @@ namespace DAL
         {
             IQueryable BL = from bl in db.BIENLAIs
                             where bl.MANV.Contains(mablnv)
-                            select bl;
+                            select new { bl.MABL, bl.LOAIBL, bl.SOTIEN, bl.NGAYLAP, bl.MANV, bl.MaKH };
             return BL;
         }
 
@@ -45,7 +45,7 @@ namespace DAL
         {
             IQueryable BL = from bl in db.BIENLAIs
                             where bl.MaKH.Contains(mablkh)
-                            select bl;
+                            select new { bl.MABL, bl.LOAIBL, bl.SOTIEN, bl.NGAYLAP, bl.MANV, bl.MaKH };
             return BL;
         }
 

@@ -50,6 +50,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.btnTim = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.cboTim = new System.Windows.Forms.ComboBox();
+            this.txtKey = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTaiKhoan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,10 +114,12 @@
             // 
             // dtpNgayLap
             // 
-            this.dtpNgayLap.CustomFormat = "MM/dd/yyyy";
+            this.dtpNgayLap.CustomFormat = "dd/MM/yyyy";
             this.dtpNgayLap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNgayLap.Location = new System.Drawing.Point(206, 235);
             this.dtpNgayLap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtpNgayLap.MaxDate = new System.DateTime(2025, 12, 31, 0, 0, 0, 0);
+            this.dtpNgayLap.MinDate = new System.DateTime(1980, 1, 1, 0, 0, 0, 0);
             this.dtpNgayLap.Name = "dtpNgayLap";
             this.dtpNgayLap.Size = new System.Drawing.Size(200, 22);
             this.dtpNgayLap.TabIndex = 34;
@@ -179,7 +185,7 @@
             this.dgvTaiKhoan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvTaiKhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTaiKhoan.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvTaiKhoan.Location = new System.Drawing.Point(0, 373);
+            this.dgvTaiKhoan.Location = new System.Drawing.Point(0, 427);
             this.dgvTaiKhoan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvTaiKhoan.Name = "dgvTaiKhoan";
             this.dgvTaiKhoan.RowHeadersWidth = 51;
@@ -270,11 +276,57 @@
             this.label8.TabIndex = 40;
             this.label8.Text = "Quản Lý Tài Khoản";
             // 
+            // btnTim
+            // 
+            this.btnTim.Location = new System.Drawing.Point(674, 376);
+            this.btnTim.Name = "btnTim";
+            this.btnTim.Size = new System.Drawing.Size(75, 29);
+            this.btnTim.TabIndex = 59;
+            this.btnTim.Text = "Tìm";
+            this.btnTim.UseVisualStyleBackColor = true;
+            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(150, 382);
+            this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(112, 16);
+            this.label12.TabIndex = 58;
+            this.label12.Text = "Phương Thức Tìm";
+            // 
+            // cboTim
+            // 
+            this.cboTim.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboTim.FormattingEnabled = true;
+            this.cboTim.Items.AddRange(new object[] {
+            "Mã Tài Khoản",
+            "Số Dư",
+            "Tên Khách Hàng",
+            "Mã Khách Hàng"});
+            this.cboTim.Location = new System.Drawing.Point(270, 379);
+            this.cboTim.Name = "cboTim";
+            this.cboTim.Size = new System.Drawing.Size(155, 24);
+            this.cboTim.TabIndex = 57;
+            // 
+            // txtKey
+            // 
+            this.txtKey.Location = new System.Drawing.Point(431, 379);
+            this.txtKey.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtKey.Name = "txtKey";
+            this.txtKey.Size = new System.Drawing.Size(237, 22);
+            this.txtKey.TabIndex = 60;
+            // 
             // frmTaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(858, 615);
+            this.ClientSize = new System.Drawing.Size(858, 669);
+            this.Controls.Add(this.txtKey);
+            this.Controls.Add(this.btnTim);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.cboTim);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnLamMoi);
@@ -330,5 +382,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnTim;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox cboTim;
+        private System.Windows.Forms.TextBox txtKey;
     }
 }

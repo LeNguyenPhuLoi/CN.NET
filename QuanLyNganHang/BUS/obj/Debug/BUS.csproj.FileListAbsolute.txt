@@ -139,3 +139,17 @@ D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NE
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.exe
 D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.pdb
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\bin\Debug\BUS.exe.config
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\bin\Debug\BUS.exe
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\bin\Debug\BUS.pdb
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\bin\Debug\DAL.exe
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\bin\Debug\ET.exe
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\bin\Debug\DAL.pdb
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\bin\Debug\DAL.exe.config
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\bin\Debug\ET.pdb
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\bin\Debug\ET.exe.config
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.csproj.Up2Date
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.exe
+D:\My Tep\CN.NET\QuanLyNganHang\BUS\obj\Debug\BUS.pdb

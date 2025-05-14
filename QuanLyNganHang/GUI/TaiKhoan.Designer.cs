@@ -123,6 +123,7 @@
             this.dtpNgayLap.Name = "dtpNgayLap";
             this.dtpNgayLap.Size = new System.Drawing.Size(200, 22);
             this.dtpNgayLap.TabIndex = 34;
+            this.dtpNgayLap.Value = new System.DateTime(2025, 5, 14, 0, 0, 0, 0);
             // 
             // cboMaNV
             // 

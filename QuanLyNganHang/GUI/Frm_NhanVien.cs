@@ -272,5 +272,9 @@ namespace GUI
                 MessageBox.Show("Lỗi " + ex.Message);
             }
         }
+
+        private void Frm_NhanVien_Resize(object sender, EventArgs e)
+        {
+        }
     }
 }

@@ -171,5 +171,9 @@ namespace GUI
                 MessageBox.Show("Lỗi " + ex.Message);
             }
         }
+
+        private void Frm_NoiQuy_Resize(object sender, EventArgs e)
+        {
+        }
     }
 }

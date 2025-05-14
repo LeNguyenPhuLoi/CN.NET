@@ -121,7 +121,6 @@ VALUES
 ('NQ003', N'Trễ hạn nộp báo cáo', 700000, N'Phạt nếu không hoàn thành báo cáo đúng hạn'),
 ('NQ004', N'Vi phạm an toàn lao động', 1000000, N'Phạt nếu không mang đầy đủ thiết bị bảo vệ'),
 ('NQ005', N'Sử dụng thiết bị sai mục đích', 400000, N'Phạt nếu làm hư hỏng thiết bị công ty vì sử dụng sai cách')
-GO
 --THEM DU LIEU CHO VIPHAM
 GO
 INSERT INTO VIPHAM (MAVP, MANV, MANQ, NGAYVIPHAM, TIENPHAT, SOLANVIPHAM, GHICHU)
@@ -135,6 +134,7 @@ VALUES ('KM01', N'LÃI SUẤT GỬI TIẾT KIỆM CAO', '27/9/2024','27/3/2
 		('KM02',N'TẶNG QUÀ KHI DÙNG APP LẦN ĐẦU','10/3/2023','10/3/2025',N'THỰC HIỆN ÍT NHẤT 1 GIAO DỊCH'),
 		('KM03',N'TÍCH ĐIỂM ĐỔI QUÀ','29/5/2024','31/12/2025',N'SỬ DỤNG THẺ THƯỜNG XUYÊN')
 --THEM DU LIEU CHO HO TRO
+GO
 INSERT INTO HOTRO(MAKH,DVHT,MANV,MAKM)
 VALUES('KH001',N'THÔNG DỊCH THỊ TRƯỜNG','NV0001','KM01'),
 		('KH001',N'TƯ VẤN ĐẦU TƯ','NV0004','KM02'),
@@ -152,3 +152,7 @@ VALUES('KH001',N'THÔNG DỊCH THỊ TRƯỜNG','NV0001','KM01'),
 		('KH008',N'THÔNG DỊCH THỊ TRƯỜNG','NV0001','KM02')
 
 GO
+--THEM DU LIEU CHO TAI KHOAN DANG NHAP
+INSERT INTO TKDANGNHAP(TENDN,MATKHAU,QUYEN,MANV)
+VALUES('admin01','quanlynganhang123','ADMIN','NV0003'),
+		('thuylt','thuy@123','NV','NV0002')

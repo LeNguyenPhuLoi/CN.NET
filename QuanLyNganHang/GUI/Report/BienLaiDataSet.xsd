@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BienLaiDataSet" targetNamespace="http://tempuri.org/BienLaiDataSet.xsd" xmlns:mstns="http://tempuri.org/BienLaiDataSet.xsd" xmlns="http://tempuri.org/BienLaiDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BienLaiDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="BienLaiDataSet" msprop:Generator_DataSetName="BienLaiDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BienLai" msprop:Generator_RowEvHandlerName="BienLaiRowChangeEventHandler" msprop:Generator_RowDeletedName="BienLaiRowDeleted" msprop:Generator_RowDeletingName="BienLaiRowDeleting" msprop:Generator_RowEvArgName="BienLaiRowChangeEvent" msprop:Generator_TablePropName="BienLai" msprop:Generator_RowChangedName="BienLaiRowChanged" msprop:Generator_RowChangingName="BienLaiRowChanging" msprop:Generator_TableClassName="BienLaiDataTable" msprop:Generator_RowClassName="BienLaiRow" msprop:Generator_TableVarName="tableBienLai" msprop:Generator_UserTableName="BienLai">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MABL" msprop:Generator_ColumnPropNameInRow="MABL" msprop:Generator_ColumnPropNameInTable="MABLColumn" msprop:Generator_ColumnVarNameInTable="columnMABL" msprop:Generator_UserColumnName="MABL" type="xs:string" minOccurs="0" />
+              <xs:element name="LOAIBL" msprop:Generator_ColumnPropNameInRow="LOAIBL" msprop:Generator_ColumnPropNameInTable="LOAIBLColumn" msprop:Generator_ColumnVarNameInTable="columnLOAIBL" msprop:Generator_UserColumnName="LOAIBL" type="xs:string" minOccurs="0" />
+              <xs:element name="SOTIEN" msprop:Generator_ColumnPropNameInRow="SOTIEN" msprop:Generator_ColumnPropNameInTable="SOTIENColumn" msprop:Generator_ColumnVarNameInTable="columnSOTIEN" msprop:Generator_UserColumnName="SOTIEN" type="xs:string" minOccurs="0" />
+              <xs:element name="NGAYLAP" msprop:Generator_ColumnPropNameInRow="NGAYLAP" msprop:Generator_ColumnPropNameInTable="NGAYLAPColumn" msprop:Generator_ColumnVarNameInTable="columnNGAYLAP" msprop:Generator_UserColumnName="NGAYLAP" type="xs:string" minOccurs="0" />
+              <xs:element name="MANV" msprop:Generator_ColumnPropNameInRow="MANV" msprop:Generator_ColumnPropNameInTable="MANVColumn" msprop:Generator_ColumnVarNameInTable="columnMANV" msprop:Generator_UserColumnName="MANV" type="xs:string" minOccurs="0" />
+              <xs:element name="MAKH" msprop:Generator_ColumnPropNameInRow="MAKH" msprop:Generator_ColumnPropNameInTable="MAKHColumn" msprop:Generator_ColumnVarNameInTable="columnMAKH" msprop:Generator_UserColumnName="MAKH" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

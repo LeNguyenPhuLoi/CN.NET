@@ -181,5 +181,10 @@ namespace GUI
                 MessageBox.Show("Lỗi " + ex.Message);
             }
         }
+
+        private void Frm_PhongBan_Resize(object sender, EventArgs e)
+        {
+
+        }
     }
 }

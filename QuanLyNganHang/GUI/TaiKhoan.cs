@@ -48,7 +48,7 @@ namespace GUI
         private void btnThem_Click(object sender, EventArgs e)
         {
             ET_TaiKhoan etTaiKhoan = new ET_TaiKhoan(txtMaTK.Text, float.Parse(txtSoDu.Text),
-                                                    DateTime.Parse(dtpNgayLap.Text), GetMa(cboMaKH.Text),
+                                                    dtpNgayLap.Value, GetMa(cboMaKH.Text),
                                                     GetMa(cboLoaiTK.Text), GetMa(cboLoaiTien.Text),
                                                     GetMa(cboMaNV.Text));
             //goi ham thuc hien

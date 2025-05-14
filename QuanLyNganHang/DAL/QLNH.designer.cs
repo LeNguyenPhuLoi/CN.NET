@@ -51,12 +51,12 @@ namespace DAL
     partial void InsertLOAITAIKHOAN(LOAITAIKHOAN instance);
     partial void UpdateLOAITAIKHOAN(LOAITAIKHOAN instance);
     partial void DeleteLOAITAIKHOAN(LOAITAIKHOAN instance);
-    partial void InsertNOIQUY(NOIQUY instance);
-    partial void UpdateNOIQUY(NOIQUY instance);
-    partial void DeleteNOIQUY(NOIQUY instance);
     partial void InsertNHANVIEN(NHANVIEN instance);
     partial void UpdateNHANVIEN(NHANVIEN instance);
     partial void DeleteNHANVIEN(NHANVIEN instance);
+    partial void InsertNOIQUY(NOIQUY instance);
+    partial void UpdateNOIQUY(NOIQUY instance);
+    partial void DeleteNOIQUY(NOIQUY instance);
     partial void InsertPHONGBAN(PHONGBAN instance);
     partial void UpdatePHONGBAN(PHONGBAN instance);
     partial void DeletePHONGBAN(PHONGBAN instance);
@@ -72,7 +72,7 @@ namespace DAL
     #endregion
 		
 		public QLNHDataContext() : 
-				base(global::DAL.Properties.Settings.Default.QLNHConnectionString1, mappingSource)
+				base(global::DAL.Properties.Settings.Default.QLNHConnectionString2, mappingSource)
 		{
 			OnCreated();
 		}
@@ -157,19 +157,19 @@ namespace DAL
 			}
 		}
 		
-		public System.Data.Linq.Table<NOIQUY> NOIQUYs
-		{
-			get
-			{
-				return this.GetTable<NOIQUY>();
-			}
-		}
-		
 		public System.Data.Linq.Table<NHANVIEN> NHANVIENs
 		{
 			get
 			{
 				return this.GetTable<NHANVIEN>();
+			}
+		}
+		
+		public System.Data.Linq.Table<NOIQUY> NOIQUYs
+		{
+			get
+			{
+				return this.GetTable<NOIQUY>();
 			}
 		}
 		
@@ -490,9 +490,9 @@ namespace DAL
 		
 		private string _GHICHU;
 		
-		private EntityRef<NOIQUY> _NOIQUY;
-		
 		private EntityRef<NHANVIEN> _NHANVIEN;
+		
+		private EntityRef<NOIQUY> _NOIQUY;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -516,8 +516,8 @@ namespace DAL
 		
 		public VIPHAM()
 		{
-			this._NOIQUY = default(EntityRef<NOIQUY>);
 			this._NHANVIEN = default(EntityRef<NHANVIEN>);
+			this._NOIQUY = default(EntityRef<NOIQUY>);
 			OnCreated();
 		}
 		
@@ -669,40 +669,6 @@ namespace DAL
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="NOIQUY_VIPHAM", Storage="_NOIQUY", ThisKey="MANQ", OtherKey="MANQ", IsForeignKey=true)]
-		public NOIQUY NOIQUY
-		{
-			get
-			{
-				return this._NOIQUY.Entity;
-			}
-			set
-			{
-				NOIQUY previousValue = this._NOIQUY.Entity;
-				if (((previousValue != value) 
-							|| (this._NOIQUY.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._NOIQUY.Entity = null;
-						previousValue.VIPHAMs.Remove(this);
-					}
-					this._NOIQUY.Entity = value;
-					if ((value != null))
-					{
-						value.VIPHAMs.Add(this);
-						this._MANQ = value.MANQ;
-					}
-					else
-					{
-						this._MANQ = default(string);
-					}
-					this.SendPropertyChanged("NOIQUY");
-				}
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="NHANVIEN_VIPHAM", Storage="_NHANVIEN", ThisKey="MANV", OtherKey="MANV", IsForeignKey=true)]
 		public NHANVIEN NHANVIEN
 		{
@@ -733,6 +699,40 @@ namespace DAL
 						this._MANV = default(string);
 					}
 					this.SendPropertyChanged("NHANVIEN");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="NOIQUY_VIPHAM", Storage="_NOIQUY", ThisKey="MANQ", OtherKey="MANQ", IsForeignKey=true)]
+		public NOIQUY NOIQUY
+		{
+			get
+			{
+				return this._NOIQUY.Entity;
+			}
+			set
+			{
+				NOIQUY previousValue = this._NOIQUY.Entity;
+				if (((previousValue != value) 
+							|| (this._NOIQUY.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._NOIQUY.Entity = null;
+						previousValue.VIPHAMs.Remove(this);
+					}
+					this._NOIQUY.Entity = value;
+					if ((value != null))
+					{
+						value.VIPHAMs.Add(this);
+						this._MANQ = value.MANQ;
+					}
+					else
+					{
+						this._MANQ = default(string);
+					}
+					this.SendPropertyChanged("NOIQUY");
 				}
 			}
 		}
@@ -1719,168 +1719,6 @@ namespace DAL
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.NOIQUY")]
-	public partial class NOIQUY : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private string _MANQ;
-		
-		private string _MOTA;
-		
-		private System.Nullable<double> _MUCPHAT;
-		
-		private string _GHICHU;
-		
-		private EntitySet<VIPHAM> _VIPHAMs;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnMANQChanging(string value);
-    partial void OnMANQChanged();
-    partial void OnMOTAChanging(string value);
-    partial void OnMOTAChanged();
-    partial void OnMUCPHATChanging(System.Nullable<double> value);
-    partial void OnMUCPHATChanged();
-    partial void OnGHICHUChanging(string value);
-    partial void OnGHICHUChanged();
-    #endregion
-		
-		public NOIQUY()
-		{
-			this._VIPHAMs = new EntitySet<VIPHAM>(new Action<VIPHAM>(this.attach_VIPHAMs), new Action<VIPHAM>(this.detach_VIPHAMs));
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MANQ", DbType="Char(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string MANQ
-		{
-			get
-			{
-				return this._MANQ;
-			}
-			set
-			{
-				if ((this._MANQ != value))
-				{
-					this.OnMANQChanging(value);
-					this.SendPropertyChanging();
-					this._MANQ = value;
-					this.SendPropertyChanged("MANQ");
-					this.OnMANQChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MOTA", DbType="NVarChar(100)")]
-		public string MOTA
-		{
-			get
-			{
-				return this._MOTA;
-			}
-			set
-			{
-				if ((this._MOTA != value))
-				{
-					this.OnMOTAChanging(value);
-					this.SendPropertyChanging();
-					this._MOTA = value;
-					this.SendPropertyChanged("MOTA");
-					this.OnMOTAChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MUCPHAT", DbType="Float")]
-		public System.Nullable<double> MUCPHAT
-		{
-			get
-			{
-				return this._MUCPHAT;
-			}
-			set
-			{
-				if ((this._MUCPHAT != value))
-				{
-					this.OnMUCPHATChanging(value);
-					this.SendPropertyChanging();
-					this._MUCPHAT = value;
-					this.SendPropertyChanged("MUCPHAT");
-					this.OnMUCPHATChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GHICHU", DbType="NVarChar(225)")]
-		public string GHICHU
-		{
-			get
-			{
-				return this._GHICHU;
-			}
-			set
-			{
-				if ((this._GHICHU != value))
-				{
-					this.OnGHICHUChanging(value);
-					this.SendPropertyChanging();
-					this._GHICHU = value;
-					this.SendPropertyChanged("GHICHU");
-					this.OnGHICHUChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="NOIQUY_VIPHAM", Storage="_VIPHAMs", ThisKey="MANQ", OtherKey="MANQ")]
-		public EntitySet<VIPHAM> VIPHAMs
-		{
-			get
-			{
-				return this._VIPHAMs;
-			}
-			set
-			{
-				this._VIPHAMs.Assign(value);
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-		
-		private void attach_VIPHAMs(VIPHAM entity)
-		{
-			this.SendPropertyChanging();
-			entity.NOIQUY = this;
-		}
-		
-		private void detach_VIPHAMs(VIPHAM entity)
-		{
-			this.SendPropertyChanging();
-			entity.NOIQUY = null;
-		}
-	}
-	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.NHANVIEN")]
 	public partial class NHANVIEN : INotifyPropertyChanging, INotifyPropertyChanged
 	{
@@ -2406,6 +2244,168 @@ namespace DAL
 		{
 			this.SendPropertyChanging();
 			entity.NHANVIEN = null;
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.NOIQUY")]
+	public partial class NOIQUY : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _MANQ;
+		
+		private string _MOTA;
+		
+		private System.Nullable<double> _MUCPHAT;
+		
+		private string _GHICHU;
+		
+		private EntitySet<VIPHAM> _VIPHAMs;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMANQChanging(string value);
+    partial void OnMANQChanged();
+    partial void OnMOTAChanging(string value);
+    partial void OnMOTAChanged();
+    partial void OnMUCPHATChanging(System.Nullable<double> value);
+    partial void OnMUCPHATChanged();
+    partial void OnGHICHUChanging(string value);
+    partial void OnGHICHUChanged();
+    #endregion
+		
+		public NOIQUY()
+		{
+			this._VIPHAMs = new EntitySet<VIPHAM>(new Action<VIPHAM>(this.attach_VIPHAMs), new Action<VIPHAM>(this.detach_VIPHAMs));
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MANQ", DbType="Char(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string MANQ
+		{
+			get
+			{
+				return this._MANQ;
+			}
+			set
+			{
+				if ((this._MANQ != value))
+				{
+					this.OnMANQChanging(value);
+					this.SendPropertyChanging();
+					this._MANQ = value;
+					this.SendPropertyChanged("MANQ");
+					this.OnMANQChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MOTA", DbType="NVarChar(100)")]
+		public string MOTA
+		{
+			get
+			{
+				return this._MOTA;
+			}
+			set
+			{
+				if ((this._MOTA != value))
+				{
+					this.OnMOTAChanging(value);
+					this.SendPropertyChanging();
+					this._MOTA = value;
+					this.SendPropertyChanged("MOTA");
+					this.OnMOTAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MUCPHAT", DbType="Float")]
+		public System.Nullable<double> MUCPHAT
+		{
+			get
+			{
+				return this._MUCPHAT;
+			}
+			set
+			{
+				if ((this._MUCPHAT != value))
+				{
+					this.OnMUCPHATChanging(value);
+					this.SendPropertyChanging();
+					this._MUCPHAT = value;
+					this.SendPropertyChanged("MUCPHAT");
+					this.OnMUCPHATChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GHICHU", DbType="NVarChar(225)")]
+		public string GHICHU
+		{
+			get
+			{
+				return this._GHICHU;
+			}
+			set
+			{
+				if ((this._GHICHU != value))
+				{
+					this.OnGHICHUChanging(value);
+					this.SendPropertyChanging();
+					this._GHICHU = value;
+					this.SendPropertyChanged("GHICHU");
+					this.OnGHICHUChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="NOIQUY_VIPHAM", Storage="_VIPHAMs", ThisKey="MANQ", OtherKey="MANQ")]
+		public EntitySet<VIPHAM> VIPHAMs
+		{
+			get
+			{
+				return this._VIPHAMs;
+			}
+			set
+			{
+				this._VIPHAMs.Assign(value);
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_VIPHAMs(VIPHAM entity)
+		{
+			this.SendPropertyChanging();
+			entity.NOIQUY = this;
+		}
+		
+		private void detach_VIPHAMs(VIPHAM entity)
+		{
+			this.SendPropertyChanging();
+			entity.NOIQUY = null;
 		}
 	}
 	

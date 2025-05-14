@@ -17,6 +17,21 @@ namespace BUS
             return tk.LoadTaiKhoan();
         }
         
+        public IQueryable TimTheoMaTK(string ma)
+        {
+            return tk.TimTheoMaTaiKhoan(ma);
+        }
+
+        public IQueryable TimTheoSoDu(float so)
+        {
+            return tk.TimTheoSoDu(so);
+        }
+
+        public IQueryable TimTheoMaOrTenKH(string ma)
+        {
+            return tk.TimTheoMaOrTenKhach(ma);
+        }
+
         public IQueryable LoadLTK()
         {
             return tk.LoadLoaiTK();

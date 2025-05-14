@@ -9,22 +9,80 @@ namespace DAL
 {
     public class DAL_TaiKhoan
     {
-        QLNHDataContext db= new QLNHDataContext();
+        QLNHDataContext db = new QLNHDataContext();
 
         public IQueryable LoadTaiKhoan()
         {
             IQueryable taikhoan = from tk in db.TAIKHOANs
-                                  select new { tk.MATK, tk.SODU,
-                                      tk.NGAYLAP,tk.MAKH,
-                                      tk.LOAITK,tk.LOAITIEN,
-                                      tk.MANV} ;
+                                  select new
+                                  {
+                                      tk.MATK,
+                                      tk.SODU,
+                                      tk.NGAYLAP,
+                                      tk.MAKH,
+                                      tk.LOAITK,
+                                      tk.LOAITIEN,
+                                      tk.MANV
+                                  };
             return taikhoan;
+        }
+
+        public IQueryable TimTheoMaTaiKhoan(string ma)
+        {
+            IQueryable timtaikhoan = from tk in db.TAIKHOANs
+                                     where tk.MATK == ma
+                                     select new
+                                     {
+                                         tk.MATK,
+                                         tk.SODU,
+                                         tk.NGAYLAP,
+                                         tk.MAKH,
+                                         tk.LOAITK,
+                                         tk.LOAITIEN,
+                                         tk.MANV
+                                     };
+            return timtaikhoan;
+        }
+
+        public IQueryable TimTheoSoDu(float so)
+        {
+            IQueryable timtaikhoan = from tk in db.TAIKHOANs
+                                     where tk.SODU == so
+                                     select new
+                                     {
+                                         tk.MATK,
+                                         tk.SODU,
+                                         tk.NGAYLAP,
+                                         tk.MAKH,
+                                         tk.LOAITK,
+                                         tk.LOAITIEN,
+                                         tk.MANV
+                                     };
+            return timtaikhoan;
+        }
+
+        public IQueryable TimTheoMaOrTenKhach(string ma)
+        {
+            IQueryable tim = from tk in db.TAIKHOANs
+                             join kh in db.KHACHHANGs on tk.MAKH equals kh.MAKH
+                             where tk.MAKH == ma || kh.TENKH.Contains(ma)
+                             select new
+                             {
+                                 tk.MATK,
+                                 tk.SODU,
+                                 tk.NGAYLAP,
+                                 tk.MAKH,
+                                 tk.LOAITK,
+                                 tk.LOAITIEN,
+                                 tk.MANV
+                             };
+            return tim;
         }
 
         public IQueryable LoadLoaiTK()
         {
             IQueryable loaitk = from ltk in db.LOAITAIKHOANs
-                                select ltk.MALOAI +"-"+ ltk.TENNH;
+                                select ltk.MALOAI + "-" + ltk.TENNH;
             return loaitk;
         }
 
@@ -54,7 +112,7 @@ namespace DAL
         public IQueryable LoadNhanVien()
         {
             IQueryable nhanvien = from nv in db.NHANVIENs
-                                select nv.MANV + "-" + nv.TENNV;
+                                  select nv.MANV + "-" + nv.TENNV;
             return nhanvien;
         }
 
@@ -69,7 +127,7 @@ namespace DAL
         public IQueryable LoadKhachHang()
         {
             IQueryable khachhang = from kh in db.KHACHHANGs
-                                  select kh.MAKH + "-" + kh.TENKH;
+                                   select kh.MAKH + "-" + kh.TENKH;
             return khachhang;
         }
 

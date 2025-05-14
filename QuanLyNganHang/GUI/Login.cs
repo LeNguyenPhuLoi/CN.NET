@@ -35,19 +35,21 @@ namespace GUI
 
             MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            // Phân quyền
             if (buslq.IsAdmin(user))
             {
-                NextForm = new frmMenu(); // bạn cần tạo form này
-                Form frmMenu = new frmMenu();
-                frmMenu.Show();
+                NextForm = new frmMenu();
             }
             else if (buslq.IsNhanVien(user))
             {
-                NextForm = new frmUser(); // bạn cần tạo form này
-                Form frmUser = new frmUser();
-                frmUser.Show();
+                NextForm = new frmUser();
             }
+            else
+            {
+                MessageBox.Show("Không xác định quyền người dùng.");
+                return;
+            }
+
+            NextForm.Show();
             this.Hide();
         }
 

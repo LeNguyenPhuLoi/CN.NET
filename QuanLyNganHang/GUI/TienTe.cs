@@ -37,6 +37,7 @@ namespace GUI
             {
                 MessageBox.Show("Thêm không thành công!");
             }
+            dgvTienTe.DataSource = bustt.LoadTT();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -54,6 +55,7 @@ namespace GUI
                 {
                     MessageBox.Show("Xóa không thành công!");
                 }
+                dgvTienTe.DataSource = bustt.LoadTT();
             }
         }
 
@@ -69,6 +71,7 @@ namespace GUI
             {
                 MessageBox.Show("Cập Nhật không thành công!");
             }
+            dgvTienTe.DataSource = bustt.LoadTT();
         }
 
         private void btnLamMoi_Click(object sender, EventArgs e)
@@ -76,6 +79,7 @@ namespace GUI
             txtMaTT.Clear();
             txtTenTT.Clear();
             txtMaTT.Focus();
+            dgvTienTe.DataSource = bustt.LoadTT();
         }
 
         private void btnThoat_Click(object sender, EventArgs e)

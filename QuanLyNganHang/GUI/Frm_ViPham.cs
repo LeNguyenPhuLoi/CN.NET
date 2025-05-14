@@ -306,5 +306,10 @@ namespace GUI
                 MessageBox.Show("Lỗi " + ex.Message);
             }
         }
+
+        private void Frm_ViPham_Resize(object sender, EventArgs e)
+        {
+
+        }
     }
 }

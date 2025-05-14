@@ -98,3 +98,14 @@ D:\Kì 4\BÁO CÁO NHÓM 4\CN.NET 2.0\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL
 D:\Kì 4\BÁO CÁO NHÓM 4\CN.NET 2.0\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Kì 4\BÁO CÁO NHÓM 4\CN.NET 2.0\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.exe
 D:\Kì 4\BÁO CÁO NHÓM 4\CN.NET 2.0\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.pdb
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.exe.config
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\bin\Debug\DAL.pdb
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.pdb
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\bin\Debug\ET.exe.config
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.exe
+D:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\3\CN.NET\QuanLyNganHang\DAL\obj\Debug\DAL.pdb

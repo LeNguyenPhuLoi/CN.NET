@@ -48,3 +48,11 @@ D:\My Tep\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.csproj.AssemblyReference.cache
 D:\My Tep\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.csproj.CoreCompileInputs.cache
 D:\My Tep\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.exe
 D:\My Tep\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.pdb
+E:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\5\CN.NET\QuanLyNganHang\ET\bin\Debug\ET.exe.config
+E:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\5\CN.NET\QuanLyNganHang\ET\bin\Debug\ET.exe
+E:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\5\CN.NET\QuanLyNganHang\ET\bin\Debug\ET.pdb
+E:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\5\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.csproj.AssemblyReference.cache
+E:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\5\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.exe.config
+E:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\5\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.csproj.CoreCompileInputs.cache
+E:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\5\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.exe
+E:\Học kì 4\Xây dựng ứng dụng theo công nghệ .net\Đồ án\5\CN.NET\QuanLyNganHang\ET\obj\Debug\ET.pdb

@@ -9,7 +9,13 @@ namespace DAL
 {
     public class DAL_Login
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_Login()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
 
         public ET_Login KiemTraDangNhap(string username, string password)
         {

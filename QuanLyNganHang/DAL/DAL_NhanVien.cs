@@ -11,7 +11,13 @@ namespace DAL
 {
     public class DAL_NhanVien
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_NhanVien()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
 
         public IQueryable LoadNV()
         {

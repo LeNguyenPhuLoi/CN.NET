@@ -10,8 +10,13 @@ namespace DAL
 {
     public class DAL_PhongBan
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
 
+        public DAL_PhongBan()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
         public IQueryable LoadPB()
         {
             IQueryable PB = from pb in db.PHONGBANs

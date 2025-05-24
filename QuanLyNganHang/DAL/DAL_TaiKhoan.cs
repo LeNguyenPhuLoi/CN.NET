@@ -10,7 +10,13 @@ namespace DAL
 {
     public class DAL_TaiKhoan
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_TaiKhoan()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
 
         public List<ET_TaiKhoanReport> LayTaiKhoanChoReport()
         {

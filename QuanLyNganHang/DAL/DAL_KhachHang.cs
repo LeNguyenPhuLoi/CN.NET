@@ -10,7 +10,13 @@ namespace DAL
 {
     public class DAL_KhachHang
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_KhachHang()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
 
         public IQueryable LoadKH()
         {

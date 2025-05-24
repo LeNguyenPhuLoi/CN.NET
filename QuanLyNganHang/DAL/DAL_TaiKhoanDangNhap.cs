@@ -9,7 +9,13 @@ namespace DAL
 {
     public class DAL_TaiKhoanDangNhap
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_TaiKhoanDangNhap()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
         public IQueryable LoadTaiKhoanDN()
         {
             IQueryable taikhoanlogin = from tkl in db.TKDANGNHAPs

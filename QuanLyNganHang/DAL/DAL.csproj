@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoConnection.cs" />
     <Compile Include="DAL_BienLai.cs" />
     <Compile Include="DAL_ChiNhanh.cs" />
     <Compile Include="DAL_HoTro.cs" />

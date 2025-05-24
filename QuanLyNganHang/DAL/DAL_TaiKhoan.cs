@@ -1,6 +1,7 @@
 ﻿using ET;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,27 @@ namespace DAL
     {
         QLNHDataContext db = new QLNHDataContext();
 
+        public List<ET_TaiKhoanReport> LayTaiKhoanChoReport()
+        {
+            var query = from tk in db.TAIKHOANs
+                        join ltk in db.LOAITAIKHOANs on tk.LOAITK equals ltk.MALOAI
+                        join tt in db.TIENTEs on tk.LOAITIEN equals tt.MATT
+                        join kh in db.KHACHHANGs on tk.MAKH equals kh.MAKH
+                        select new ET_TaiKhoanReport
+                        {
+                            MATK = tk.MATK,
+                            MAKH = tk.MAKH,
+                            TenKH = kh.TENKH,
+                            SODU = (float)tk.SODU,
+                            NGAYLAP = tk.NGAYLAP.Value,
+                            TenTT = tt.TENTT,
+                            TenNH = ltk.TENNH
+                        };
+
+            return query.ToList();
+        }
+
+        
         public IQueryable LoadTaiKhoan()
         {
             IQueryable taikhoan = from tk in db.TAIKHOANs

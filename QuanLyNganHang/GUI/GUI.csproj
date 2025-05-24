@@ -181,6 +181,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\BienLaiDataSet.cs">
+      <DependentUpon>BienLaiDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Report\BienLaiDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -201,6 +204,11 @@
     </Compile>
     <Compile Include="Report\KhachHangDataSet.Designer.cs">
       <DependentUpon>KhachHangDataSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\LoaiTaiKhoanDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoaiTaiKhoanDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Report\NhanVienDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -270,6 +278,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Rpt_DSViPham.rpt</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\TaiKhoanDataSet.cs">
+      <DependentUpon>TaiKhoanDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\TaiKhoanDataSet.Designer.cs">
+      <DependentUpon>TaiKhoanDataSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\TienTeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TienTeDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Report\ViPhamDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -473,6 +492,17 @@
     <None Include="Report\KhachHangDataSet.xss">
       <DependentUpon>KhachHangDataSet.xsd</DependentUpon>
     </None>
+    <None Include="Report\LoaiTaiKhoanDataSet.xsc">
+      <DependentUpon>LoaiTaiKhoanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\LoaiTaiKhoanDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoaiTaiKhoanDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\LoaiTaiKhoanDataSet.xss">
+      <DependentUpon>LoaiTaiKhoanDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Report\NhanVienDataSet.xsc">
       <DependentUpon>NhanVienDataSet.xsd</DependentUpon>
     </None>
@@ -505,6 +535,28 @@
     </None>
     <None Include="Report\PhongBanDataSet.xss">
       <DependentUpon>PhongBanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\TaiKhoanDataSet.xsc">
+      <DependentUpon>TaiKhoanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\TaiKhoanDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TaiKhoanDataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\TaiKhoanDataSet.xss">
+      <DependentUpon>TaiKhoanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\TienTeDataSet.xsc">
+      <DependentUpon>TienTeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\TienTeDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TienTeDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\TienTeDataSet.xss">
+      <DependentUpon>TienTeDataSet.xsd</DependentUpon>
     </None>
     <None Include="Report\ViPhamDataSet.xsc">
       <DependentUpon>ViPhamDataSet.xsd</DependentUpon>

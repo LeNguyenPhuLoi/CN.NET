@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TaiKhoanDataSet" targetNamespace="http://tempuri.org/TaiKhoanDataSet.xsd" xmlns:mstns="http://tempuri.org/TaiKhoanDataSet.xsd" xmlns="http://tempuri.org/TaiKhoanDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLNHConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLNHConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.GUI.Properties.Settings.GlobalReference.Default.QLNHConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TaiKhoanDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="TaiKhoanDataSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TaiKhoanDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TaiKhoan" msprop:Generator_RowEvHandlerName="TaiKhoanRowChangeEventHandler" msprop:Generator_RowDeletedName="TaiKhoanRowDeleted" msprop:Generator_RowDeletingName="TaiKhoanRowDeleting" msprop:Generator_RowEvArgName="TaiKhoanRowChangeEvent" msprop:Generator_TablePropName="TaiKhoan" msprop:Generator_RowChangedName="TaiKhoanRowChanged" msprop:Generator_RowChangingName="TaiKhoanRowChanging" msprop:Generator_TableClassName="TaiKhoanDataTable" msprop:Generator_RowClassName="TaiKhoanRow" msprop:Generator_TableVarName="tableTaiKhoan" msprop:Generator_UserTableName="TaiKhoan">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MATK" msprop:Generator_ColumnPropNameInRow="MATK" msprop:Generator_ColumnPropNameInTable="MATKColumn" msprop:Generator_ColumnVarNameInTable="columnMATK" msprop:Generator_UserColumnName="MATK" type="xs:string" minOccurs="0" />
+              <xs:element name="SODU" msprop:Generator_ColumnPropNameInRow="SODU" msprop:Generator_ColumnPropNameInTable="SODUColumn" msprop:Generator_ColumnVarNameInTable="columnSODU" msprop:Generator_UserColumnName="SODU" type="xs:string" minOccurs="0" />
+              <xs:element name="NGAYLAP" msprop:Generator_ColumnPropNameInRow="NGAYLAP" msprop:Generator_ColumnPropNameInTable="NGAYLAPColumn" msprop:Generator_ColumnVarNameInTable="columnNGAYLAP" msprop:Generator_UserColumnName="NGAYLAP" type="xs:string" minOccurs="0" />
+              <xs:element name="MAKH" msprop:Generator_ColumnPropNameInRow="MAKH" msprop:Generator_ColumnPropNameInTable="MAKHColumn" msprop:Generator_ColumnVarNameInTable="columnMAKH" msprop:Generator_UserColumnName="MAKH" type="xs:string" minOccurs="0" />
+              <xs:element name="TENKH" msprop:Generator_ColumnPropNameInRow="TENKH" msprop:Generator_ColumnPropNameInTable="TENKHColumn" msprop:Generator_ColumnVarNameInTable="columnTENKH" msprop:Generator_UserColumnName="TENKH" type="xs:string" minOccurs="0" />
+              <xs:element name="TENTT" msprop:Generator_ColumnPropNameInRow="TENTT" msprop:Generator_ColumnPropNameInTable="TENTTColumn" msprop:Generator_ColumnVarNameInTable="columnTENTT" msprop:Generator_UserColumnName="TENTT" type="xs:string" minOccurs="0" />
+              <xs:element name="TENNH" msprop:Generator_ColumnPropNameInRow="TENNH" msprop:Generator_ColumnPropNameInTable="TENNHColumn" msprop:Generator_ColumnVarNameInTable="columnTENNH" msprop:Generator_UserColumnName="TENNH" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

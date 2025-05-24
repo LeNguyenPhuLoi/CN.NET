@@ -28,4 +28,15 @@ namespace ET
         public string MANV { get; set; }
 
     }
+
+}
+public class ET_TaiKhoanReport
+{
+    public string MATK { get; set; }
+    public float SODU { get; set; }
+    public DateTime NGAYLAP { get; set; }
+    public string MAKH { get; set; }
+    public string TenNH { get; set; }
+    public string TenKH { get; set; }
+    public string TenTT { get; set; }
 }

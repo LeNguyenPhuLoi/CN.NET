@@ -52,6 +52,7 @@
             this.Controls.Add(this.crystalReportViewer1);
             this.Name = "frmDSTaiKhoan";
             this.Text = "DSTaiKhoan";
+            this.Load += new System.EventHandler(this.frmDSTaiKhoan_Load);
             this.ResumeLayout(false);
 
         }

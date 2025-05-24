@@ -10,7 +10,13 @@ namespace DAL
 {
     public class DAL_ViPham
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_ViPham()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
 
         public IQueryable LoadVP()
         {

@@ -9,7 +9,13 @@ namespace DAL
 {
     public class DAL_TienTe
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_TienTe()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
 
         public IQueryable LoadTienTe()
         {

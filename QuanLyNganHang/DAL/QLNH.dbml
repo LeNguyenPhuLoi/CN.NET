@@ -37,7 +37,6 @@
       <Column Name="TENKM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="NGAYBATDAU" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="NGAYKETTHUC" Type="System.DateTime" DbType="Date" CanBeNull="true" />
-      <Column Name="PHANTRAMGIAM" Type="System.Double" DbType="Float" CanBeNull="true" />
       <Column Name="DIEUKIEN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
       <Association Name="KHUYENMAI_HOTRO" Member="HOTROs" ThisKey="MAKM" OtherKey="MAKM" Type="HOTRO" />
     </Type>

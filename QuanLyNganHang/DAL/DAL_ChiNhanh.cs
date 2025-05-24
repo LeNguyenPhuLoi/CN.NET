@@ -10,7 +10,13 @@ namespace DAL
 {
     public class DAL_ChiNhanh
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_ChiNhanh()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
 
         public IQueryable LoadCN()
         {

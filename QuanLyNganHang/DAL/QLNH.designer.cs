@@ -879,8 +879,6 @@ namespace DAL
 		
 		private System.Nullable<System.DateTime> _NGAYKETTHUC;
 		
-		private System.Nullable<double> _PHANTRAMGIAM;
-		
 		private string _DIEUKIEN;
 		
 		private EntitySet<HOTRO> _HOTROs;
@@ -897,8 +895,6 @@ namespace DAL
     partial void OnNGAYBATDAUChanged();
     partial void OnNGAYKETTHUCChanging(System.Nullable<System.DateTime> value);
     partial void OnNGAYKETTHUCChanged();
-    partial void OnPHANTRAMGIAMChanging(System.Nullable<double> value);
-    partial void OnPHANTRAMGIAMChanged();
     partial void OnDIEUKIENChanging(string value);
     partial void OnDIEUKIENChanged();
     #endregion
@@ -985,26 +981,6 @@ namespace DAL
 					this._NGAYKETTHUC = value;
 					this.SendPropertyChanged("NGAYKETTHUC");
 					this.OnNGAYKETTHUCChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PHANTRAMGIAM", DbType="Float")]
-		public System.Nullable<double> PHANTRAMGIAM
-		{
-			get
-			{
-				return this._PHANTRAMGIAM;
-			}
-			set
-			{
-				if ((this._PHANTRAMGIAM != value))
-				{
-					this.OnPHANTRAMGIAMChanging(value);
-					this.SendPropertyChanging();
-					this._PHANTRAMGIAM = value;
-					this.SendPropertyChanged("PHANTRAMGIAM");
-					this.OnPHANTRAMGIAMChanged();
 				}
 			}
 		}

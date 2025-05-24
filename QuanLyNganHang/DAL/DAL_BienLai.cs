@@ -9,7 +9,13 @@ namespace DAL
 {
     public class DAL_BienLai
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_BienLai()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
         public IQueryable LoadBL()
         {
             IQueryable BL = from bl in db.BIENLAIs

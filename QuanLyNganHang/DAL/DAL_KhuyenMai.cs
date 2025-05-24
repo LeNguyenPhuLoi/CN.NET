@@ -9,8 +9,13 @@ namespace DAL
 {
     public class DAL_KhuyenMai
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
 
+        public DAL_KhuyenMai()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
         public IQueryable LoadKM()
         {
             IQueryable KM = from km in db.KHUYENMAIs

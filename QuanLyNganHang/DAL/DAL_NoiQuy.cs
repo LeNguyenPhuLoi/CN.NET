@@ -10,7 +10,13 @@ namespace DAL
 {
     public class DAL_NoiQuy
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_NoiQuy()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
 
         public IQueryable LoadNQ()
         {

@@ -9,7 +9,13 @@ namespace DAL
 {
     public class DAL_LoaiTaiKhoan
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
+
+        public DAL_LoaiTaiKhoan()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
 
         public IQueryable LoadLoaiTaiKhoan()
         {

@@ -9,8 +9,14 @@ namespace DAL
 {
     public class DAL_HoTro
     {
-        QLNHDataContext db = new QLNHDataContext();
+        AutoConnection conn = new AutoConnection();
+        QLNHDataContext db;
 
+        public DAL_HoTro()
+        {
+            db = new QLNHDataContext(conn.GetConnection());
+        }
+         
         public IQueryable LoadHT()
         {
             IQueryable HT = from ht in db.HOTROs

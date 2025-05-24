@@ -2,6 +2,7 @@
 using ET;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,10 @@ namespace BUS
     public class BUS_TaiKhoan
     {
         DAL_TaiKhoan tk = new DAL_TaiKhoan();
-
+        public List<ET_TaiKhoanReport> LayTaiKhoanReportDataTable()
+        {
+            return tk.LayTaiKhoanChoReport();
+        }
         public IQueryable LoadTK()
         {
             return tk.LoadTaiKhoan();

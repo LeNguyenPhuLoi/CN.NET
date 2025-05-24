@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LoaiTaiKhoanDataSet" targetNamespace="http://tempuri.org/LoaiTaiKhoanDataSet.xsd" xmlns:mstns="http://tempuri.org/LoaiTaiKhoanDataSet.xsd" xmlns="http://tempuri.org/LoaiTaiKhoanDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLNHConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLNHConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.GUI.Properties.Settings.GlobalReference.Default.QLNHConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LoaiTaiKhoanDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="LoaiTaiKhoanDataSet" msprop:Generator_DataSetName="LoaiTaiKhoanDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LOAITAIKHOAN" msprop:Generator_RowEvHandlerName="LOAITAIKHOANRowChangeEventHandler" msprop:Generator_RowDeletedName="LOAITAIKHOANRowDeleted" msprop:Generator_RowDeletingName="LOAITAIKHOANRowDeleting" msprop:Generator_RowEvArgName="LOAITAIKHOANRowChangeEvent" msprop:Generator_TablePropName="LOAITAIKHOAN" msprop:Generator_RowChangedName="LOAITAIKHOANRowChanged" msprop:Generator_RowChangingName="LOAITAIKHOANRowChanging" msprop:Generator_TableClassName="LOAITAIKHOANDataTable" msprop:Generator_RowClassName="LOAITAIKHOANRow" msprop:Generator_TableVarName="tableLOAITAIKHOAN" msprop:Generator_UserTableName="LOAITAIKHOAN">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MALOAI" msprop:Generator_ColumnPropNameInRow="MALOAI" msprop:Generator_ColumnPropNameInTable="MALOAIColumn" msprop:Generator_ColumnVarNameInTable="columnMALOAI" msprop:Generator_UserColumnName="MALOAI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENNH" msprop:Generator_ColumnPropNameInRow="TENNH" msprop:Generator_ColumnPropNameInTable="TENNHColumn" msprop:Generator_ColumnVarNameInTable="columnTENNH" msprop:Generator_UserColumnName="TENNH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LOAITAIKHOAN" />
+      <xs:field xpath="mstns:MALOAI" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
